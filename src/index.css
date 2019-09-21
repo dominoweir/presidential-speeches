@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.dropdown {
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.president-selector {
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
