@@ -13,7 +13,7 @@ class App extends React.Component {
 
   render() {
 
-    const topicNames = ['Election', 'Middle East', 'Civil War', 'Faith-Humanity', 'Labor China', 'Topic 6', 'Civil Rights',
+    const topicNames = ['All', 'Election', 'Middle East', 'Civil War', 'Faith-Humanity', 'Labor China', 'Topic 6', 'Civil Rights',
       'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
       'Agriculture', 'Education/Health', 'Topic 18', 'Militry Threats', 'Currency'];
 
