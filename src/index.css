@@ -23,3 +23,17 @@ code {
   padding-left: 40px;
   padding-right: 40px;
 }
+
+.topic-selector {
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.view-selector {
+  padding-top:50px;
+}
+
+.hidden { 
+  display: none; 
+}

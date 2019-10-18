@@ -1,21 +1,29 @@
 import React from 'react';
 import './App.css';
-import MenuItem from '@material-ui/core/MenuItem';
-import FormControl from '@material-ui/core/FormControl';
-import Select from '@material-ui/core/Select';
-import PresidentSelector from './PresidentSelector';
+import * as d3 from "d3";
+import SpeechData from './data/all_speeches.csv';
+import PresidentSelector from './components/PresidentSelector';
+import TopicSelector from './components/TopicSelector';
+import { Typography } from '@material-ui/core';
+import ToggleButton from '@material-ui/lab/ToggleButton';
+import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
+import WordNetView from './components/WordNetView';
+import HeatMapView from './components/HeatMapView';
+import CompareView from './components/CompareView';
 
 class App extends React.Component {
 
   state = {
-    currentTopic: 'Select a Topic'
+    currentTopics: [],
+    currentPresidents: [],
+    currentView: "wordnet"
+  }
+
+  componentDidMount() {
+    this.loadSpeechMetadata();
   }
 
   render() {
-
-    const topicNames = ['All', 'Election', 'Middle East', 'Civil War', 'Faith-Humanity', 'Labor China', 'Topic 6', 'Civil Rights',
-      'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
-      'Agriculture', 'Education/Health', 'Topic 18', 'Militry Threats', 'Currency'];
 
     return (
       <div className='App'>
@@ -23,36 +31,42 @@ class App extends React.Component {
           Topics Discussed in Presidential Speeches
         </h2>
         <div>
-          <form>
-            <FormControl variant='outlined' className='dropdown'>
-              <Select
-                value={this.state.currentTopic}
-                onChange={this.handleTopicChange}
-                displayEmpty={true}
-                renderValue={() => {
-                  return this.state.currentTopic;
-                }}
-              >
-                {topicNames.map(topic => (
-                  <MenuItem value={topic} key={topic}>{topic}</MenuItem>
-                ))}
-              </Select>
-            </FormControl>
-          </form>
+          <TopicSelector />
           <PresidentSelector />
         </div>
+        <ToggleButtonGroup value={this.state.currentView} exclusive={true} onChange={this.handleViewChange} className="view-selector">
+          <ToggleButton value="wordnet">
+            <Typography>{"WordNet"}</Typography>
+          </ToggleButton>
+          <ToggleButton value="heatmap">
+            <Typography>{"Speech Topics"}</Typography>
+          </ToggleButton>
+          <ToggleButton value="compare">
+            <Typography>{"Compare Presidents"}</Typography>
+          </ToggleButton>
+        </ToggleButtonGroup>
+        <WordNetView visible={this.state.currentView === "wordnet"} topics={this.state.currentTopics} presidents={this.state.currentPresidents}/>
+        <HeatMapView visible={this.state.currentView === "heatmap"} topics={this.state.currentTopics} presidents={this.state.currentPresidents}/>
+        <CompareView visible={this.state.currentView === "compare"} topics={this.state.currentTopics} presidents={this.state.currentPresidents}/>
       </div>
     );
   }
 
-  handleTopicChange = (event) => {
-    this.setState({
-      currentTopic: String(event.target.value)
+  loadSpeechMetadata() {
+    d3.csv(SpeechData, function(dataset) {
+      var nested = d3.nest()
+        .key(function (d) {
+          return d.president;
+        })
+        .entries(dataset);
+      // console.log(nested);
     });
   }
 
-  handlePresidentSelectChange = () => {
-
+  handleViewChange = (event, newView) => {
+    this.setState({
+      currentView: newView
+    });
   }
 }
 

@@ -1,0 +1,973 @@
+ name,date,president,party,number
+ First Inaugural Address,4/30/1789,George Washington,Unaffiliated,1
+ Thanksgiving Proclamation,10/3/1789,George Washington,Unaffiliated,1
+ First Annual Message to Congress,1/8/1790,George Washington,Unaffiliated,1
+ Second Annual Message to Congress,12/8/1790,George Washington,Unaffiliated,1
+ Talk to the Chiefs and Counselors of the Seneca Nation,12/29/1790,George Washington,Unaffiliated,1
+ Third Annual Message to Congress,10/25/1791,George Washington,Unaffiliated,1
+ Veto Message on Congressional Redistricting,4/5/1792,George Washington,Unaffiliated,1
+ Fourth Annual Message to Congress,11/6/1792,George Washington,Unaffiliated,1
+ Proclamation Against Crimes Against the Cherokee Nations,12/12/1792,George Washington,Unaffiliated,1
+ Second Inaugural Address,3/4/1793,George Washington,Unaffiliated,1
+ Proclamation of Neutrality,4/22/1793,George Washington,Unaffiliated,1
+ Fifth Annual Message to Congress,12/3/1793,George Washington,Unaffiliated,1
+ Proclamation against Opposition to Execution of Laws and Excise Duties in Western Pennsylvania,8/7/1794,George Washington,Unaffiliated,1
+ Proclamation of Militia Service,9/25/1794,George Washington,Unaffiliated,1
+ Sixth Annual Message to Congress,11/19/1794,George Washington,Unaffiliated,1
+ Proclamation of Pardons in Western Pennsylvania,7/10/1795,George Washington,Unaffiliated,1
+ Seventh Annual Message to Congress,12/8/1795,George Washington,Unaffiliated,1
+ Message to the House of Representatives Declining to Submit Diplomatic Instructions and Correspondence,3/30/1796,George Washington,Unaffiliated,1
+ Talk to the Cherokee Nation,8/29/1796,George Washington,Unaffiliated,1
+ Farewell Address,9/19/1796,George Washington,Unaffiliated,1
+ Eighth Annual Message to Congress,12/7/1796,George Washington,Unaffiliated,1
+ Inaugural Address,3/4/1797,John Adams,Federalist,2
+ Special Session Message to Congress (XYZ Affair),5/16/1797,John Adams,Federalist,2
+ First Annual Message,11/22/1797,John Adams,Federalist,2
+ Proclamation of Day of Fasting Humiliation and Prayer,3/23/1798,John Adams,Federalist,2
+ Second Annual Message,12/8/1798,John Adams,Federalist,2
+ Third Annual Message,12/3/1799,John Adams,Federalist,2
+ Death of George George Washington,12/19/1799,John Adams,Federalist,2
+ Proclamation of Pardons to Those Engaged in Fries Rebellion,5/21/1800,John Adams,Federalist,2
+ Fourth Annual Message,11/22/1800,John Adams,Federalist,2
+ First Inaugural Address,3/4/1801,Thomas Jefferson,Democratic-Republican,3
+ The Reply to New Haven Remonstrance,7/12/1801,Thomas Jefferson,Democratic-Republican,3
+ First Annual Message,12/8/1801,Thomas Jefferson,Democratic-Republican,3
+ Response to Danbury Baptist Association,1/1/1802,Thomas Jefferson,Democratic-Republican,3
+ Address to Brother Handsome Lake,11/3/1802,Thomas Jefferson,Democratic-Republican,3
+ Second Annual Message,12/15/1802,Thomas Jefferson,Democratic-Republican,3
+ Special Message to Congress on Indian Policy,1/18/1803,Thomas Jefferson,Democratic-Republican,3
+ Instructions to Captain Lewis,6/20/1803,Thomas Jefferson,Democratic-Republican,3
+ Third Annual Message,10/17/1803,Thomas Jefferson,Democratic-Republican,3
+ Address to the Brothers of Choctaw Nation,12/17/1803,Thomas Jefferson,Democratic-Republican,3
+ Fourth Annual Message,11/8/1804,Thomas Jefferson,Democratic-Republican,3
+ Second Inaugural Address,3/4/1805,Thomas Jefferson,Democratic-Republican,3
+ Fifth Annual Message,12/3/1805,Thomas Jefferson,Democratic-Republican,3
+ Special Message to Congress on Foreign Policy,12/6/1805,Thomas Jefferson,Democratic-Republican,3
+ Address to the Chiefs of the Cherokee Nation,1/10/1806,Thomas Jefferson,Democratic-Republican,3
+ Proclamation on Spanish Territory,11/27/1806,Thomas Jefferson,Democratic-Republican,3
+ Sixth Annual Message,12/2/1806,Thomas Jefferson,Democratic-Republican,3
+ Address to the Wolf and the People of the Mandan Nation,12/30/1806,Thomas Jefferson,Democratic-Republican,3
+ Special Message to Congress on the Burr Conspiracy,1/22/1807,Thomas Jefferson,Democratic-Republican,3
+ Special Message to Congress on the Gun Boats,2/10/1807,Thomas Jefferson,Democratic-Republican,3
+ Proclamation in Response to the Chesapeake Affair,7/2/1807,Thomas Jefferson,Democratic-Republican,3
+ Seventh Annual Message,10/27/1807,Thomas Jefferson,Democratic-Republican,3
+ Eighth Annual Message,11/8/1808,Thomas Jefferson,Democratic-Republican,3
+ First Inaugural Address,3/4/1809,James Madison,Democratic-Republican,4
+ Message to the Inhabitants of Albemarle County,4/3/1809,James Madison,Democratic-Republican,4
+ Message on the Special Congressional SessionState of Foreign Affairs,5/23/1809,James Madison,Democratic-Republican,4
+ First Annual Message,11/29/1809,James Madison,Democratic-Republican,4
+ Proclamation-- Occupation of West Florida,10/27/1810,James Madison,Democratic-Republican,4
+ Second Annual Message,12/5/1810,James Madison,Democratic-Republican,4
+ Veto Act on Incorporating the Alexandria Protestant Episcopal Church,2/21/1811,James Madison,Democratic-Republican,4
+ Third Annual Message,11/5/1811,James Madison,Democratic-Republican,4
+ Special Message to Congress on the Foreign Policy Crisis -- War Message,6/1/1812,James Madison,Democratic-Republican,4
+ Proclamation of a State of War with Great Britain,6/19/1812,James Madison,Democratic-Republican,4
+ Proclamation of Day of Fasting and Prayer,7/9/1812,James Madison,Democratic-Republican,4
+ Fourth Annual Message,11/4/1812,James Madison,Democratic-Republican,4
+ Second Inaugural Address,3/4/1813,James Madison,Democratic-Republican,4
+ Message on the Special Congressional Session -- State of War and Diplomacy,5/25/1813,James Madison,Democratic-Republican,4
+ Proclamation on Day of Public Humiliation and Prayer,7/23/1813,James Madison,Democratic-Republican,4
+ Fifth Annual Message,12/7/1813,James Madison,Democratic-Republican,4
+ Proclamation upon British Depredations  Burning of the Capitol,9/1/1814,James Madison,Democratic-Republican,4
+ Sixth Annual Message,9/20/1814,James Madison,Democratic-Republican,4
+ Veto Message on the National Bank,1/30/1815,James Madison,Democratic-Republican,4
+ Special Message to Congress on the Treaty of Ghent,2/18/1815,James Madison,Democratic-Republican,4
+ Seventh Annual Message,12/5/1815,James Madison,Democratic-Republican,4
+ Eighth Annual Message,12/3/1816,James Madison,Democratic-Republican,4
+ Veto Message on the Internal Improvements Bill,3/3/1817,James Madison,Democratic-Republican,4
+ First Inaugural Address,3/4/1817,James Monroe,Democratic-Republican,5
+ First Annual Message,12/2/1817,James Monroe,Democratic-Republican,5
+ Second Annual Message,11/16/1818,James Monroe,Democratic-Republican,5
+ Third Annual Message,12/7/1819,James Monroe,Democratic-Republican,5
+ Fourth Annual Message,11/14/1820,James Monroe,Democratic-Republican,5
+ Second Inaugural Address,3/5/1821,James Monroe,Democratic-Republican,5
+ Speech to the U.S. House of Representatives on Foreign Policy,7/4/1821,James Monroe,Democratic-Republican,5
+ Fifth Annual Message,12/3/1821,James Monroe,Democratic-Republican,5
+ Sixth Annual Message,12/3/1822,James Monroe,Democratic-Republican,5
+ Seventh Annual Message (James Monroe Doctrine),12/2/1823,James Monroe,Democratic-Republican,5
+ Eighth Annual Message,12/7/1824,James Monroe,Democratic-Republican,5
+ Inaugural Address,3/4/1825,John Quincy Adams,Democratic-Republican,6
+ First Annual Message,12/6/1825,John Quincy Adams,Democratic-Republican,6
+ Message Regarding the Congress of American Nations,12/6/1825,John Quincy Adams,Democratic-Republican,6
+ Second Annual Address,12/5/1826,John Quincy Adams,Democratic-Republican,6
+ Message Regarding the Creek Indians,2/5/1827,John Quincy Adams,Democratic-Republican,6
+ Third Annual Message,12/4/1827,John Quincy Adams,Democratic-Republican,6
+ Fourth Annual Message,12/2/1828,John Quincy Adams,Democratic-Republican,6
+ First Inaugural Address,3/4/1829,Andrew Jackson,Democratic,7
+ Proclamation Regarding Duties on Austrian Vessels,5/11/1829,Andrew Jackson,Democratic,7
+ First Annual Message to Congress,12/8/1829,Andrew Jackson,Democratic,7
+ Message Regarding Treaties with the Choctaw Nation of Indians,5/6/1830,Andrew Jackson,Democratic,7
+ Veto Message Regarding Funding of Infrastructure Development,5/27/1830,Andrew Jackson,Democratic,7
+ Proclamation Regarding the Opening of United States Ports to British Vessels,10/5/1830,Andrew Jackson,Democratic,7
+ Second Annual Message to Congress,12/6/1830,Andrew Jackson,Democratic,7
+ Message Regarding Indian Relations,2/22/1831,Andrew Jackson,Democratic,7
+ Third Annual Message to Congress,12/6/1831,Andrew Jackson,Democratic,7
+ Message Regarding Indian Removal,2/15/1832,Andrew Jackson,Democratic,7
+ Bank Veto,7/10/1832,Andrew Jackson,Democratic,7
+ Fourth Annual Message to Congress,12/4/1832,Andrew Jackson,Democratic,7
+ Veto Message of Internal Improvement Legislation,12/6/1832,Andrew Jackson,Democratic,7
+ Nullification Proclamation,12/10/1832,Andrew Jackson,Democratic,7
+ Message Regarding South Carolina Nullification of Federal Legislation,1/16/1833,Andrew Jackson,Democratic,7
+ Second Inaugural Address,3/4/1833,Andrew Jackson,Democratic,7
+ Message Regarding the Bank of the United States,9/18/1833,Andrew Jackson,Democratic,7
+ Fifth Annual Message to Congress,12/3/1833,Andrew Jackson,Democratic,7
+ Message on the Constitutional Rights and Responsibilities of the President,12/12/1833,Andrew Jackson,Democratic,7
+ Protest of Senate Censure,4/15/1834,Andrew Jackson,Democratic,7
+ Addendum to the Protest of Senate Censure,4/21/1834,Andrew Jackson,Democratic,7
+ Sixth Annual Message to Congress,12/1/1834,Andrew Jackson,Democratic,7
+ Seventh Annual Address to Congress,12/7/1835,Andrew Jackson,Democratic,7
+ Eighth Annual Message to Congress,12/5/1836,Andrew Jackson,Democratic,7
+ Statement on the Independence of Texas,12/21/1836,Andrew Jackson,Democratic,7
+ Farewell Address,3/4/1837,Andrew Jackson,Democratic,7
+ Inaugural Address,3/4/1837,Martin Van Buren,Democratic,8
+ Special Session Message,9/4/1837,Martin Van Buren,Democratic,8
+ First Annual Message to Congress,12/5/1837,Martin Van Buren,Democratic,8
+ Proclamation,1/5/1838,Martin Van Buren,Democratic,8
+ Message Regarding Disturbances and Hostilities on the Canadian Border,11/21/1838,Martin Van Buren,Democratic,8
+ Second Annual Message to Congress,12/3/1838,Martin Van Buren,Democratic,8
+ Message Regarding Disputes on the Maine-Canadian Border,2/16/1839,Martin Van Buren,Democratic,8
+ Third Annual Message to Congress,12/2/1839,Martin Van Buren,Democratic,8
+ Fourth Annual Message to Congress,12/5/1840,Martin Van Buren,Democratic,8
+ Special Message about the Desctruction of Steamboat “Caroline”,1/2/1841,Martin Van Buren,Democratic,8
+ Argument before the Supreme Court in the Case of United States v. Cinque,2/24/1841,Martin Van Buren,Democratic,8
+ Inaugural Address,3/4/1841,William Harrison,Whig,9
+ Address Upon Assuming the Office of President of the United States,4/9/1841,John Tyler,Whig,10
+ Special Session Message to Congress Regarding General Affairs of the Country,6/1/1841,John Tyler,Whig,10
+ Veto Message Regarding the Bank of the United States,8/16/1841,John Tyler,Whig,10
+ Veto Message on the Creation of a Fiscal Corporation,9/9/1841,John Tyler,Whig,10
+ First Annual Message,12/7/1841,John Tyler,Unaffiliated,10
+ Message Regarding Finances and Fiscal Policy,3/25/1842,John Tyler,Unaffiliated,10
+ Message Regarding Indian Affairs in Florida,5/10/1842,John Tyler,Unaffiliated,10
+ Veto Message Regarding Import Duties,8/9/1842,John Tyler,Unaffiliated,10
+ Message to Senate on Negotiations with Britain,8/11/1842,John Tyler,Unaffiliated,10
+ Message Regarding Treaty with Texas,8/18/1842,John Tyler,Unaffiliated,10
+ Second Annual Message,12/6/1842,John Tyler,Unaffiliated,10
+ Message to Congress Regarding US-Hawaiian Relations,12/30/1842,John Tyler,Unaffiliated,10
+ Third Annual Message to Congress,12/5/1843,John Tyler,Unaffiliated,10
+ Message Regarding Disturbances in Rhode Island,4/9/1844,John Tyler,Unaffiliated,10
+ Veto Message Regarding Infrastructure Improvements,6/11/1844,John Tyler,Unaffiliated,10
+ Fourth Annual Message,12/3/1844,John Tyler,Unaffiliated,10
+ Message Regarding US-Mexican Affairs,12/18/1844,John Tyler,Unaffiliated,10
+ Message Regarding the Slave Trade,2/20/1845,John Tyler,Unaffiliated,10
+ Inaugural Address,3/4/1845,James Polk,Democratic,11
+ First Annual Message,12/2/1845,James Polk,Democratic,11
+ Message Regarding Increase in Military Force,3/24/1846,James Polk,Democratic,11
+ Message Regarding Cherokee Indians,4/13/1846,James Polk,Democratic,11
+ War Message to Congress,5/11/1846,James Polk,Democratic,11
+ Announcement of War with Mexico,5/13/1846,James Polk,Democratic,11
+ Message to Senate Regarding Oregon,6/10/1846,James Polk,Democratic,11
+ Veto Message Regarding Funding Internal Improvements,8/3/1846,James Polk,Democratic,11
+ Message Requesting the Creation of an Oregon Territory,8/5/1846,James Polk,Democratic,11
+ Message Regarding Treaty with Cherokees,8/7/1846,James Polk,Democratic,11
+ Message Regarding Settlement with Mexico,8/8/1846,James Polk,Democratic,11
+ Second Annual Message to Congress,12/8/1846,James Polk,Democratic,11
+ Request to Increase the Size of the Army,12/29/1846,James Polk,Democratic,11
+ Message Regarding the War with Mexico,2/13/1847,James Polk,Democratic,11
+ Third Annual Message,12/7/1847,James Polk,Democratic,11
+ Message Regarding Treaty Of Guadelupe Hidalgo,2/22/1848,James Polk,Democratic,11
+ Message Regarding Establishment Of The French Republic,4/3/1848,James Polk,Democratic,11
+ Message Regarding the Oregon Territory,5/29/1848,James Polk,Democratic,11
+ Announcement of Peace Treaty with Mexico,7/4/1848,James Polk,Democratic,11
+ Message Regarding the Treaty of Guadalupe Hidalgo,7/6/1848,James Polk,Democratic,11
+ Message Regarding Size of the Army,8/1/1848,James Polk,Democratic,11
+ Message Regarding Slavery in the Territories,8/14/1848,James Polk,Democratic,11
+ Fourth Annual Message to Congress,12/5/1848,James Polk,Democratic,11
+ Message Regarding War-time Measures,1/2/1849,James Polk,Democratic,11
+ Message Regarding the Treaty of Guadalupe Hidalgo,2/8/1849,James Polk,Democratic,11
+ Inaugural Address,3/5/1849,Zachary Taylor,Whig,12
+ First Annual Message,12/4/1849,Zachary Taylor,Whig,12
+ Message Regarding Newly Acquired Territories,1/23/1850,Zachary Taylor,Whig,12
+ Message Regarding Treaty with Great Britain,4/22/1850,Zachary Taylor,Whig,12
+ Message Regarding Compromise with Texas,8/6/1850,Millard Filmore,Whig,13
+ First Annual Message,12/2/1850,Millard Filmore,Whig,13
+ Announcement of Texas’ Acceptance of Compromise Propositions,12/13/1850,Millard Filmore,Whig,13
+ Message Regarding Agreement with Texas,12/13/1850,Millard Filmore,Whig,13
+ Message Regarding Disturbance in Boston,2/19/1851,Millard Filmore,Whig,13
+ Second Annual Message,12/2/1851,Millard Filmore,Whig,13
+ Eulogy on Henry Clay,7/6/1852,Millard Filmore,Whig,13
+ Third Annual Message,12/6/1852,Millard Filmore,Whig,13
+ Inaugural Address,3/4/1853,Franklin Pierce,Democratic,14
+ First Annual Message,12/5/1853,Franklin Pierce,Democratic,14
+ Proclamation,1/18/1854,Franklin Pierce,Democratic,14
+ Message to Senate on Treaty with Mexico,2/10/1854,Franklin Pierce,Democratic,14
+ Message Regarding Proposed US-Mexican Convention,3/14/1854,Franklin Pierce,Democratic,14
+ Message Regarding Transit Across Central America,5/15/1854,Franklin Pierce,Democratic,14
+ Message Regarding US-Spanish Relations,8/1/1854,Franklin Pierce,Democratic,14
+ Veto Message on Legislation Funding Public Works,8/4/1854,Franklin Pierce,Democratic,14
+ At Peoria  Illinois,10/16/1854,Franklin Pierce,Democratic,14
+ Second Annual Message,12/4/1854,Franklin Pierce,Democratic,14
+Expansion of August 4 Veto Message,12/30/1854,Franklin Pierce,Democratic,14
+ Third Annual Message,12/31/1855,Franklin Pierce,Democratic,14
+ Message Regarding Disturbances in Kansas,1/24/1856,Franklin Pierce,Democratic,14
+ Proclamation Addressing Disturbances in Kansas,2/11/1856,Franklin Pierce,Democratic,14
+ Special Session Message Regarding Military Support,8/21/1856,Franklin Pierce,Democratic,14
+ Fourth Annual Message,12/2/1856,Franklin Pierce,Democratic,14
+ Inaugural Address,3/4/1857,James Buchanan,Democratic,15
+ First Annual Message,12/8/1857,James Buchanan,Democratic,15
+ Message to Congress Transmitting the Constitution of Kansas,2/2/1858,James Buchanan,Democratic,15
+" ""A House Divided"" Speech",6/16/1858,James Buchanan,Democratic,15
+ Second Annual Message,12/6/1858,James Buchanan,Democratic,15
+ Special Message Regarding Transit Across Central America,2/18/1859,James Buchanan,Democratic,15
+ Veto Message Regarding Land-Grant Colleges,2/24/1859,James Buchanan,Democratic,15
+ Third Annual Message,12/19/1859,James Buchanan,Democratic,15
+ Cooper Union Address,2/27/1860,James Buchanan,Democratic,15
+ Protest of Congressional Investigations,3/28/1860,James Buchanan,Democratic,15
+ Message on the Capture of the Wildfire,5/19/1860,James Buchanan,Democratic,15
+Addendum to March 28 Message to Congress,6/22/1860,James Buchanan,Democratic,15
+ Fourth Annual Message,12/3/1860,James Buchanan,Democratic,15
+ Message on Threats to the Peace and Existence of the Union,1/8/1861,James Buchanan,Democratic,15
+ Message on Resolutions of Virginia,1/28/1861,James Buchanan,Democratic,15
+ Farewell Address,2/11/1861,James Buchanan,Democratic,15
+ Message Regarding the Presence of Troops in George Washington  DC,3/1/1861,James Buchanan,Democratic,15
+ First Inaugural Address,3/4/1861,Abraham Lincoln,Republican,16
+July 4th Message to Congress,7/4/1861,Abraham Lincoln,Republican,16
+ First Annual Message,12/3/1861,Abraham Lincoln,Republican,16
+ Second Annual Message,12/1/1862,Abraham Lincoln,Republican,16
+ Emancipation Proclamation,1/1/1863,Abraham Lincoln,Republican,16
+ Public Letter to James Conkling,8/26/1863,Abraham Lincoln,Republican,16
+ Gettysburg Address,11/19/1863,Abraham Lincoln,Republican,16
+ Third Annual Message,12/8/1863,Abraham Lincoln,Republican,16
+ Fourth Annual Message,12/6/1864,Abraham Lincoln,Republican,16
+ Second Inaugural Address,3/4/1865,Abraham Lincoln,Republican,16
+ Message Following the Death of Abraham Abraham Lincoln,4/17/1865,Andrew Johnson,Republican,17
+ Order Ending Commercial Restrictions on Confederate States,4/29/1865,Andrew Johnson,Republican,17
+ Establishing Rewards for the Arrest of Certain Confederate Officers,5/2/1865,Andrew Johnson,Republican,17
+ Message Reestablishing Governments in Former Confederate States,5/29/1865,Andrew Johnson,Republican,17
+ Proclamation Pardoning Persons who Participated in the Rebellion,5/29/1865,Andrew Johnson,Republican,17
+ Message Regarding Control of Abandoned Lands and Property,6/2/1865,Andrew Johnson,Republican,17
+ Executive Order Regarding Discharged Prisoners of War,6/6/1865,Andrew Johnson,Republican,17
+ First Annual Message,12/4/1865,Andrew Johnson,Republican,17
+ Announcement of the Successful Suppression of the Rebellion,12/18/1865,Andrew Johnson,Republican,17
+ Veto Message on Freedmen and Refugee Relief Bureau Legislation,2/19/1866,Andrew Johnson,Republican,17
+ Veto Message on Civil Rights Legislation,3/27/1866,Andrew Johnson,Republican,17
+ Proclamation on the End of the Confederate Insurrection,4/2/1866,Andrew Johnson,Republican,17
+ Message Restoring Tennessee to Former Status,7/24/1866,Andrew Johnson,Republican,17
+ Message Proclaiming End to Insurrection in the United States,8/20/1866,Andrew Johnson,Republican,17
+ Second Annual Message,12/3/1866,Andrew Johnson,Republican,17
+ Veto Message on Admitting Colorado into the Union,1/28/1867,Andrew Johnson,Republican,17
+ Veto Message on Admitting Nebraska into the Union,1/29/1867,Andrew Johnson,Republican,17
+ Veto Message Regarding Rebel State Governments,3/2/1867,Andrew Johnson,Republican,17
+ Veto Message Regarding Rebel State Governments,3/23/1867,Andrew Johnson,Republican,17
+ Message Clarifying the Reconstruction Acts,6/20/1867,Andrew Johnson,Republican,17
+ Message Regarding Reconstruction Legislation,7/19/1867,Andrew Johnson,Republican,17
+ Proclamation Restoring All Rights to Rebellion Participants,9/7/1867,Andrew Johnson,Republican,17
+ Third Annual Message to Congress,12/3/1867,Andrew Johnson,Republican,17
+ Message Regarding the Suspension of Secretary Stanton,12/12/1867,Andrew Johnson,Republican,17
+ Messages Regarding Correspondence with General U.S. Ulysses Grant,2/11/1868,Andrew Johnson,Republican,17
+ Message Regarding the Removal of Secretary Stanton,2/22/1868,Andrew Johnson,Democratic,17
+ Veto Message on Legislation Amending the Judiciary,3/25/1868,Andrew Johnson,Democratic,17
+ Veto Message Regarding Regulations on Confederate States,6/20/1868,Andrew Johnson,Democratic,17
+ Message Proposing Constitutional Amendments,7/18/1868,Andrew Johnson,Democratic,17
+ Veto Message Regarding Electoral College Participation,7/20/1868,Andrew Johnson,Democratic,17
+ Fourth Annual Message to Congress,12/8/1868,Andrew Johnson,Democratic,17
+ First Inaugural Address,3/4/1869,Ulysses Grant,Republican,18
+ Message Regarding Virginia Constitution,4/7/1869,Ulysses Grant,Republican,18
+ Message Submitting State Constitutions to a Vote,5/14/1869,Ulysses Grant,Republican,18
+ Proclamation Establishing Eight Hour Workday,5/19/1869,Ulysses Grant,Republican,18
+ First Annual Message,12/6/1869,Ulysses Grant,Republican,18
+ Announcement of Fifteenth Amendment Ratification,3/30/1870,Ulysses Grant,Republican,18
+ Proclamation Regarding Fenian Brotherhood,5/24/1870,Ulysses Grant,Republican,18
+ Message Regarding Dominican Republic Annexation,5/31/1870,Ulysses Grant,Republican,18
+ Message Regarding Insurrection in Cuba,6/13/1870,Ulysses Grant,Republican,18
+ Message Regarding US International Relations,7/14/1870,Ulysses Grant,Republican,18
+ Proclamation Establishing US Neutrality,8/22/1870,Ulysses Grant,Republican,18
+ Second Annual Message,12/5/1870,Ulysses Grant,Republican,18
+ Message Regarding Unification of Germany,2/7/1871,Ulysses Grant,Republican,18
+ Veto Message Regarding Restrictions on Rebellion Participants,2/15/1871,Ulysses Grant,Republican,18
+ Message Regarding Fourteenth Amendment,5/3/1871,Ulysses Grant,Republican,18
+ Proclamation Suspending Habeas Corpus,10/17/1871,Ulysses Grant,Republican,18
+ Third Annual Message,12/4/1871,Ulysses Grant,Republican,18
+ Message on Civil Service Reform,12/19/1871,Ulysses Grant,Republican,18
+ Fourth Annual Message,12/2/1872,Ulysses Grant,Republican,18
+ Second Inaugural Address,3/4/1873,Ulysses Grant,Republican,18
+ Fifth Annual Message,12/1/1873,Ulysses Grant,Republican,18
+ Veto Message on Monetary Legislation,4/22/1874,Ulysses Grant,Republican,18
+ Proclamation Regarding Disturbances in Louisiana,9/15/1874,Ulysses Grant,Republican,18
+ Sixth Annual Message,12/7/1874,Ulysses Grant,Republican,18
+ Message Regarding Intervention in Louisiana,1/13/1875,Ulysses Grant,Republican,18
+ Message Approving Specie Resumption Act,1/14/1875,Ulysses Grant,Republican,18
+ Veto of Legislation Fixing the Presidential Salary,4/18/1875,Ulysses Grant,Republican,18
+ Seventh Annual Message,12/7/1875,Ulysses Grant,Republican,18
+ Message on Presidential Powers and Obligations,5/4/1876,Ulysses Grant,Republican,18
+ Proclamation Celebrating the Hundredth Anniversary of Independence,6/26/1876,Ulysses Grant,Republican,18
+ Eighth Annual Message,12/5/1876,Ulysses Grant,Republican,18
+ Message Regarding Presidential Election,1/29/1877,Ulysses Grant,Republican,18
+ Inaugural Address,3/5/1877,Rutherford Hayes,Republican,19
+ Prohibition of Federal Employees’ Political Involvement,6/22/1877,Rutherford Hayes,Republican,19
+ Message Regarding Railroad Strike,7/18/1877,Rutherford Hayes,Republican,19
+ First Annual Message,12/3/1877,Rutherford Hayes,Republican,19
+ Veto of Bland-Allison Act,2/8/1878,Rutherford Hayes,Republican,19
+ Second Annual Message,12/2/1878,Rutherford Hayes,Republican,19
+ Veto Message Regarding Immigration Legislation,3/1/1879,Rutherford Hayes,Republican,19
+ Proclamation Regarding Indian Territory,4/26/1879,Rutherford Hayes,Republican,19
+ Veto of Army Appropriations Bill,4/29/1879,Rutherford Hayes,Republican,19
+ Message Regarding Election Regulations,5/12/1879,Rutherford Hayes,Republican,19
+ Veto Messages Regarding Appropriations Legislation,5/29/1879,Rutherford Hayes,Republican,19
+ Third Annual Message,12/1/1879,Rutherford Hayes,Republican,19
+ Message Regarding Central American Canal,3/8/1880,Rutherford Hayes,Republican,19
+ Veto Message Regarding Military Legislation,6/15/1880,Rutherford Hayes,Republican,19
+ Fourth Annual Message,12/6/1880,Rutherford Hayes,Republican,19
+ Veto Message Regarding Economic Legislation,3/3/1881,Rutherford Hayes,Republican,19
+ Inaugural Address,3/4/1881,James Garfield,Republican,20
+ Address Upon Assuming the Office of the President,9/22/1881,Chester Arthur,Republican,21
+ Veto of the Chinese Exclusion Act,4/4/1882,Chester Arthur,Republican,21
+ Message Regarding Congress of American Countries,4/18/1882,Chester Arthur,Republican,21
+ Veto of Safety Regulations Bill,7/1/1882,Chester Arthur,Republican,21
+ Veto of River and Harbors Act,8/1/1882,Chester Arthur,Republican,21
+ Second Annual Message,12/4/1882,Chester Arthur,Republican,21
+ Third Annual Message,12/4/1883,Chester Arthur,Republican,21
+ Message Regarding Settlement on Indian Territory,7/1/1884,Chester Arthur,Republican,21
+ Fourth Annual Message,12/1/1884,Chester Arthur,Republican,21
+ Message Regarding Central American Canal,12/10/1884,Chester Arthur,Republican,21
+ First Inaugural Address,3/4/1885,Grover Cleveland,Democratic,22
+ First Annual Message,12/8/1885,Grover Cleveland,Democratic,22
+ Message Regarding Chinese ImmiUlysses Grant Workers,3/1/1886,Grover Cleveland,Democratic,22
+ Message Regarding U.S. Labor Force,4/22/1886,Grover Cleveland,Democratic,22
+ Veto of Military Pension Legislation,5/8/1886,Grover Cleveland,Democratic,22
+ Message on the Statue of Liberty,5/11/1886,Grover Cleveland,Democratic,22
+ Message on Federal Employee Political Involvement,7/14/1886,Grover Cleveland,Democratic,22
+ Second Annual Message,12/6/1886,Grover Cleveland,Democratic,22
+ Veto of Military Pension Legislation,2/11/1887,Grover Cleveland,Democratic,22
+ Veto of Texas Seed Bill,2/16/1887,Grover Cleveland,Democratic,22
+ Third Annual Message,12/6/1887,Grover Cleveland,Democratic,22
+ Message Regarding Civil Service Reform,2/2/1888,Grover Cleveland,Democratic,22
+ Message Regarding Chinese Exclusion Act,10/1/1888,Grover Cleveland,Democratic,22
+ Fourth Annual Message,12/3/1888,Grover Cleveland,Democratic,22
+ Inaugural Address,3/4/1889,Benjamin Harrison,Republican,23
+ Commemoration of the Centennial of George Washington’s Inauguration,4/4/1889,Benjamin Harrison,Republican,23
+ Statement on the Johnstown Flood,6/4/1889,Benjamin Harrison,Republican,23
+ First Annual Message,12/3/1889,Benjamin Harrison,Republican,23
+ Statement at the International American Conference,4/19/1890,Benjamin Harrison,Republican,23
+ Address Honoring President Garfield,5/30/1890,Benjamin Harrison,Republican,23
+ Message Regarding the International American Conference,6/19/1890,Benjamin Harrison,Republican,23
+ Proclamation Regarding Indian Title to Land,10/23/1890,Benjamin Harrison,Republican,23
+ Second Annual Message,12/1/1890,Benjamin Harrison,Republican,23
+ Message Regarding Death of Treasury Secretary,1/31/1891,Benjamin Harrison,Republican,23
+ Third Annual Message,12/9/1891,Benjamin Harrison,Republican,23
+ Message Regarding Valparaiso Incident,1/25/1892,Benjamin Harrison,Republican,23
+ Message Regarding US-Chilean Affairs,1/28/1892,Benjamin Harrison,Republican,23
+ Speech Accepting the Republican Nomination,9/3/1892,Benjamin Harrison,Republican,23
+ Fourth Annual Message,12/6/1892,Benjamin Harrison,Republican,23
+ Message Regarding Hawaiian Annexation,2/15/1893,Benjamin Harrison,Republican,23
+ Second Inaugural Address,3/4/1893,Grover Cleveland,Democratic,24
+ Message Regarding Economic Crisis,8/8/1893,Grover Cleveland,Democratic,24
+ Special Session Message,8/8/1893,Grover Cleveland,Democratic,24
+ First Annual Message (Second Term),12/4/1893,Grover Cleveland,Democratic,24
+ Message Regarding Hawaiian Annexation,12/18/1893,Grover Cleveland,Democratic,24
+ Veto Message of Monetary Legislation,3/29/1894,Grover Cleveland,Democratic,24
+ Proclamation Regarding Railroad Strike,7/8/1894,Grover Cleveland,Democratic,24
+ Second Annual Message (Second Term),12/3/1894,Grover Cleveland,Democratic,24
+ Message Regarding the Financial Crisis,1/28/1895,Grover Cleveland,Democratic,24
+ Announcement of Treasury Bond Sale,2/8/1895,Grover Cleveland,Democratic,24
+ Declaration of US Neutrality,6/12/1895,Grover Cleveland,Democratic,24
+ Third Annual Message (Second Term),12/2/1895,Grover Cleveland,Democratic,24
+ Message Regarding Venezuelan-British Dispute,12/17/1895,Grover Cleveland,Democratic,24
+ Message Regarding the Financial Crisis,12/20/1895,Grover Cleveland,Democratic,24
+ Announcing the Continuation of US Neutrality,7/27/1896,Grover Cleveland,Democratic,24
+ Fourth Annual Message (Second Term),12/7/1896,Grover Cleveland,Democratic,24
+ Message Regarding Treaty with Britain,1/11/1897,Grover Cleveland,Democratic,24
+ Veto Message Regarding Immigration Legislation,3/2/1897,Grover Cleveland,Democratic,24
+ First Inaugural Address,3/4/1897,William McKinley,Republican,25
+ Message Regarding Special Session of Congress,3/15/1897,William McKinley,Republican,25
+ Message Regarding Relief of Americans in Cuba,5/17/1897,William McKinley,Republican,25
+ Message Regarding Banking and Currency Laws,7/24/1897,William McKinley,Republican,25
+ First Annual Message,12/6/1897,William McKinley,Republican,25
+ Message Regarding Cuban Civil War,4/11/1898,William McKinley,Republican,25
+ Proclamation Regarding Blockade of Cuba,4/22/1898,William McKinley,Republican,25
+ Proclamation Calling for Military Volunteers,4/23/1898,William McKinley,Republican,25
+ Second Annual Message,12/5/1898,William McKinley,Republican,25
+ Third Annual Message,12/5/1899,William McKinley,Republican,25
+ Speech Accepting the Republican Nomination,7/12/1900,William McKinley,Republican,25
+ Fourth Annual Message,12/3/1900,William McKinley,Republican,25
+ Second Inaugural Address,3/4/1901,William McKinley,Republican,25
+ Speech in Buffalo  New York,9/5/1901,William McKinley,Republican,25
+ Announcement of the Death of President William McKinley,9/14/1901,Theodore Roosevelt,Republican,26
+ First Annual Message,12/3/1901,Theodore Roosevelt,Republican,26
+ Message Regarding US-Cuban Relations,6/13/1902,Theodore Roosevelt,Republican,26
+ Second Annual Message,12/2/1902,Theodore Roosevelt,Republican,26
+ Message Convening a Special Session of Congress,10/20/1903,Theodore Roosevelt,Republican,26
+ Message Regarding US-Cuban Commercial Convention,11/10/1903,Theodore Roosevelt,Republican,26
+ Message Regarding the Panamanian Revolution,11/16/1903,Theodore Roosevelt,Republican,26
+ Message Regarding Treaty with Panama,12/7/1903,Theodore Roosevelt,Republican,26
+ Third Annual Message,12/7/1903,Theodore Roosevelt,Republican,26
+ Proclamation Declaring US Neutrality,2/11/1904,Theodore Roosevelt,Republican,26
+ Fourth Annual Message,12/6/1904,Theodore Roosevelt,Republican,26
+ Inaugural Address,3/4/1905,Theodore Roosevelt,Republican,26
+ Fifth Annual Message,12/5/1905,Theodore Roosevelt,Republican,26
+ Message Regarding Panama Canal,1/8/1906,Theodore Roosevelt,Republican,26
+ Message Regarding Meatpacking Plants,6/4/1906,Theodore Roosevelt,Republican,26
+ Sixth Annual Message,12/3/1906,Theodore Roosevelt,Republican,26
+ Message Regarding the State of Puerto Rico,12/11/1906,Theodore Roosevelt,Republican,26
+ Message Regarding Conditions in Panama,12/17/1906,Theodore Roosevelt,Republican,26
+ Message Regarding Disturbances in Texas,12/19/1906,Theodore Roosevelt,Republican,26
+ Seventh Annual Message,12/3/1907,Theodore Roosevelt,Republican,26
+ Message Regarding Labor Legislation,3/25/1908,Theodore Roosevelt,Republican,26
+ Eighth Annual Message,12/9/1908,Theodore Roosevelt,Republican,26
+ Inaugural Address,3/4/1909,William Taft,Republican,27
+ Message Regarding Tariff Legislation,3/16/1909,William Taft,Republican,27
+ Message Regarding Income Tax,6/16/1909,William Taft,Republican,27
+Address on the Tariff Law of 1909,11/17/1909,William Taft,Republican,27
+ First Annual Message,12/7/1909,William Taft,Republican,27
+ Message Regarding Economic Legislation,1/7/1910,William Taft,Republican,27
+ Message Regarding Environmental Preservation,1/14/1910,William Taft,Republican,27
+ Second Annual Message,12/6/1910,William Taft,Republican,27
+ Message Regarding US-Canadian Relations,1/26/1911,William Taft,Republican,27
+ Special Message on Canadian Reciprocity,1/26/1911,William Taft,Republican,27
+ Third Annual Message,12/5/1911,William Taft,Republican,27
+ Fourth Annual Message,12/3/1912,William Taft,Republican,27
+ First Inaugural Address,3/4/1913,Woodrow Wilson,Democratic,28
+ Message Regarding Tariff Duties,4/8/1913,Woodrow Wilson,Democratic,28
+ Message Regarding Banking System,6/23/1913,Woodrow Wilson,Democratic,28
+ Address at Gettysburg,7/4/1913,Woodrow Wilson,Democratic,28
+ Address at Congress Hall  Philadelphia,10/25/1913,Woodrow Wilson,Democratic,28
+ First Annual Message,12/2/1913,Woodrow Wilson,Democratic,28
+ Address to a Joint Session of Congress on Trusts and Monopolies,1/20/1914,Woodrow Wilson,Democratic,28
+ Message Regarding Tampico Incident,4/20/1914,Woodrow Wilson,Democratic,28
+ Memorial Day Address,5/30/1914,Woodrow Wilson,Democratic,28
+ Fourth of July Address,7/4/1914,Woodrow Wilson,Democratic,28
+ Message on Neutrality,8/20/1914,Woodrow Wilson,Democratic,28
+" ""The Opinion of the World"" Speech",10/20/1914,Woodrow Wilson,Democratic,28
+ Second Annual Message,12/8/1914,Woodrow Wilson,Democratic,28
+ Veto of Immigration Legislation,1/28/1915,Woodrow Wilson,Democratic,28
+ Third Annual Message,12/7/1915,Woodrow Wilson,Democratic,28
+ Message Regarding German Actions,4/19/1916,Woodrow Wilson,Democratic,28
+ Speech of Acceptance,9/2/1916,Woodrow Wilson,Democratic,28
+ Speech Accepting the Democratic Nomination,9/3/1916,Woodrow Wilson,Democratic,28
+ Message Regarding Women’s Suffrage,9/9/1916,Woodrow Wilson,Democratic,28
+ Fourth Annual Message,12/5/1916,Woodrow Wilson,Democratic,28
+" ""A World League for Peace"" Speech",1/22/1917,Woodrow Wilson,Democratic,28
+ Message Regarding US-German Relations,2/3/1917,Woodrow Wilson,Democratic,28
+ Message Regarding Safety of Merchant Ships,2/26/1917,Woodrow Wilson,Democratic,28
+ Second Inaugural Address,3/5/1917,Woodrow Wilson,Democratic,28
+ Address to Congress Requesting a Declaration of War Against Germany,4/2/1917,Woodrow Wilson,Democratic,28
+ The Republic Must Awaken,4/4/1917,Woodrow Wilson,Democratic,28
+Proclamation 1364,4/6/1917,Woodrow Wilson,Democratic,28
+ Message Regarding World War I,4/17/1917,Woodrow Wilson,Democratic,28
+ Message Regarding Military Draft,5/19/1917,Woodrow Wilson,Democratic,28
+ Fifth Annual Message,12/4/1917,Woodrow Wilson,Democratic,28
+" Woodrow Wilson's ""Fourteen Points""",1/8/1918,Woodrow Wilson,Democratic,28
+ Sixth Annual Message,12/2/1918,Woodrow Wilson,Democratic,28
+ Safeguarding America,9/11/1919,Woodrow Wilson,Democratic,28
+ Seventh Annual Message,12/2/1919,Woodrow Wilson,Democratic,28
+ Americanism,1/20/1920,Woodrow Wilson,Democratic,28
+ Readjustment,5/14/1920,Woodrow Wilson,Democratic,28
+ Speech Accepting the Republican Nomination,6/12/1920,Woodrow Wilson,Democratic,28
+ An Association of Nations,7/22/1920,Woodrow Wilson,Democratic,28
+ Enduring Popular Government,7/22/1920,Woodrow Wilson,Democratic,28
+ High Wages for High Production,7/22/1920,Woodrow Wilson,Democratic,28
+ Liberty Under the Law,7/22/1920,Woodrow Wilson,Democratic,28
+ The American Soldier,7/22/1920,Woodrow Wilson,Democratic,28
+ The Republican Party,8/25/1920,Woodrow Wilson,Democratic,28
+ America,8/28/1920,Woodrow Wilson,Democratic,28
+ Eighth Annual Message,12/7/1920,Woodrow Wilson,Democratic,28
+ Inaugural Address,3/4/1921,William Harding,Republican,29
+ Nationalism and Americanism,3/31/1921,William Harding,Republican,29
+ Speech Upon Arrival of World War One Dead for Burial,5/23/1921,William Harding,Republican,29
+ Opening Speech of the Conference on Limitation of Armament,11/12/1921,William Harding,Republican,29
+ First Annual Message,12/6/1921,William Harding,Republican,29
+ Second Annual Message,12/8/1922,William Harding,Republican,29
+ First Annual Message,12/6/1923,Calvin Coolidge,Republican,30
+ Second Annual Message,12/3/1924,Calvin Coolidge,Republican,30
+ Inaugural Address,3/4/1925,Calvin Coolidge,Republican,30
+ Centennial of George Washington’s Command of the Continental Army,7/3/1925,Calvin Coolidge,Republican,30
+ Message Regarding Relationship of Church and State,10/20/1925,Calvin Coolidge,Republican,30
+ Third Annual Message,12/8/1925,Calvin Coolidge,Republican,30
+ Declaration of Independence Anniversary Commemoration,7/5/1926,Calvin Coolidge,Republican,30
+ Fourth Annual Message,12/7/1926,Calvin Coolidge,Republican,30
+ Address Regarding George Washington’s Birthday,2/22/1927,Calvin Coolidge,Republican,30
+ Address at the Opening of Work on Mount Rushmore in Black Hills  SD,8/10/1927,Calvin Coolidge,Republican,30
+ Fifth Annual Message,12/6/1927,Calvin Coolidge,Republican,30
+ Principles and Ideals of the United States Government,10/22/1928,Herbert Hoover,Republican,31
+ Sixth Annual Message,12/4/1928,Herbert Hoover,Republican,31
+ Inaugural Address,3/4/1929,Herbert Hoover,Republican,31
+ Message Regarding the Farm Bill,6/11/1929,Herbert Hoover,Republican,31
+ Address on Kellogg-Briand Pact,7/24/1929,Herbert Hoover,Republican,31
+ Remarks Upon Proclaiming the Treaty for the Renunciation of War (Kellog-Briand Pact),7/24/1929,Herbert Hoover,Republican,31
+ Message Regarding International Peace,9/18/1929,Herbert Hoover,Republican,31
+ Message Regarding “Black Thursday”,10/25/1929,Herbert Hoover,Republican,31
+ Message on the Economy,11/5/1929,Herbert Hoover,Republican,31
+ Statement on the Economy,11/19/1929,Herbert Hoover,Republican,31
+ First State of the Union Address,12/3/1929,Herbert Hoover,Republican,31
+ Statement Regarding Business and Unemployment,3/7/1930,Herbert Hoover,Republican,31
+ Message Regarding Law Enforcement,4/28/1930,Herbert Hoover,Republican,31
+ Message regarding the Smoot-Hawley Tariff Act,6/16/1930,Herbert Hoover,Republican,31
+ Message Regarding London Naval Treaty,7/7/1930,Herbert Hoover,Republican,31
+ Address to the American Bankers’ Association.,10/2/1930,Herbert Hoover,Republican,31
+ Second State of the Union address.,12/2/1930,Herbert Hoover,Republican,31
+ Message Regarding Unemployment Relief,12/9/1930,Herbert Hoover,Republican,31
+ Statement on Unemployment Relief,2/3/1931,Herbert Hoover,Republican,31
+ Veto Messages Regarding Emergency Adjusted Compensation Act,2/26/1931,Herbert Hoover,Republican,31
+ Statement on Foreign Debts,6/21/1931,Herbert Hoover,Republican,31
+ Message on the Gold Standard,9/22/1931,Herbert Hoover,Republican,31
+ Message Regarding Unemployment Relief,10/18/1931,Herbert Hoover,Republican,31
+ Third State of the Union Address,12/8/1931,Herbert Hoover,Republican,31
+ Statement Regarding Economic Recovery,12/11/1931,Herbert Hoover,Republican,31
+ Statement on the National Economy,5/31/1932,Herbert Hoover,Republican,31
+ Speech Accepting the Republican Nomination,8/11/1932,Herbert Hoover,Republican,31
+ Campaign Speech in James Madison Square Garden,10/21/1932,Herbert Hoover,Republican,31
+ Campaign speech in Indianapolis  Indiana,10/28/1932,Herbert Hoover,Republican,31
+ Campaign speech in St Paul Minnesota,11/5/1932,Herbert Hoover,Republican,31
+ Fourth State of the Union Address,12/6/1932,Herbert Hoover,Republican,31
+ First Inaugural Address,3/4/1933,Franklin Roosevelt,Democratic,32
+Fireside Chat 1 On the Banking Crisis,3/12/1933,Franklin Roosevelt,Democratic,32
+Fireside Chat 2 On Progress During the First Two Months,5/7/1933,Franklin Roosevelt,Democratic,32
+Fireside Chat 3 On the National Recovery Administration,7/24/1933,Franklin Roosevelt,Democratic,32
+Fireside Chat 4 On Economic Progress,10/22/1933,Franklin Roosevelt,Democratic,32
+Fireside Chat 5 On Addressing the Critics,6/28/1934,Franklin Roosevelt,Democratic,32
+Fireside Chat 6 On Government and Capitalism,9/30/1934,Franklin Roosevelt,Democratic,32
+Fireside Chat 7 On the Works Relief Program and Social Security Act,4/28/1935,Franklin Roosevelt,Democratic,32
+ Democratic National Convention,6/27/1936,Franklin Roosevelt,Democratic,32
+Fireside Chat 8 On Farmers and Laborers,9/6/1936,Franklin Roosevelt,Democratic,32
+ Speech at James Madison Square Garden,10/31/1936,Franklin Roosevelt,Democratic,32
+ Second Inaugural Address,1/20/1937,Franklin Roosevelt,Democratic,32
+"Fireside Chat 9 On ""Court-Packing""",3/9/1937,Franklin Roosevelt,Democratic,32
+ Quarantine Speech,10/5/1937,Franklin Roosevelt,Democratic,32
+Fireside Chat 10 On New Legislation,10/12/1937,Franklin Roosevelt,Democratic,32
+Fireside Chat 11 On the Unemployment Census,11/14/1937,Franklin Roosevelt,Democratic,32
+Fireside Chat 12 On the Recession,4/14/1938,Franklin Roosevelt,Democratic,32
+Fireside Chat 13 On Purging the Democratic Party,6/24/1938,Franklin Roosevelt,Democratic,32
+ Dedication of a Memorial to the Northwest Territory,7/8/1938,Franklin Roosevelt,Democratic,32
+Fireside Chat 14 On the European War,9/3/1939,Franklin Roosevelt,Democratic,32
+Fireside Chat 15 On National Defense,5/26/1940,Franklin Roosevelt,Democratic,32
+" ""Stab in the Back"" Speech",6/10/1940,Franklin Roosevelt,Democratic,32
+ Democratic National Convention,7/19/1940,Franklin Roosevelt,Democratic,32
+"Fireside Chat 16 On the ""Arsenal of Democracy""",12/29/1940,Franklin Roosevelt,Democratic,32
+ State of the Union (Four Freedoms),1/6/1941,Franklin Roosevelt,Democratic,32
+ Third Inaugural Address,1/20/1941,Franklin Roosevelt,Democratic,32
+ On Lend Lease,3/15/1941,Franklin Roosevelt,Democratic,32
+Fireside Chat 17 On An Unlimited National Emergency,5/27/1941,Franklin Roosevelt,Democratic,32
+Fireside Chat 18 On The Greer Incident,9/11/1941,Franklin Roosevelt,Democratic,32
+ Address to Congress Requesting a Declaration of War,12/8/1941,Franklin Roosevelt,Democratic,32
+Fireside Chat 19 On the War with Japan,12/9/1941,Franklin Roosevelt,Democratic,32
+ Message to Congress Requesting War Declarations with Germany and Italy,12/11/1941,Franklin Roosevelt,Democratic,32
+Fireside Chat 20 On the Progress of the War,2/23/1942,Franklin Roosevelt,Democratic,32
+Fireside Chat 21 On Sacrifice,4/28/1942,Franklin Roosevelt,Democratic,32
+Fireside Chat 22 On Inflation and Food Prices,9/7/1942,Franklin Roosevelt,Democratic,32
+Fireside Chat 23 On the Home Front,10/12/1942,Franklin Roosevelt,Democratic,32
+ State of the Union Address,1/7/1943,Franklin Roosevelt,Democratic,32
+Fireside Chat 24 On the Coal Crisis,5/2/1943,Franklin Roosevelt,Democratic,32
+Fireside Chat 25 On the Fall of Mussolini,7/28/1943,Franklin Roosevelt,Democratic,32
+Fireside Chat 26 On the Armistice in Italy,9/8/1943,Franklin Roosevelt,Democratic,32
+ The Tehran Declaration,12/1/1943,Franklin Roosevelt,Democratic,32
+Fireside Chat 27 On the Tehran and Cairo Conferences,12/24/1943,Franklin Roosevelt,Democratic,32
+Fireside Chat 28 On the State of the Union,1/11/1944,Franklin Roosevelt,Democratic,32
+Fireside Chat 29 On the Fall of Rome,6/5/1944,Franklin Roosevelt,Democratic,32
+Fireside Chat 30 Opening Fifth War Loan Drive,6/12/1944,Franklin Roosevelt,Democratic,32
+ Democratic National Convention,7/20/1944,Franklin Roosevelt,Democratic,32
+ Fourth Inaugural Address,1/20/1945,Franklin Roosevelt,Democratic,32
+ Joint Statement with Churchill and Stalin on the Yalta Conference,2/11/1945,Franklin Roosevelt,Democratic,32
+ Address to Congress on Yalta,3/1/1945,Franklin Roosevelt,Democratic,32
+ First Speech to Congress,4/16/1945,Harry Truman,Democratic,33
+ Announcing the Surrender of Germany,5/8/1945,Harry Truman,Democratic,33
+ Statement by the President Announcing the Use of the A-Bomb at Hiroshima,8/6/1945,Harry Truman,Democratic,33
+ Radio Report to the American People on the Potsdam Conference,8/9/1945,Harry Truman,Democratic,33
+ Announcing the Surrender of Japan,9/1/1945,Harry Truman,Democratic,33
+ Navy Day Address,10/27/1945,Harry Truman,Democratic,33
+ Truman Doctrine,3/12/1947,Harry Truman,Democratic,33
+ On the Veto of the William Taft-Hartley Bill,6/20/1947,Harry Truman,Democratic,33
+ Address before the NAACP,6/29/1947,Harry Truman,Democratic,33
+ Democratic National Convention,7/15/1948,Harry Truman,Democratic,33
+ Whistlestop Tour in Chariton  Iowa,9/18/1948,Harry Truman,Democratic,33
+ Whistlestop Tour in Trenton  Missouri,9/18/1948,Harry Truman,Democratic,33
+ Victory Celebration,11/3/1948,Harry Truman,Democratic,33
+ Inaugural Address,1/20/1949,Harry Truman,Democratic,33
+ Report to the American People on Korea,4/11/1951,Harry Truman,Democratic,33
+ Columbia Scholastic Press Association,3/15/1952,Harry Truman,Democratic,33
+ Thomas Jefferson-Andrew Jackson Day Dinner,3/29/1952,Harry Truman,Democratic,33
+" ""Checkers"" Speech",9/23/1952,Harry Truman,Democratic,33
+ Rear Platform Remarks,10/22/1952,Harry Truman,Democratic,33
+ Farewell Address,1/15/1953,Harry Truman,Democratic,33
+ First Inaugural Address,1/20/1953,Dwight Eisenhower,Republican,34
+ Chance for Peace,4/16/1953,Dwight Eisenhower,Republican,34
+ Atoms for Peace,12/8/1953,Dwight Eisenhower,Republican,34
+ Republican National Convention,8/23/1956,Dwight Eisenhower,Republican,34
+ Dwight Eisenhower Doctrine,1/5/1957,Dwight Eisenhower,Republican,34
+ Acceptance of the Democratic Party Nomination,7/15/1960,Dwight Eisenhower,Republican,34
+ Address to the Greater Houston Ministerial Association,9/12/1960,Dwight Eisenhower,Republican,34
+ Debate with Richard Richard Nixon in Chicago,9/26/1960,Dwight Eisenhower,Republican,34
+ Debate with Richard Richard Nixon in George Washington  D.C.,10/7/1960,Dwight Eisenhower,Republican,34
+ Debate with Richard Richard Nixon in New York and Los Angeles,10/13/1960,Dwight Eisenhower,Republican,34
+ Debate with Richard Richard Nixon in New York,10/21/1960,Dwight Eisenhower,Republican,34
+" ""City Upon a Hill"" Speech",1/9/1961,Dwight Eisenhower,Republican,34
+ Farewell Address,1/17/1961,Dwight Eisenhower,Republican,34
+ Inaugural Address,1/20/1961,John Kennedy,Democratic,35
+ State of the Union,1/30/1961,John Kennedy,Democratic,35
+ Remarks on the Youth Fitness Program,2/21/1961,John Kennedy,Democratic,35
+ Establishment of the Peace Corps,3/1/1961,John Kennedy,Democratic,35
+ Address to the Diplomatic Corps of Latin America,3/13/1961,John Kennedy,Democratic,35
+ Address to the American Association of Newspaper Editors,4/20/1961,John Kennedy,Democratic,35
+ Special Message to the Congress on Taxation,4/20/1961,John Kennedy,Democratic,35
+" ""President and the Press"" Speech",4/27/1961,John Kennedy,Democratic,35
+ Remarks at George George Washington,5/3/1961,John Kennedy,Democratic,35
+ Address before the Canadian Parliament,5/17/1961,John Kennedy,Democratic,35
+ The Goal of Sending a Man to the Moon,5/25/1961,John Kennedy,Democratic,35
+ Report to the American People on Returning from Europe,6/6/1961,John Kennedy,Democratic,35
+ Remarks to the Graduating Class of the US Naval Academy,6/7/1961,John Kennedy,Democratic,35
+ Report on the Berlin Crisis,7/25/1961,John Kennedy,Democratic,35
+ Address to the UN General Assembly,9/25/1961,John Kennedy,Democratic,35
+ Address at the University of North Carolina,10/12/1961,John Kennedy,Democratic,35
+ Remarks at the Veterans Day Ceremony,11/11/1961,John Kennedy,Democratic,35
+University of George Washington's 100th Anniversary,11/16/1961,John Kennedy,Democratic,35
+ Address to the National Association of Manufacturers,12/6/1961,John Kennedy,Democratic,35
+ Address in Miami at the Opening of the AFL-CIO Convention,12/7/1961,John Kennedy,Democratic,35
+ Remarks to a U.N. Delegation of Women,12/11/1961,John Kennedy,Democratic,35
+ State of the Union Address,1/11/1962,John Kennedy,Democratic,35
+ Address at the University of California  Berkeley,3/23/1962,John Kennedy,Democratic,35
+ Remarks at West Point,6/6/1962,John Kennedy,Democratic,35
+ Yale University Commencement,6/11/1962,John Kennedy,Democratic,35
+ Address on the Space Effort,9/12/1962,John Kennedy,Democratic,35
+ Address on the Situation at the University of Mississippi,9/30/1962,John Kennedy,Democratic,35
+ Address on the Buildup of Arms in Cuba,10/22/1962,John Kennedy,Democratic,35
+ State of the Union Address,1/14/1963,John Kennedy,Democratic,35
+90th Anniversary of Vanderbilt University,5/18/1963,John Kennedy,Democratic,35
+ Remarks at Gettysburg on Civil Rights,5/30/1963,John Kennedy,Democratic,35
+ Remarks at U.S. Air Force Academy,6/5/1963,John Kennedy,Democratic,35
+ American University Commencement,6/10/1963,John Kennedy,Democratic,35
+ Address on Civil Rights,6/11/1963,John Kennedy,Democratic,35
+" ""Ich bin ein Berliner"" Speech",6/26/1963,John Kennedy,Democratic,35
+ Address on the Nuclear Test Ban Treaty,7/26/1963,John Kennedy,Democratic,35
+ Address to the UN General Assembly,9/20/1963,John Kennedy,Democratic,35
+ Address at the Mormon Tabernacle,9/26/1963,John Kennedy,Democratic,35
+ Remarks at Amherst College,10/26/1963,John Kennedy,Democratic,35
+ Address to Joint Session of Congress,11/27/1963,Lydon Johnson,Democratic,36
+ Thanksgiving Message,11/28/1963,Lydon Johnson,Democratic,36
+ Address to the U.N. General Assembly,12/17/1963,Lydon Johnson,Democratic,36
+ State of the Union,1/8/1964,Lydon Johnson,Democratic,36
+ Press Conference,2/1/1964,Lydon Johnson,Democratic,36
+ Remarks at the Ninety Sixth Charter Day Observances,2/21/1964,Lydon Johnson,Democratic,36
+ Press Conference at the State Department,2/29/1964,Lydon Johnson,Democratic,36
+ Press Conference at the White House,3/7/1964,Lydon Johnson,Democratic,36
+ Press Conference at the State Department,4/16/1964,Lydon Johnson,Democratic,36
+ Speech to the Associated Press Luncheon,4/20/1964,Lydon Johnson,Democratic,36
+ Press Conference on the South Lawn,5/6/1964,Lydon Johnson,Democratic,36
+ Remarks at the University of Michigan,5/22/1964,Lydon Johnson,Democratic,36
+ Remarks upon Signing the Civil Rights Bill,7/2/1964,Lydon Johnson,Democratic,36
+ Press Conference at the State Department,7/24/1964,Lydon Johnson,Democratic,36
+ Report on the Gulf of Tonkin Incident,8/4/1964,Lydon Johnson,Democratic,36
+ Remarks on Vietnam at Syracuse University,8/5/1964,Lydon Johnson,Democratic,36
+ Acceptance Speech at the Democratic National Convention,8/27/1964,Lydon Johnson,Democratic,36
+ Speech at the Jung Hotel  New Orleans,10/9/1964,Lydon Johnson,Democratic,36
+ Report to the Nation on Events in China and the USSR,10/18/1964,Lydon Johnson,Democratic,36
+" ""A Time for Choosing""",10/27/1964,Lydon Johnson,Democratic,36
+ State of the Union,1/4/1965,Lydon Johnson,Democratic,36
+ Inaugural Address,1/20/1965,Lydon Johnson,Democratic,36
+ Press Conference,2/4/1965,Lydon Johnson,Democratic,36
+ Press Conference at the White House,3/13/1965,Lydon Johnson,Democratic,36
+ Speech Before Congress on Voting Rights,3/15/1965,Lydon Johnson,Democratic,36
+ Press Conference at the LBJ Ranch,3/20/1965,Lydon Johnson,Democratic,36
+ Remarks at a Reception for Astronauts Grissom and Young,3/26/1965,Lydon Johnson,Democratic,36
+ Statement on Arrests in Violo Liuzzo Murder,3/26/1965,Lydon Johnson,Democratic,36
+ Address at Johns Hopkins University,4/7/1965,Lydon Johnson,Democratic,36
+ Press Conference in the East Room,4/27/1965,Lydon Johnson,Democratic,36
+ Statement on Sending Troops to the Dominican Republic,4/28/1965,Lydon Johnson,Democratic,36
+ Report on the Situation in the Dominican Republic,5/2/1965,Lydon Johnson,Democratic,36
+ Speech to the Association of American Editorial Cartoonists,5/13/1965,Lydon Johnson,Democratic,36
+ Press Conference in the East Room,6/1/1965,Lydon Johnson,Democratic,36
+ Remarks at the Howard University Commencement,6/4/1965,Lydon Johnson,Democratic,36
+ Remarks at the Manned Space Flight Center,6/11/1965,Lydon Johnson,Democratic,36
+Remarks on the 20th Anniversary of the U.N. Charter,6/25/1965,Lydon Johnson,Democratic,36
+ Press Conference in the East Room,7/13/1965,Lydon Johnson,Democratic,36
+ Press Conference,7/28/1965,Lydon Johnson,Democratic,36
+ Remarks on the Signing of the Voting Rights Act,8/6/1965,Lydon Johnson,Democratic,36
+ Press Conference at the White House,8/25/1965,Lydon Johnson,Democratic,36
+ State of the Union,1/12/1966,Lydon Johnson,Democratic,36
+ Statement on the Resumption of Bombing in North Vietnam,1/31/1966,Lydon Johnson,Democratic,36
+ Remarks on Receiving the National Freedom Award,2/23/1966,Lydon Johnson,Democratic,36
+ Speech Before the Foreign Institute,3/23/1966,Lydon Johnson,Democratic,36
+ Remarks in Omaha  Nebraska,6/30/1966,Lydon Johnson,Democratic,36
+ Press Conference at the LBJ Ranch,7/5/1966,Lydon Johnson,Democratic,36
+ Speech on U.S. Foreign Policy in Asia,7/12/1966,Lydon Johnson,Democratic,36
+ Press Conference in the East Room,7/20/1966,Lydon Johnson,Democratic,36
+ Press Conference,10/6/1966,Lydon Johnson,Democratic,36
+ Remarks on the Creation of the Department of Transportation,10/15/1966,Lydon Johnson,Democratic,36
+ Remarks on Departing for the Asia-Pacific Trip,10/17/1966,Lydon Johnson,Democratic,36
+ Press Conference,12/31/1966,Lydon Johnson,Democratic,36
+ State of the Union Address,1/10/1967,Lydon Johnson,Democratic,36
+ Press Conference,2/2/1967,Lydon Johnson,Democratic,36
+ Press Conference,3/9/1967,Lydon Johnson,Democratic,36
+ Address on Vietnam to the Tennessee General Assembly,3/15/1967,Lydon Johnson,Democratic,36
+ Address After Ordering Federal Troops to Detroit  Michigan,7/24/1967,Lydon Johnson,Democratic,36
+ Speech to the Nation on Civil Disorders,7/27/1967,Lydon Johnson,Democratic,36
+ Press Conference,8/18/1967,Lydon Johnson,Democratic,36
+ Speech on Vietnam,9/29/1967,Lydon Johnson,Democratic,36
+ Press Conference,11/17/1967,Lydon Johnson,Democratic,36
+ A Conversation with President Lyndon Andrew Johnson,12/19/1967,Lydon Johnson,Democratic,36
+ State of the Union Address,1/17/1968,Lydon Johnson,Democratic,36
+ Remarks on Decision not to Seek Re-Election,3/31/1968,Lydon Johnson,Democratic,36
+ Address to the National Association of Broadcasters,4/1/1968,Lydon Johnson,Democratic,36
+ Press Conference,4/3/1968,Lydon Johnson,Democratic,36
+ Remarks on Signing the Civil Rights Act,4/11/1968,Lydon Johnson,Democratic,36
+ Remarks on Signing the Nuclear Nonproliferation Treaty,7/1/1968,Lydon Johnson,Democratic,36
+ Remarks on the Cessation of Bombing of North Vietnam,10/31/1968,Lydon Johnson,Democratic,36
+ State of the Union Address,1/14/1969,Lydon Johnson,Democratic,36
+ First Inaugural Address,1/20/1969,Richard Nixon,Republican,37
+ Address to the Nation on the War in Vietnam,11/3/1969,Richard Nixon,Republican,37
+ State of the Union Address,1/22/1970,Richard Nixon,Republican,37
+ Address to the Nation on the Situation in Southeast Asia,4/30/1970,Richard Nixon,Republican,37
+ State of the Union Address,1/22/1971,Richard Nixon,Republican,37
+ Radio Address About Second Annual Foreign Policy Report to the Congress,2/25/1971,Richard Nixon,Republican,37
+ Address to the Nation on the Situation in Southeast Asia,4/7/1971,Richard Nixon,Republican,37
+ Remarks Announcing an Agreement on Strategic Arms Limitation Talks,5/20/1971,Richard Nixon,Republican,37
+ State of the Union Address,1/20/1972,Richard Nixon,Republican,37
+ Address to the Nation on Plan for Peace in Vietnam,1/25/1972,Richard Nixon,Republican,37
+ Address to the Nation on the Situation in Southeast Asia,5/8/1972,Richard Nixon,Republican,37
+ Remarks on Election Eve,11/6/1972,Richard Nixon,Republican,37
+ Remarks on Being Reelected to the Presidency,11/7/1972,Richard Nixon,Republican,37
+ Second Inaugural Address,1/20/1973,Richard Nixon,Republican,37
+ Address to the Nation Announcing an Agreement on Ending the War in Vietnam,1/23/1973,Richard Nixon,Republican,37
+ Address to the Nation About the Watergate Investigations,4/30/1973,Richard Nixon,Republican,37
+ Address to the Nation About the Watergate Investigations,8/15/1973,Richard Nixon,Republican,37
+ State of the Union Address,1/30/1974,Richard Nixon,Republican,37
+ The President's News Conference,2/25/1974,Richard Nixon,Republican,37
+ Address to the Nation on Presidential Tape Recordings,4/29/1974,Richard Nixon,Republican,37
+ Address to the Nation Announcing Decision To Resign the Office of President,8/8/1974,Richard Nixon,Republican,37
+ Remarks on Departure From the White House,8/9/1974,Richard Nixon,Republican,37
+ Remarks on Taking the Oath of Office,8/9/1974,Gerald Ford,Republican,38
+ Remarks on Pardoning Richard Nixon,9/8/1974,Gerald Ford,Republican,38
+ Remarks on Clemency for Vietnam Era Draft Evaders,9/16/1974,Gerald Ford,Republican,38
+ Address to the General Assembly of the United Nations,9/18/1974,Gerald Ford,Republican,38
+" ""Whip Inflation Now"" Speech",10/8/1974,Gerald Ford,Republican,38
+ State of the Union Address,1/15/1975,Gerald Ford,Republican,38
+ Address on U.S. Foreign Policy,4/10/1975,Gerald Ford,Republican,38
+ Remarks at Tulane University,4/23/1975,Gerald Ford,Republican,38
+ Address on Energy Policy,5/27/1975,Gerald Ford,Republican,38
+ Remarks in Helsinki,8/1/1975,Gerald Ford,Republican,38
+ Address at the University of Hawaii,12/7/1975,Gerald Ford,Republican,38
+ State of the Union Address,1/19/1976,Gerald Ford,Republican,38
+ Remarks at the Republican National Convention,8/19/1976,Gerald Ford,Republican,38
+ Republican National Convention,8/19/1976,Gerald Ford,Republican,38
+ Debate with President Gerald Gerald Ford (Domestic Issues),9/23/1976,Gerald Ford,Republican,38
+ Debate with President Gerald Gerald Ford (Foreign and Defense Issues),10/6/1976,Gerald Ford,Republican,38
+ Debate with President Gerald Gerald Ford,10/22/1976,Gerald Ford,Republican,38
+ State of the Union Address,1/12/1977,Jimmy Carter,Democratic,39
+ Inaugural Address,1/20/1977,Jimmy Carter,Democratic,39
+ Report to the American People on Energy,2/2/1977,Jimmy Carter,Democratic,39
+ Remarks at President Carter's Press Conference,3/9/1977,Jimmy Carter,Democratic,39
+ Address to the Nation on Energy,4/18/1977,Jimmy Carter,Democratic,39
+ University of Notre Dame Commencement,5/22/1977,Jimmy Carter,Democratic,39
+ Statement on the Panama Canal Treaty Signing,9/7/1977,Jimmy Carter,Democratic,39
+ Address to the Nation on Energy,11/8/1977,Jimmy Carter,Democratic,39
+ State of the Union Address,1/19/1978,Jimmy Carter,Democratic,39
+ President Carter's Remarks on Joint Statement at Camp David Summit,9/17/1978,Jimmy Carter,Democratic,39
+ Anti-Inflation Program Speech,10/24/1978,Jimmy Carter,Democratic,39
+ Speech on Establishing Diplomatic Relations with China,12/15/1978,Jimmy Carter,Democratic,39
+ State of the Union Address,1/23/1979,Jimmy Carter,Democratic,39
+" ""Crisis of Confidence"" Speech",7/15/1979,Jimmy Carter,Democratic,39
+ Announcement for Presidential Candidacy,11/13/1979,Jimmy Carter,Democratic,39
+ Speech on Afghanistan,1/4/1980,Jimmy Carter,Democratic,39
+ State of the Union Address,1/23/1980,Jimmy Carter,Democratic,39
+ Statement on the Iran Rescue Mission,4/25/1980,Jimmy Carter,Democratic,39
+ Republican National Convention,7/17/1980,Jimmy Carter,Democratic,39
+ Acceptance Speech at the Democratic National Convention,8/14/1980,Jimmy Carter,Democratic,39
+ Debate with Ronald Reagan,10/28/1980,Jimmy Carter,Democratic,39
+ Farewell Speech,1/14/1981,Jimmy Carter,Democratic,39
+ First Inaugural Address,1/20/1981,Ronald Reagan,Republican,40
+ First Press Conference,1/29/1981,Ronald Reagan,Republican,40
+ Address on the Program for Economic Recovery,4/28/1981,Ronald Reagan,Republican,40
+ Address at University of Notre Dame,5/17/1981,Ronald Reagan,Republican,40
+ Speech to the NAACP Annual Convention,6/29/1981,Ronald Reagan,Republican,40
+ Address on Federal Tax Reduction Legislation,7/27/1981,Ronald Reagan,Republican,40
+ Remarks on the Air Traffic Controllers Strike,8/3/1981,Ronald Reagan,Republican,40
+ Speech on the Strategic Arms Reduction Talks,11/18/1981,Ronald Reagan,Republican,40
+ First Annual Message,12/6/1981,Ronald Reagan,Republican,40
+ Address to the Nation on Christmas and the Situation in Poland,12/23/1981,Ronald Reagan,Republican,40
+ State of the Union Address,1/26/1982,Ronald Reagan,Republican,40
+ Address to the British Parliament,6/8/1982,Ronald Reagan,Republican,40
+ Address to the Bundestag in West Germany,6/9/1982,Ronald Reagan,Republican,40
+ Speech to the United Nations General Assembly,6/17/1982,Ronald Reagan,Republican,40
+ Address on Tax and Budget Legislation,8/16/1982,Ronald Reagan,Republican,40
+ Speech to the Nation on U.S. Policy in the Middle East,9/1/1982,Ronald Reagan,Republican,40
+ Address to the Nation on Lebanon,9/20/1982,Ronald Reagan,Republican,40
+ State of the Union Address,1/25/1983,Ronald Reagan,Republican,40
+ Speech at the Conservative Political Action Conference,2/18/1983,Ronald Reagan,Republican,40
+" ""Evil Empire"" Speech",3/8/1983,Ronald Reagan,Republican,40
+ Address to the Nation on National Security,3/23/1983,Ronald Reagan,Republican,40
+ Address on Central America,4/27/1983,Ronald Reagan,Republican,40
+ Speech on the Soviet Attack on a Korean Airliner,9/5/1983,Ronald Reagan,Republican,40
+ Speech to the Nation on Lebanon and Grenada,10/27/1983,Ronald Reagan,Republican,40
+ Speech on the Creation of the Martin Luther King Jr.  National Holiday,11/2/1983,Ronald Reagan,Republican,40
+ Remarks on U.S. Casualties in Lebanon and Grenada,11/4/1983,Ronald Reagan,Republican,40
+ State of the Union Address,1/25/1984,Ronald Reagan,Republican,40
+ Address Announcing His Candidacy for Reelection,1/29/1984,Ronald Reagan,Republican,40
+ Remarks Honoring the Vietnam War’s Unknown Soldier,5/28/1984,Ronald Reagan,Republican,40
+ Remarks to the Citizens of Ballyporeen Ireland,6/3/1984,Ronald Reagan,Republican,40
+40th Anniversary of D-Day,6/6/1984,Ronald Reagan,Republican,40
+ Republican National Convention,8/23/1984,Ronald Reagan,Republican,40
+ Debate with Walter Mondale (Domestic Issues),10/7/1984,Ronald Reagan,Republican,40
+ Debate with Walter Mondale (Defense and Foreign Policy),10/21/1984,Ronald Reagan,Republican,40
+ Second Inaugural Address,1/21/1985,Ronald Reagan,Republican,40
+ State of the Union Address,2/6/1985,Ronald Reagan,Republican,40
+ Bergen-Belsen Concentration Camp,5/5/1985,Ronald Reagan,Republican,40
+ Speech on the Geneva Summit,11/21/1985,Ronald Reagan,Republican,40
+" Address on the Space Shuttle ""Challenger""",1/28/1986,Ronald Reagan,Republican,40
+ State of the Union Address,2/4/1986,Ronald Reagan,Republican,40
+ Speech to the Nation on Air Strikes Against Libya,4/14/1986,Ronald Reagan,Republican,40
+ Speech to the Nation on the Campaign Against Drug Abuse,9/14/1986,Ronald Reagan,Republican,40
+ Address on the Meetings with Soviet Premier Gorbachev,10/13/1986,Ronald Reagan,Republican,40
+ Remarks on Signing the Tax Reform Act,10/22/1986,Ronald Reagan,Republican,40
+ State of the Union Address,1/27/1987,Ronald Reagan,Republican,40
+ Address to the Nation on Iran-Contra,3/4/1987,Ronald Reagan,Republican,40
+ Address from the Brandenburg Gate (Berlin Wall),6/12/1987,Ronald Reagan,Republican,40
+ Remarks at the Signing of the INF Treaty with Soviet Premier Gorbachev,12/8/1987,Ronald Reagan,Republican,40
+ Address to the Nation on the Soviet-U.S. Summit Meeting,12/10/1987,Ronald Reagan,Republican,40
+ State of the Union Address,1/25/1988,Ronald Reagan,Republican,40
+ Address at Moscow State University,5/31/1988,Ronald Reagan,Republican,40
+ Farewell Address at the Republican National Convention,8/15/1988,Ronald Reagan,Republican,40
+ Acceptance Speech at the Republican National Convention,8/18/1988,Ronald Reagan,Republican,40
+ Debate with Michael Dukakis,9/25/1988,Ronald Reagan,Republican,40
+ Address to the United Nations,9/26/1988,Ronald Reagan,Republican,40
+ Remarks at the Veteran's Day Ceremony,11/11/1988,Ronald Reagan,Republican,40
+ Speech on Foreign Policy,12/16/1988,Ronald Reagan,Republican,40
+ Farewell Address,1/11/1989,Ronald Reagan,Republican,40
+ Inaugural Address,1/20/1989,George H.W. Bush,Republican,41
+ Address Before a Joint Session of Congress,2/9/1989,George H.W. Bush,Republican,41
+ Commencement Address at Texas A&M University,5/12/1989,George H.W. Bush,Republican,41
+ Address to the Nation on Panama,12/20/1989,George H.W. Bush,Republican,41
+ State of the Union Address,1/31/1990,George H.W. Bush,Republican,41
+ Remarks on the Signing of the Americans with Disabilities Act,7/26/1990,George H.W. Bush,Republican,41
+ Address on Iraq's Invasion of Kuwait,8/8/1990,George H.W. Bush,Republican,41
+ Address Before a Joint Session of Congress,9/11/1990,George H.W. Bush,Republican,41
+ Address to the United Nations,10/1/1990,George H.W. Bush,Republican,41
+ Address to the Nation on the Budget,10/2/1990,George H.W. Bush,Republican,41
+ Address to the Nation on the Invasion of Iraq,1/16/1991,George H.W. Bush,Republican,41
+ State of the Union Address,1/29/1991,George H.W. Bush,Republican,41
+ Address on the End of the Gulf War,2/27/1991,George H.W. Bush,Republican,41
+ Address Before a Joint Session of Congress on the End of the Gulf War,3/6/1991,George H.W. Bush,Republican,41
+ Press Conference with Mikhail Gorbachev,7/31/1991,George H.W. Bush,Republican,41
+ State of the Union Address,1/28/1992,George H.W. Bush,Republican,41
+ Republican National Convention,8/20/1992,George H.W. Bush,Republican,41
+ Debate with Bill Clinton and Ross Perot,10/11/1992,George H.W. Bush,Republican,41
+ Address on Somalia,12/4/1992,George H.W. Bush,Republican,41
+ Remarks at Texas A&M University,12/15/1992,George H.W. Bush,Republican,41
+ Address at West Point,1/5/1993,George H.W. Bush,Republican,41
+ First Inaugural,1/20/1993,Bill Clinton,Democratic,42
+" Press Conference on ""Gays in the Military""",1/29/1993,Bill Clinton,Democratic,42
+ Remarks at the Signing of the Family Medical Leave Act,2/5/1993,Bill Clinton,Democratic,42
+ Address Before a Joint Session of Congress,2/17/1993,Bill Clinton,Democratic,42
+ National Service Address,4/30/1993,Bill Clinton,Democratic,42
+ Remarks on Operation Restore Hope,5/5/1993,Bill Clinton,Democratic,42
+Speech at the 25th Anniversary Memorial Mass for Robert F. John Kennedy,6/6/1993,Bill Clinton,Democratic,42
+ Remarks at the Signing of the Israeli-Palestinian Agreement,9/13/1993,Bill Clinton,Democratic,42
+ Address on Health Care Reform,9/22/1993,Bill Clinton,Democratic,42
+ Address on Somalia,10/7/1993,Bill Clinton,Democratic,42
+ Remarks to the Convocation of the Church of God in Christ in Memphis,11/13/1993,Bill Clinton,Democratic,42
+ Remarks on the Signing of NAFTA,12/8/1993,Bill Clinton,Democratic,42
+ State of the Union Address,1/25/1994,Bill Clinton,Democratic,42
+ Remarks at the U.S. National Cemetery,6/6/1994,Bill Clinton,Democratic,42
+ Remarks at the Brandenburg Gate,7/12/1994,Bill Clinton,Democratic,42
+ State of the Union Address,1/24/1995,Bill Clinton,Democratic,42
+ Time for Healing Ceremony,4/23/1995,Bill Clinton,Democratic,42
+ Address on Affirmative Action,7/19/1995,Bill Clinton,Democratic,42
+ Address on Race Relations,10/16/1995,Bill Clinton,Democratic,42
+ Address on Bosnia,11/27/1995,Bill Clinton,Democratic,42
+ Address to the Employees of the Mackie Metal Plant,11/30/1995,Bill Clinton,Democratic,42
+ State of the Union Address,1/23/1996,Bill Clinton,Democratic,42
+ Victims Rights Announcement,6/25/1996,Bill Clinton,Democratic,42
+ Remarks at the Democratic National Convention,8/29/1996,Bill Clinton,Democratic,42
+ Presidential Debate with Senator Bob Dole,10/6/1996,Bill Clinton,Democratic,42
+ Remarks to the Congregation of St. Paul's AME Church,11/3/1996,Bill Clinton,Democratic,42
+ Second Inaugural,1/20/1997,Bill Clinton,Democratic,42
+ State of the Union Address,2/4/1997,Bill Clinton,Democratic,42
+ Address to the People and Relief Workers of Grand Forks  ND,4/22/1997,Bill Clinton,Democratic,42
+ Response to the Lewinsky Allegations,1/26/1998,Bill Clinton,Democratic,42
+ State of the Union Address,1/27/1998,Bill Clinton,Democratic,42
+ Remarks to the People of Ghana,3/23/1998,Bill Clinton,Democratic,42
+ Remarks to the People of Rwanda,3/25/1998,Bill Clinton,Democratic,42
+ Statement on His Testimony Before the Grand Jury,8/17/1998,Bill Clinton,Democratic,42
+ State of the Union Address,1/19/1999,Bill Clinton,Democratic,42
+ Statement on Kosovo,3/24/1999,Bill Clinton,Democratic,42
+ Address on the Kosovo Agreement,6/10/1999,Bill Clinton,Democratic,42
+ State of the Union Address,1/27/2000,Bill Clinton,Democratic,42
+ Farewell Address,1/18/2001,Bill Clinton,Democratic,42
+ First Inaugural Address,1/20/2001,George W. Bush,Republican,43
+ Remarks on Faith-Based and Community Initiatives,1/29/2001,George W. Bush,Republican,43
+ Proposal for Global Fund to Fight HIV/AIDS  Malaria  and Tuberculosis,5/11/2001,George W. Bush,Republican,43
+ Remarks on Signing the Economic Growth and Tax Relief Reconciliation Act,6/7/2001,George W. Bush,Republican,43
+ Address to the Nation on Stem Cell Research,8/10/2001,George W. Bush,Republican,43
+ Address to the Nation on the Terrorist Attacks,9/11/2001,George W. Bush,Republican,43
+Address on the U.S. Response to the Attacks of September 11,9/22/2001,George W. Bush,Republican,43
+ Remarks on No Child Left Behind Bill,1/8/2002,George W. Bush,Republican,43
+ State of the Union Address,1/29/2002,George W. Bush,Republican,43
+ Graduation Speech at West Point,6/1/2002,George W. Bush,Republican,43
+ Address to the Nation on the Department of Homeland Security,6/7/2002,George W. Bush,Republican,43
+ Speech on New Mother and Child HIV Prevention Initiative,6/19/2002,George W. Bush,Republican,43
+ Remarks at the UN General Assembly,9/12/2002,George W. Bush,Republican,43
+ State of the Union Address,1/28/2003,George W. Bush,Republican,43
+ Address to the Nation on Iraq,3/17/2003,George W. Bush,Republican,43
+ Address on the Start of the Iraq War,3/20/2003,George W. Bush,Republican,43
+ Remarks on Freedom in Iraq and Middle East,11/6/2003,George W. Bush,Republican,43
+ Address on Signing Medicare Legislation,12/8/2003,George W. Bush,Republican,43
+ Temporary Worker Program Proposal,1/7/2004,George W. Bush,Republican,43
+ State of the Union Address,1/20/2004,George W. Bush,Republican,43
+ Remarks on National Security and the War Effort,7/17/2004,George W. Bush,Republican,43
+ Remarks at the Republican National Convention,9/3/2004,George W. Bush,Republican,43
+ Second Inaugural Address,1/20/2005,George W. Bush,Republican,43
+ State of the Union Address,2/2/2005,George W. Bush,Republican,43
+ Remarks on Hurricane Katrina Relief Efforts,8/31/2005,George W. Bush,Republican,43
+ Hurricane Relief Address from New Orleans,9/16/2005,George W. Bush,Republican,43
+ Address on Renewal in Iraq,12/19/2005,George W. Bush,Republican,43
+ State of the Union Address,1/31/2006,George W. Bush,Republican,43
+ Remarks on Stem Cell Research Policy,7/19/2006,George W. Bush,Republican,43
+ Address on Military Operations in Iraq,1/11/2007,George W. Bush,Republican,43
+ State of the Union Address,1/23/2007,George W. Bush,Republican,43
+ Speech on Comprehensive Immigration Reform,4/9/2007,George W. Bush,Republican,43
+ State of the Union Address,1/28/2008,George W. Bush,Republican,43
+ Remarks on the War on Terror,3/19/2008,George W. Bush,Republican,43
+ Acceptance Speech at the Democratic National Convention,8/28/2008,George W. Bush,Republican,43
+Remarks on Emergency Economic Stabilization Act of 2008,10/3/2008,George W. Bush,Republican,43
+ Remarks on Election Night,11/4/2008,George W. Bush,Republican,43
+ Speech on Financial Markets and the World Economy,11/13/2008,George W. Bush,Republican,43
+ Remarks on Plan to Assist Automakers,12/19/2008,George W. Bush,Republican,43
+ Final Press Conference,1/12/2009,George W. Bush,Republican,43
+ Farewell Address to the Nation,1/15/2009,George W. Bush,Republican,43
+ Inaugural Address,1/20/2009,Barack Obama,Democratic,44
+ Remarks on the Lilly Ledbetter Fair Pay Restoration Act Bill Signing,1/29/2009,Barack Obama,Democratic,44
+ Remarks on the American Recovery and Reinvestment Act,2/7/2009,Barack Obama,Democratic,44
+ Address Before a Joint Session of Congress,2/24/2009,Barack Obama,Democratic,44
+ Remarks on Nominating Judge Sonia Sotomayor to the U.S. Supreme Court,5/26/2009,Barack Obama,Democratic,44
+ Address at Cairo University,6/4/2009,Barack Obama,Democratic,44
+ Address to Congress on Health Care,9/9/2009,Barack Obama,Democratic,44
+ Speech on Strategy in Afghanistan and Pakistan,12/1/2009,Barack Obama,Democratic,44
+ Acceptance of Nobel Peace Prize,12/10/2009,Barack Obama,Democratic,44
+2010 State of the Union Address,1/27/2010,Barack Obama,Democratic,44
+ News Conference on Congressional Gridlock,2/9/2010,Barack Obama,Democratic,44
+ Speech on Health Care Reform,3/15/2010,Barack Obama,Democratic,44
+Remarks on Space Exploration in the 21st Century,4/15/2010,Barack Obama,Democratic,44
+ Remarks on Wall Street Reform,4/28/2010,Barack Obama,Democratic,44
+ Speech on the BP Oil Spill,6/15/2010,Barack Obama,Democratic,44
+ Address on the End of the Combat Mission in Iraq,8/31/2010,Barack Obama,Democratic,44
+ Address to the United Nations,9/23/2010,Barack Obama,Democratic,44
+Press Conference After 2010 Midterm Elections,11/3/2010,Barack Obama,Democratic,44
+ Remarks at Memorial for Victims of the Tucson  AZ Shooting,1/12/2011,Barack Obama,Democratic,44
+2011 State of the Union Address,1/25/2011,Barack Obama,Democratic,44
+ Remarks on the Death of Osama Bin Laden,5/1/2011,Barack Obama,Democratic,44
+ Speech on American Diplomacy in the Middle East and North Africa,5/19/2011,Barack Obama,Democratic,44
+ Address to the British Parliament,5/25/2011,Barack Obama,Democratic,44
+ Remarks on the Afghanistan Pullout,6/22/2011,Barack Obama,Democratic,44
+ Address to Congress on the American Jobs Act,9/8/2011,Barack Obama,Democratic,44
+ Remarks on the End of the War in Iraq,10/21/2011,Barack Obama,Democratic,44
+2012 State of the Union Address,1/24/2012,Barack Obama,Democratic,44
+Nominee Acceptance Speech at 2012 Democratic National Convention,9/6/2012,Barack Obama,Democratic,44
+2012 Election Night Victory Speech,11/6/2012,Barack Obama,Democratic,44
+ Remarks on Sandy Hook Elementary Shootings,12/16/2012,Barack Obama,Democratic,44
+ Second Inaugural Address,1/21/2013,Barack Obama,Democratic,44
+ Remarks on Immigration Reform,1/29/2013,Barack Obama,Democratic,44
+2013 State of the Union Address,2/13/2013,Barack Obama,Democratic,44
+ Statement on the Government Sequester,3/1/2013,Barack Obama,Democratic,44
+ Address to the People of Israel,3/21/2013,Barack Obama,Democratic,44
+ Speech on Gun Violence,4/8/2013,Barack Obama,Democratic,44
+ Remarks on Trayvon Martin,7/19/2013,Barack Obama,Democratic,44
+ Remarks on Education and the Economy,7/24/2013,Barack Obama,Democratic,44
+ Address to the Nation on Syria,9/10/2013,Barack Obama,Democratic,44
+ Speech on Economic Mobility,12/4/2013,Barack Obama,Democratic,44
+2014 State of the Union Address,1/28/2014,Barack Obama,Democratic,44
+ Address to the Nation on Immigration,11/20/2014,Barack Obama,Democratic,44
+2015 State of the Union Address,1/20/2015,Barack Obama,Democratic,44
+Remarks at the 50th Anniversary of the Selma Marches,3/7/2015,Barack Obama,Democratic,44
+ Remarks in Eulogy for the Honorable Reverend Clementa Pickney,6/26/2015,Barack Obama,Democratic,44
+2016 State of the Union Address,1/12/2016,Barack Obama,Democratic,44
+ Remarks to the People of Cuba,3/22/2016,Barack Obama,Democratic,44
+ Commencement Address at Rutgers University,5/15/2016,Barack Obama,Democratic,44
+ Inaugural Address,1/20/2017,Donald Trump,Republican,45
+ Address to Joint Session of Congress,2/28/2017,Donald Trump,Republican,45
+ State of the Union Address,1/30/2018,Donald Trump,Republican,45
