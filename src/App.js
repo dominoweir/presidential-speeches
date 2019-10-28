@@ -15,7 +15,7 @@ class App extends React.Component {
 
   state = {
     currentTopics: ["Election"],
-    currentPresidents: [],
+    currentPresidents: ["George Washington"],
     currentView: "wordnet",
     data: SpeechData
   }

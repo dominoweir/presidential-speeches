@@ -1,6 +1,6 @@
 import json
 
-speech_metadata = {}
+speech_metadata = []
 
 all_ranked_topic_indices = open("Index_rankedsimi_onTopics.csv", "r+")
 all_ranked_topic_scores = open("Value_rankedsimi_onTopics.csv", "r+")
@@ -26,7 +26,8 @@ with open('all_speeches.csv', 'r+') as f:
             "id": ranked_word_indices[i],
             "score": ranked_word_scores[i]
         }
-    speech_metadata[values[0]] = {
+    speech_metadata.append({
+        "id": values[0],
         "title": values[1],
         "date": values[2],
         "president": values[3],
@@ -34,7 +35,7 @@ with open('all_speeches.csv', 'r+') as f:
         "number": values[5].strip(),
         "most_similar_topics": top_10_similar_topic,
         "most_similar_words": top_10_similar_words
-    }
+    })
 
 with open('all_speeches.json', 'w+') as f:
   f.write(json.dumps(speech_metadata, indent=2))
