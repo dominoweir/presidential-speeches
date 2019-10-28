@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import Card from '@material-ui/core/Card';
 import Grid from '@material-ui/core/Grid';
-import { Typography, CardContent, CardActionArea, CardMedia, ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary } from '@material-ui/core';
+import { Typography, CardActionArea, ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary } from '@material-ui/core';
 
 class PresidentSelector extends React.Component {
 
@@ -18,7 +18,7 @@ class PresidentSelector extends React.Component {
 
   render() {
 
-    var presidents = ['harrison', 'jefferson', 'fillmore', 'carter',
+    const presidents = ['harrison', 'jefferson', 'fillmore', 'carter',
       'kennedy', 'ford', 'grant', 'harding', 'johnson', 'washington',
       'coolidge', 'monroe', 'hayes', 'nixon', 'taylor', 'jackson',
       'clinton', 'van-buren', 'adams', 'reagan', 'hoover', 'eisenhower',
@@ -29,13 +29,10 @@ class PresidentSelector extends React.Component {
     const PresidentCards = () => (presidents.map(president => (
       <Grid item={true} xs={2} key={president}>
         <Card>
-          <CardActionArea>
-            <CardMedia src={process.env.PUBLIC_URL + '/img/portraits/' + president + '.png'} title={president} />
-            <CardContent>
-              <Typography>
-                {president.charAt(0).toUpperCase() + president.slice(1)}
-              </Typography>
-            </CardContent>
+          <CardActionArea onClick={() => this.props.onPresidentChange(president)}>
+            <Typography>
+                {president}
+            </Typography>
           </CardActionArea>
         </Card>
       </Grid>
@@ -52,10 +49,28 @@ class PresidentSelector extends React.Component {
           <ExpansionPanelDetails>
             <Grid container={true} spacing={1}>
               <PresidentCards />
+              <Grid item={true} xs={2}>
+                <Card>
+                  <CardActionArea>
+                      <Typography>
+                        {"Select All"}
+                      </Typography>
+                  </CardActionArea>
+                </Card>
+              </Grid>
+              <Grid item={true} xs={2}>
+                <Card>
+                  <CardActionArea>
+                      <Typography>
+                        {"Clear All"}
+                      </Typography>
+                  </CardActionArea>
+                </Card>
+              </Grid>
             </Grid>
           </ExpansionPanelDetails>
         </ExpansionPanel>
-        
+
       </div>
     );
   }
