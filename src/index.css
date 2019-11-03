@@ -32,6 +32,15 @@ body {
   padding-right: 40px;
 }
 
+.tag {
+  margin-left: 10px;
+}
+
+.tag-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .view-selector {
   padding-top:50px;
   padding-bottom:50px;

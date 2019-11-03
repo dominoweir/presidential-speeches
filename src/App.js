@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-// import * as d3 from "d3";
 import PresidentSelector from './components/PresidentSelector';
 import TopicSelector from './components/TopicSelector';
 import { Chip, Grid, Typography } from '@material-ui/core';
@@ -13,9 +12,26 @@ import SpeechData from './data/all_speeches.json';
 
 class App extends React.Component {
 
+  constructor() {
+    super();
+    this.numTopics = 20;
+    this.topics = ['Election', 'Middle East', 'Civil War', 'Faith-Humanity', 'Labor China', 'Topic 6', 'Civil Rights',
+      'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
+      'Agriculture', 'Education/Health', 'Topic 18', 'Militry Threats', 'Currency'];
+    this.presidents = ["George Washington", "John Adams", "Thomas Jefferson", "James Madison", "James Monroe", "John Quincy Adams",
+      "Andrew Jackson", "Martin Van Buren", "William Harrison", "John Tyler", "James Polk", "Zachary Taylor", "Millard Filmore",
+      "Franklin Pierce", "James Buchanan", "Abraham Lincoln", "Andrew Johnson", "Ulysses Grant", "Rutherford Hayes", "James Garfield",
+      "Chester Arthur", "Grover Cleveland", "Benjamin Harrison", "William McKinley", "Theodore Roosevelt", "William Taft", "Woodrow Wilson",
+      "William Harding", "Calvin Coolidge", "Herbert Hoover", "Franklin Roosevelt", "Harry Truman", "Dwight Eisenhower", "John Kennedy",
+      "Lydon Johnson", "Richard Nixon", "Gerald Ford", "Jimmy Carter", "Ronald Reagan", "George H.W. Bush", "Bill Clinton", "George W. Bush",
+      "Barack Obama", "Donald Trump"];
+    this.handlePresidentSelectionChange.bind(this);
+    this.handleTopicSelectionChange.bind(this);
+  }
+
   state = {
-    currentTopics: ["Topic 6"],
-    currentPresidents: ["George Washington"],
+    currentTopics: ["Civil War"],
+    currentPresidents: ["Abraham Lincoln"],
     currentView: "wordnet",
     data: SpeechData
   }
@@ -23,15 +39,11 @@ class App extends React.Component {
   render() {
 
     const TopicTags = () => (this.state.currentTopics.map(topic => (
-      <Grid item={true} xs={2} key={topic}>
-        <Chip label={topic} onDelete={() => this.onTopicChange(topic)} />
-      </Grid>
+      <Chip key={topic} label={topic} onDelete={() => this.handleTopicSelectionChange(topic)} className="tag"/>
     )));
 
     const PresidentTags = () => (this.state.currentPresidents.map(president => (
-      <Grid item={true} xs={2} key={president}>
-        <Chip label={president} onDelete={() => this.onPresidentChange(president)} />
-      </Grid>
+      <Chip key={president} label={president} onDelete={() => this.handlePresidentSelectionChange(president)} className="tag"/>
     )));
 
     return (
@@ -46,8 +58,12 @@ class App extends React.Component {
           <Grid item={true} xs={12}>
             <PresidentSelector onPresidentChange={this.handlePresidentSelectionChange} />
           </Grid>
-          <TopicTags />
-          <PresidentTags />
+          <Grid item={true} xs={12} className="tag-container">
+            <TopicTags />
+          </Grid>
+          <Grid item={true} xs={12} className="tag-container">
+            <PresidentTags />
+          </Grid>
         </Grid>
         <ToggleButtonGroup value={this.state.currentView} exclusive={true} onChange={this.handleViewChange} className="view-selector">
           <ToggleButton value="wordnet">
@@ -67,65 +83,50 @@ class App extends React.Component {
     );
   }
 
-  // loadSpeechMetadata() {
-  //   // const response = await fetch('data/all_speeches.json');
-  //   // const json = await response.json();
-  //   // console.log(json);
-  //   fetch('./data/all_speeches.json')
-  //     .then(response => {
-  //       console.log(response);
-  //       // The response is a Response instance.
-  //       // You parse the data into a useable format using `.json()`
-  //       return response.text();
-  //     })
-  //     .then(data => {
-  //       console.log(data);
-  //     })
-  //     .catch(err => {
-  //       console.log("error :(");
-  //       console.log(err);
-  //     });
-  //   // d3.json(SpeechData, function (err, json) {
-  //   //   if (err) {
-  //   //     console.log(err);
-  //   //   }
-  //   // });
-  // }
-
   handleTopicSelectionChange = (selection) => {
     if (selection === "Select All") {
-
+      this.setState({
+        currentTopics: this.topics
+      });
     } else if (selection === "Clear All") {
       this.setState({
         currentTopics: []
       });
     } else {
       var index = this.state.currentTopics.indexOf(selection);
+      var newTopics = this.state.currentTopics;
       if (index > -1) {
-        this.state.currentTopics.splice(index, 1);
+        newTopics.splice(index, 1);
       } else {
-        this.state.currentTopics.push(selection);
+        newTopics.push(selection);
       }
+      this.setState({
+        currentTopics: newTopics
+      });
     }
-    console.log(this.state.currentTopics);
   }
 
   handlePresidentSelectionChange = (selection) => {
     if (selection === "Select All") {
-
+      this.setState({
+        currentPresidents: this.presidents
+      });
     } else if (selection === "Clear All") {
       this.setState({
         currentPresidents: []
       });
     } else {
       var index = this.state.currentPresidents.indexOf(selection);
+      var newPresidents = this.state.currentPresidents;
       if (index > -1) {
-        this.state.currentPresidents.splice(index, 1);
+        newPresidents.splice(index, 1);
       } else {
-        this.state.currentPresidents.push(selection);
+        newPresidents.push(selection);
       }
+      this.setState({
+        currentPresidents: newPresidents
+      });
     }
-    console.log(this.state.currentPresidents);
   }
 
   handleViewChange = (event, newView) => {
