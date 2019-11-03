@@ -10,7 +10,7 @@ with open('topic_probability_by_id.csv', 'r+') as f:
         obj["id"] = values[0]
         scores = values[-20:]
         for i in range(0, len(topic_names)):
-            obj[topic_names[i]] = float(scores[i])
+            obj[topic_names[i].strip()] = float(scores[i])
         speech_topic_probabilities.append(obj)
 
 with open('topic_probability_by_id.json', 'w+') as f:

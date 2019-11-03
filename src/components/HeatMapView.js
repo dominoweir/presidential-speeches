@@ -19,8 +19,7 @@ class HeatMapView extends React.Component {
     tooltip: null,
     mouseover: null,
     mousemove: null,
-    mouseleave: null,
-    presidents: ["George Washington"]
+    mouseleave: null
   }
 
   // create heatmaps based on initial selection
@@ -37,7 +36,6 @@ class HeatMapView extends React.Component {
     if (this.props.visible) {
       if (this.state.svg === null) {
         var margin = { top: 110, right: 75, bottom: 30, left: 50 };
-
         var svg = d3.select(this.refs.heatmapContainer).append("svg")
           .attr("width", this.width + margin.left + margin.right)
           .attr("height", this.height + margin.top + margin.bottom)
@@ -45,7 +43,7 @@ class HeatMapView extends React.Component {
           .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
-        var tooltip = d3.select("g")
+        var tooltip = d3.select(this.refs.heatmapContainer)
           .append("div")
           .style("opacity", 0)
           .attr("class", "tooltip")
@@ -63,15 +61,22 @@ class HeatMapView extends React.Component {
             .style("opacity", 1);
         }
         var mousemove = function (d) {
-          // tooltip
-          //   .text("The exact value of this cell is: " + d.split(":")[1])
-          //   .attr("x", d3.event.pageX)
-          //   .attr("y", d3.event.pageY);
-
-          d3.select(this).append("text")
-            .text(d)
-            .attr("x", d3.event.pageX)
-            .attr("y", d3.event.pageY)
+          var tooltipString = "";
+          var transformString = "(" + d3.event.pageX + "," + d3.event.pageY + ")";
+          var probabilityString = d.split(":")[1];
+          // var id = d.split(":")[0];
+          // var title = nestedSpeeches[id].values[0].title;
+          if(probabilityString !== "0") {
+            probabilityString = probabilityString.split(".")[1];
+            probabilityString = probabilityString.slice(0, 2) + "." + probabilityString.slice(2, 5);
+            if(probabilityString.startsWith("0")) {
+              probabilityString = probabilityString.slice(1, probabilityString.length);
+            }
+          }
+          tooltipString = tooltipString + (probabilityString + "% likelihood\n");
+          // tooltipString = tooltipString + title; 
+          tooltip.text(tooltipString)
+            .attr("transform", transformString)
             .style("font-size", 15)
             .style("fill", "#69a3b2");
         }
@@ -102,9 +107,15 @@ class HeatMapView extends React.Component {
         var topics = ['Election', 'Middle East', 'Civil War', 'Faith-Humanity', 'Labor China', 'Topic 6', 'Civil Rights',
           'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
           'Agriculture', 'Education/Health', 'Topic 18', 'Militry Threats', 'Currency'];
+          
+        var selectedPresidents = this.props.presidents;
+        var selectedTopics = this.props.topics;
 
         var selectedSpeeches = this.state.data.filter(function (d) {
-          return d.president === "George Washington";
+          var nonZeroTopics = Object.keys(d.topic_probabilities).filter(function (key) {
+            return d.topic_probabilities[key] !== 0.0;
+          });
+          return selectedPresidents.some(p => p === d.president) && selectedTopics.some(t => nonZeroTopics.includes(t));
         });
 
         var nestedSpeeches = d3.nest()
@@ -126,7 +137,7 @@ class HeatMapView extends React.Component {
           .domain([0, this.numTopics - 1]);
 
         var yScale = d3.scaleBand()
-          .range([this.height, 0])
+          .range([0, this.height])
           .domain(selectedSpeechIds);
 
         var xAxis = d3.axisTop(xScale)

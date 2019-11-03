@@ -2,6 +2,7 @@ import json
 
 speech_metadata = []
 
+all_topic_probabilities = json.load(open('topic_probability_nested_by_id.json'))
 all_ranked_topic_indices = open("Index_rankedsimi_onTopics.csv", "r+")
 all_ranked_topic_scores = open("Value_rankedsimi_onTopics.csv", "r+")
 all_ranked_word_indices = open("Index_rankedsimi_onwordusage.csv", "r+")
@@ -15,6 +16,7 @@ with open('all_speeches.csv', 'r+') as f:
     ranked_topic_indices = all_ranked_topic_indices.readline().split(',')[1:11]
     ranked_word_scores = all_ranked_word_scores.readline().split(',')[1:11]
     ranked_word_indices = all_ranked_word_indices.readline().split(',')[1:11]
+    topic_probabilities = all_topic_probabilities[values[0]]
     top_10_similar_topic = {}
     top_10_similar_words = {}
     for i in range(0, 10):
@@ -34,7 +36,8 @@ with open('all_speeches.csv', 'r+') as f:
         "party": values[4],
         "number": values[5].strip(),
         "most_similar_topics": top_10_similar_topic,
-        "most_similar_words": top_10_similar_words
+        "most_similar_words": top_10_similar_words,
+        "topic_probabilities": topic_probabilities
     })
 
 with open('all_speeches.json', 'w+') as f:

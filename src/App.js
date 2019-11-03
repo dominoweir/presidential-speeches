@@ -14,7 +14,7 @@ import SpeechData from './data/all_speeches.json';
 class App extends React.Component {
 
   state = {
-    currentTopics: ["Election"],
+    currentTopics: ["Topic 6"],
     currentPresidents: ["George Washington"],
     currentView: "wordnet",
     data: SpeechData
