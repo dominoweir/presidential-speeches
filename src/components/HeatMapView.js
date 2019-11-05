@@ -132,9 +132,6 @@ class HeatMapView extends React.Component {
           selectedSpeechIds.push(element.id);
         });
 
-        console.log(selectedSpeechIds);
-        console.log(selectedTopics);
-
         var xScale = d3.scaleLinear()
           .range([0, this.width])
           .domain([0, this.numTopics - 1]);

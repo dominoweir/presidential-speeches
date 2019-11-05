@@ -50,3 +50,14 @@ body {
 .hidden { 
   display: none; 
 }
+
+.media {
+  width: 268px;
+  height: 319px;
+  display: inline-block !important;
+}
+
+.select-button {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+}
