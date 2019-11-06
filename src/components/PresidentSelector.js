@@ -23,8 +23,8 @@ class PresidentSelector extends React.Component {
   render() {
 
     var presidentImages = []
-    for (var i = 1; i <= this.state.numPresidents; i++) {
-      const img = require('../data/portraits/' + i + '.png');
+    for (var i = 1; i < this.state.numPresidents; i++) {
+      const img = require('../data/portraits/' + (i > 23 ? i + 1 : i) + '.png');
       presidentImages.push(img);
     }
 
