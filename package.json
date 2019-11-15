@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.5.1",
-    "@material-ui/lab": "^4.0.0-alpha.29",
+    "@material-ui/core": "^4.6.0",
+    "@material-ui/lab": "^4.0.0-alpha.31",
     "d3": "^5.12.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-router": "^5.0.1",
+    "d3-tip": "^0.9.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-router": "^5.1.2",
     "react-router-dom": "^4.4.0-beta.8",
     "react-scripts": "3.1.2",
-    "typescript": "^3.6.3"
+    "typescript": "^3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",

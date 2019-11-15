@@ -31,7 +31,7 @@ class App extends React.Component {
 
   state = {
     currentTopics: ["Topic 6"],
-    currentPresidents: ["George Washington"],
+    currentPresidents: ["George Washington", "John Adams"],
     currentView: "wordnet",
     data: SpeechData
   }
@@ -70,10 +70,13 @@ class App extends React.Component {
             <Typography>{"WordNet"}</Typography>
           </ToggleButton>
           <ToggleButton value="heatmap">
-            <Typography>{"Speech Topics"}</Typography>
+            <Typography>{"Topics by Speech"}</Typography>
+          </ToggleButton>
+          <ToggleButton value="trends">
+            <Typography>{"Topic Trends Over Time"}</Typography>
           </ToggleButton>
           <ToggleButton value="compare">
-            <Typography>{"Compare Presidents"}</Typography>
+            <Typography>{"Compare Presidents by Party"}</Typography>
           </ToggleButton>
         </ToggleButtonGroup>
         <WordNetView visible={this.state.currentView === "wordnet"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
