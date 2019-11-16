@@ -12,6 +12,7 @@ class HeatMapView extends React.Component {
     this.numTopics = 20;
     this.heatmapWidth = 700;
     this.height = 1000;
+    this.topicSimilarityText = "Speeches discussing similar topics";
   }
 
   state = {
@@ -23,8 +24,8 @@ class HeatMapView extends React.Component {
     hoverPresident: null,
     hoverDate: null,
     hoverParty: null,
-    hoverTopics: {},
-    hoverWords: {}
+    hoverTopics: [],
+    hoverWords: []
   }
 
   // create heatmaps based on initial selection
@@ -126,8 +127,7 @@ class HeatMapView extends React.Component {
           .selectAll("text")
           .attr("transform", "translate(25,0)rotate(-45)")
           .style("text-anchor", "start")
-          .style("font-size", 15)
-          .style("fill", "#69a3b2");
+          .style("font-size", 15);
 
         // hide axis lines
         svg.selectAll(".domain")
@@ -232,6 +232,10 @@ class HeatMapView extends React.Component {
     var selectedSpeech = this.state.data.filter(function (d) {
       return d.id === currentHoverId;
     })[0];
+    var similarByTopic = [];
+    var similarByLanguage = [];
+    Object.keys(selectedSpeech.most_similar_topics).forEach(key => similarByTopic.push(selectedSpeech.most_similar_topics[key]));
+    Object.keys(selectedSpeech.most_similar_words).forEach(key => similarByLanguage.push(selectedSpeech.most_similar_words[key]));
     this.setState({
       hoverId: currentHoverId,
       hoverTitle: selectedSpeech.title,
@@ -250,6 +254,19 @@ class HeatMapView extends React.Component {
   }
 
   render() {
+
+    const TopicRankings = () => (this.state.hoverTopics.map(speech => (
+      <div key={speech.id} className="rankings">
+        <Typography>{speech.rank + ". " + speech.title + " by " + speech.president + " (" + speech.score + "% similar)"}</Typography>
+      </div>
+    )));
+
+    const LanguageRankings = () => (this.state.hoverWords.map(speech => (
+      <div key={speech.id} className="rankings">
+        <Typography>{speech.rank + ". " + speech.title + " by " + speech.president + " (" + speech.score + "% similar)"}</Typography>
+      </div>
+    )));
+
     return (
       <Grid container={true} className={this.props.visible ? "heatmap-container" : "hidden"}>
         <Grid item={true} xs={8} className={this.props.visible ? "heatmap-svg" : "hidden"}>
@@ -261,6 +278,10 @@ class HeatMapView extends React.Component {
           <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverDate}</Typography>
           <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverPresident}</Typography>
           <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverParty}</Typography>
+          <Typography className={this.props.visible ? "similarity-header" : "hidden"}>{this.state.hoverId === 0 ? null : "Speeches discussing similar topics"}</Typography>
+          <TopicRankings />
+          <Typography className={this.props.visible ? "similarity-header" : "hidden"}>{this.state.hoverId === 0 ? null : "Speeches using similar language"}</Typography>
+          <LanguageRankings />
         </Grid>
       </Grid>
     );

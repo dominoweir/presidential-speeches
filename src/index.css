@@ -62,15 +62,16 @@ body {
   padding-bottom: 15px !important;
 }
 
-/* .heatmap-svg {
-  border: 1px;		
-  border-color: black;	
-  border-style: solid;	
-} */
-
 .heatmap-sidebar {
-  padding-right: 50px;
-  /* border: 1px;		
-  border-color: black;	
-  border-style: solid;	 */
+  padding-right: 75px;
+}
+
+.similarity-header {
+  padding-top: 20px;
+  text-align: left !important;
+  font-style: italic;
+}
+
+.rankings {
+  text-align: left !important;
 }
