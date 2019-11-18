@@ -129,6 +129,7 @@ class HeatMapView extends React.Component {
       .on("mouseleave", this.mouseleave);
 
     // append tick labels for topics to top x axis
+    // hello world~
     svg.append("g")
       .call(xAxis)
       .selectAll("text")
