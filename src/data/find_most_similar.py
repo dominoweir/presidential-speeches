@@ -33,8 +33,8 @@ with open('all_speeches.csv', 'r+') as f:
         })
         top_10_similar_words.append({
             "id": ranked_word_indices[i],
-            "title": all_speeches[ranked_topic_indices[i]]['title'],
-            "president":  all_speeches[ranked_topic_indices[i]]['president'],
+            "title": all_speeches[ranked_word_indices[i]]['title'],
+            "president":  all_speeches[ranked_word_indices[i]]['president'],
             "score": ranked_word_scores[i][0:6],
             "rank": i + 1
         })
