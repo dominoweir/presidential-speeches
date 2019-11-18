@@ -52,8 +52,8 @@ class HeatMapView extends React.Component {
 
   createHeatmap = () => {
     var topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Topic 6', 'Civil Rights',
-    'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
-    'Agriculture', 'Education/Health', 'Topic 18', 'Military Threats', 'Currency'];
+      'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
+      'Agriculture', 'Education/Health', 'Topic 18', 'Military Threats', 'Currency'];
     var selectedPresidents = this.props.presidents;
     var selectedTopics = this.props.topics;
 
@@ -64,13 +64,26 @@ class HeatMapView extends React.Component {
       return selectedPresidents.some(p => p === d.president) && selectedTopics.some(t => nonZeroTopics.includes(t));
     });
 
-    var selectedProbabilities = this.state.topicProbabilities.filter(function (d) {
+    var selectedProbabilityObjects = this.state.topicProbabilities.filter(function (d) {
       return selectedSpeeches.some(s => s.id === d.id);
     });
 
     var selectedSpeechIds = [];
     selectedSpeeches.forEach(element => {
       selectedSpeechIds.push(element.id);
+    });
+
+    var selectedProbabilities = [];
+    selectedProbabilityObjects.forEach(element => {
+      var probabilities = [];
+      var id = element.id;
+      for (var key in element) {
+        if (key !== "id") {
+          var topicIndex = topics.indexOf(key);
+          probabilities.push(id + ":" + element[key] + ":" + topicIndex);
+        }
+      }
+      selectedProbabilities.push({ probabilities });
     });
 
     var xScale = d3.scaleLinear()
@@ -95,7 +108,7 @@ class HeatMapView extends React.Component {
       .attr("class", "heatmap-row-container")
       .attr("transform", "translate(" + this.margin.left + "," + this.margin.top + ")");
 
-    // our entry point for the heatmap is this singular group element, which then gets
+    // our entry point for the heatmap is this singular g container element, which then gets
     // one g element appended to it per speech
     var speeches = svg.selectAll("g")
       .data(selectedProbabilities)
@@ -105,17 +118,7 @@ class HeatMapView extends React.Component {
 
     // actually create all the boxes for our map
     speeches.selectAll()
-      .data(function (d) {
-        var p = [];
-        var id = d.id;
-        for (var key in d) {
-          if (key !== "id") {
-            var topicIndex = topics.indexOf(key);
-            p.push(id + ":" + d[key] + ":" + topicIndex);
-          }
-        }
-        return p;
-      })
+      .data(function (d) { return d.probabilities; })
       .enter()
       .append("rect")
       .attr("x", function (d, i) { return xScale(i); })
@@ -129,7 +132,6 @@ class HeatMapView extends React.Component {
       .on("mouseleave", this.mouseleave);
 
     // append tick labels for topics to top x axis
-    // hello world~
     svg.append("g")
       .call(xAxis)
       .selectAll("text")
@@ -153,10 +155,12 @@ class HeatMapView extends React.Component {
   updateHeatmap = () => {
     if (this.props.visible && this.state.svgCreated) {
       var topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Topic 6', 'Civil Rights',
-      'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
-      'Agriculture', 'Education/Health', 'Topic 18', 'Military Threats', 'Currency'];
+        'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
+        'Agriculture', 'Education/Health', 'Topic 18', 'Military Threats', 'Currency'];
       var selectedPresidents = this.props.presidents;
       var selectedTopics = this.props.topics;
+      var selectedSpeechIds = [];
+      var selectedProbabilities = [];
 
       var selectedSpeeches = this.state.data.filter(function (d) {
         var nonZeroTopics = Object.keys(d.topic_probabilities).filter(function (key) {
@@ -165,14 +169,24 @@ class HeatMapView extends React.Component {
         return selectedPresidents.some(p => p === d.president) && selectedTopics.some(t => nonZeroTopics.includes(t));
       });
 
-      var selectedProbabilities = this.state.topicProbabilities.filter(function (d) {
+      var selectedProbabilityObjects = this.state.topicProbabilities.filter(function (d) {
         return selectedSpeeches.some(s => s.id === d.id);
       });
 
-      var selectedSpeechIds = [];
-
       selectedSpeeches.forEach(element => {
         selectedSpeechIds.push(element.id);
+      });
+
+      selectedProbabilityObjects.forEach(element => {
+        var probabilities = [];
+        var id = element.id;
+        for (var key in element) {
+          if (key !== "id") {
+            var topicIndex = topics.indexOf(key);
+            probabilities.push(id + ":" + element[key] + ":" + topicIndex);
+          }
+        }
+        selectedProbabilities.push({ probabilities });
       });
 
       var xScale = d3.scaleLinear()
@@ -190,29 +204,22 @@ class HeatMapView extends React.Component {
       // one g element appended to it per speech
       var speeches = d3.select(".heatmap-row-container")
         .selectAll(".heatmap-row")
-        .data(selectedProbabilities, function (d) {
-          var p = [];
-          var id = d.id;
-          for (var key in d) {
-            if (key !== "id") {
-              var topicIndex = topics.indexOf(key);
-              p.push(id + ":" + d[key] + ":" + topicIndex);
-            }
-          }
-          return p;
-        });
+        .data(selectedProbabilities);
 
-      speeches.exit().remove();
+      // actually create all the rows for our map
+      var speechesEnter = speeches.enter()
+        .append("g")
+        .attr("class", "heatmap-row");
 
-      // actually create all the boxes for our map
-      var speechesEnter = speeches.selectAll(".heatmap-box").enter()
+      // merge the old state of the graph with the new one
+      speeches.merge(speechesEnter);
+
+      speeches.selectAll()
+        .data(function (d) { return d.probabilities; })
+        .enter()
         .append("rect")
         .attr("x", function (d, i) { return xScale(i); })
-        .attr("y", function (d) {
-          console.log("update boxes");
-          console.log(d);
-          return (yScale(d.id))
-        })
+        .attr("y", function (d) { return (yScale(d.split(":")[0])) })
         .attr("width", 35)
         .attr("height", 35)
         .attr("class", "heatmap-box")
@@ -221,11 +228,7 @@ class HeatMapView extends React.Component {
         .on("mousemove", this.mousemove)
         .on("mouseleave", this.mouseleave);
 
-      speeches.merge(speechesEnter);
-      // .attr('cy', function (d) {
-      //   console.log(d)
-      //   return (yScale(d.split(":")[0]));
-      // });
+      speeches.exit().remove();
     }
   }
 

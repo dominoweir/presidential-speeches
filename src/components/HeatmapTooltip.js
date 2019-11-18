@@ -12,7 +12,7 @@ export default ({ className, hoveredBox, xScale, yScale, topicIndex }) => {
   }
 
   const topicName = topics[topicIndex];
-  const topicProbability= hoveredBox.topic_probabilities[topics[topicIndex]] * 100;
+  const topicProbability = hoveredBox.topic_probabilities[topicName] * 100;
 
   return (
     <div className={className} style={styles}>
