@@ -11,9 +11,10 @@ class HeatMapView extends React.Component {
   constructor() {
     super();
     this.numTopics = 20;
+    this.selectedSpeechIds = [];
     this.heatmapWidth = 700;
     this.height = 1000;
-    this.margin = { top: 110, right: 75, bottom: 30, left: 50 };
+    this.margin = { top: 110, right: 75, bottom: 150, left: 50 };
   }
 
   state = {
@@ -28,8 +29,6 @@ class HeatMapView extends React.Component {
     hoverTopics: [],
     hoverWords: [],
     svgCreated: false,
-    xScale: d3.scaleLinear(),
-    yScale: d3.scaleBand(),
     currentHoverTopic: 0
   }
 
@@ -85,6 +84,9 @@ class HeatMapView extends React.Component {
       }
       selectedProbabilities.push({ probabilities });
     });
+
+    this.selectedSpeechIds = selectedSpeechIds;
+    this.height = (selectedSpeechIds.length * 35);
 
     var xScale = d3.scaleLinear()
       .range([0, this.heatmapWidth])
@@ -146,9 +148,7 @@ class HeatMapView extends React.Component {
       .style("stroke-width", "1");
 
     this.setState({
-      svgCreated: true,
-      xScale: xScale,
-      yScale: yScale
+      svgCreated: true
     });
   }
 
@@ -189,6 +189,9 @@ class HeatMapView extends React.Component {
         selectedProbabilities.push({ probabilities });
       });
 
+      this.selectedSpeechIds = selectedSpeechIds;
+      this.height = (selectedSpeechIds.length * 35);
+
       var xScale = d3.scaleLinear()
         .range([0, this.heatmapWidth])
         .domain([0, this.numTopics - 1]);
@@ -206,7 +209,10 @@ class HeatMapView extends React.Component {
         .selectAll(".heatmap-row")
         .data(selectedProbabilities);
 
-      // actually create all the rows for our map
+      // remove the rows that no longer need to be displayed
+      speeches.exit().remove();
+
+      // actually create all the new rows for our map
       var speechesEnter = speeches.enter()
         .append("g")
         .attr("class", "heatmap-row");
@@ -227,8 +233,6 @@ class HeatMapView extends React.Component {
         .on("mouseover", this.mouseover)
         .on("mousemove", this.mousemove)
         .on("mouseleave", this.mouseleave);
-
-      speeches.exit().remove();
     }
   }
 
@@ -292,8 +296,12 @@ class HeatMapView extends React.Component {
             <HeatmapTooltip
               className={"heatmap-tooltip hidden"}
               hoveredBox={this.state.hoverObj}
-              xScale={this.state.xScale}
-              yScale={this.state.yScale}
+              xScale={d3.scaleLinear()
+                .range([0, this.heatmapWidth])
+                .domain([0, this.numTopics - 1])}
+              yScale={d3.scaleBand()
+                .range([0, this.height])
+                .domain(this.selectedSpeechIds)}
               topicIndex={this.state.currentHoverTopic}
             /> :
             null
