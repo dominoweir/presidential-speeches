@@ -7,6 +7,7 @@ import ToggleButton from '@material-ui/lab/ToggleButton';
 import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
 import WordNetView from './components/WordNetView';
 import HeatMapView from './components/HeatMapView';
+import TopicTrendsView from './components/TopicTrendsView';
 import CompareView from './components/CompareView';
 import SpeechData from './data/all_speeches.json';
 
@@ -81,6 +82,7 @@ class App extends React.Component {
         </ToggleButtonGroup>
         <WordNetView visible={this.state.currentView === "wordnet"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
         <HeatMapView visible={this.state.currentView === "heatmap"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
+        <TopicTrendsView visible={this.state.currentView === "trends"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
         <CompareView visible={this.state.currentView === "compare"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
       </div>
     );
