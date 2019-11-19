@@ -32,13 +32,6 @@ class HeatMapView extends React.Component {
     currentHoverTopic: 0
   }
 
-  // create heatmaps based on initial selection
-  componentDidMount() {
-    if (this.props.visible) {
-      this.createHeatmap();
-    }
-  }
-
   // update heatmaps here as president/topic selection changes
   componentDidUpdate() {
     if (this.props.visible && this.state.svgCreated) {
@@ -209,9 +202,6 @@ class HeatMapView extends React.Component {
         .selectAll(".heatmap-row")
         .data(selectedProbabilities);
 
-      // remove the rows that no longer need to be displayed
-      speeches.exit().remove();
-
       // actually create all the new rows for our map
       var speechesEnter = speeches.enter()
         .append("g")
@@ -233,6 +223,9 @@ class HeatMapView extends React.Component {
         .on("mouseover", this.mouseover)
         .on("mousemove", this.mousemove)
         .on("mouseleave", this.mouseleave);
+
+      // remove the rows that no longer need to be displayed
+      speeches.exit().remove();
     }
   }
 
