@@ -3,7 +3,7 @@ import '../App.css';
 import * as d3 from "d3";
 import SpeechData from '../data/all_speeches.json';
 import TopicData from '../data/topic_probability_by_id.json';
-import { Grid, Typography } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import HeatmapTooltip from './HeatmapTooltip';
 
 class TopicTrendsView extends React.Component {
@@ -12,9 +12,10 @@ class TopicTrendsView extends React.Component {
     super();
     this.numTopics = 20;
     this.selectedSpeechIds = [];
-    this.heatmapWidth = 900;
+    this.heatmapWidth = 800;
+    this.width = 1000;
     this.height = 600;
-    this.margin = { top: 50, right: 75, bottom: 150, left: 100 };
+    this.margin = { top: 50, right: 75, bottom: 150, left: 75 };
   }
 
   state = {
@@ -35,17 +36,14 @@ class TopicTrendsView extends React.Component {
   // update heatmaps here as president/topic selection changes
   componentDidUpdate() {
     if (this.props.visible && this.state.svgCreated) {
-      this.updateHeatmap();
+      this.updateTopicTrends();
     }
     else if (this.props.visible && !this.state.svgCreated) {
-      this.createHeatmap();
+      this.createTopicTrends();
     }
   }
 
-  createHeatmap = () => {
-    var topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Topic 6', 'Civil Rights',
-      'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
-      'Agriculture', 'Education/Health', 'Topic 18', 'Military Threats', 'Currency'];
+  createTopicTrends = () => {
     var selectedPresidents = this.props.presidents;
     var selectedTopics = this.props.topics;
 
@@ -56,67 +54,50 @@ class TopicTrendsView extends React.Component {
       return selectedPresidents.some(p => p === d.president) && selectedTopics.some(t => nonZeroTopics.includes(t));
     });
 
-    var selectedProbabilityObjects = this.state.topicProbabilities.filter(function (d) {
-      return selectedSpeeches.some(s => s.id === d.id);
-    });
-
     var selectedSpeechIds = [];
-    var minYear = 2020;
-    var maxYear = 1700;
-    selectedSpeeches.forEach(element => {
-      var elementYear = element.date.split('/')[2];
-      if (elementYear > maxYear) {
-        maxYear = elementYear;
-      } else if (elementYear < minYear) {
-        minYear = elementYear;
-      }
-      selectedSpeechIds.push(element.id);
+    var topicObjects = [];
+    selectedSpeeches.forEach(d => {
+      var topicObj = d.topic_probabilities;
+      topicObj["id"] = d.id;
+      topicObj["date"] = new Date(d.date.split('/')[2], parseInt(d.date.split('/')[0]) - 1, parseInt(d.date.split('/')[1]) - 1);
+      selectedSpeechIds.push(d.id);
+      topicObjects.push(topicObj);
     });
-
-    var selectedProbabilities = [];
-    selectedProbabilityObjects.forEach(element => {
-      var probabilities = [];
-      var id = element.id;
-      for (var key in element) {
-        if (key !== "id") {
-          var topicIndex = topics.indexOf(key);
-          probabilities.push(id + ":" + element[key] + ":" + topicIndex);
-        }
-      }
-      selectedProbabilities.push({ probabilities });
-    });
-
     this.selectedSpeechIds = selectedSpeechIds;
 
-    var xScale = d3.scaleLinear()
+    var stackedData = d3.stack()
+      .keys(selectedTopics)(topicObjects);
+
+    var xScale = d3.scaleTime()
       .range([0, this.heatmapWidth])
-      .domain([minYear, maxYear]);
+      .domain(d3.extent(selectedSpeeches, function (d) {
+        return new Date(d.date.split('/')[2], parseInt(d.date.split('/')[0]) - 1, parseInt(d.date.split('/')[1]) - 1);
+      }));
 
     var yScale = d3.scaleLinear()
       .range([this.height, 0])
       .domain([0, 1]);
 
     var xAxis = d3.axisBottom(xScale)
-      .tickFormat(function (d) { return d.toString(); });
+      .tickFormat(function (d) { return d.getFullYear(); });
 
     var yAxis = d3.axisLeft(yScale);
 
-    // var colorScale = d3.scaleOrdinal(d3.schemeCategory20)
-    //   .domain(topics);
+    var colorScale = d3.scaleOrdinal(d3.schemeCategory10)
+      .domain(selectedTopics);
+
+    var area = d3.area()
+      .x(function (d) {
+        return xScale(d.data.date);
+      })
+      .y0(function (d) { return yScale(d[0]); })
+      .y1(function (d) { return yScale(d[1]); })
 
     // add a container group for our heatmap rows
-    var svg = d3.select(this.refs.heatmapSvg)
+    var svg = d3.select(this.refs.trendSvg)
       .append("g")
-      .attr("class", "stacked-area-container")
+      .attr("class", "trends-container")
       .attr("transform", "translate(" + this.margin.left + "," + this.margin.top + ")");
-
-    // our entry point for the heatmap is this singular g container element, which then gets
-    // one g element appended to it per speech
-    var speeches = svg.selectAll("g")
-      .data(selectedProbabilities)
-      .enter()
-      .append("g")
-      .attr("class", "topic-area");
 
     svg.append("g")
       .call(xAxis)
@@ -130,8 +111,7 @@ class TopicTrendsView extends React.Component {
       .attr("text-anchor", "middle")
       .attr("x", this.heatmapWidth / 2)
       .attr("y", this.height + 50)
-      .text("Speech Date");
-
+      .text("Time (Speech Date)");
 
     svg.append('g')
       .attr('transform', 'translate(' + (-50) + ', ' + (this.height / 2) + ')')
@@ -139,95 +119,82 @@ class TopicTrendsView extends React.Component {
       .attr("class", "y label")
       .attr('text-anchor', 'middle')
       .attr('transform', 'rotate(-90)')
-      .text('Topic Probability')
+      .text('Topic Probability');
+
+    var legend = svg.append("g")
+      .attr("class", "legend");
+
+    // Add one dot in the legend for each name.
+    var size = 20;
+    legend.selectAll("legend-rect")
+      .data(selectedTopics)
+      .enter()
+      .append("rect")
+        .attr("x", this.heatmapWidth + 50)
+        .attr("y", function(d,i){ return 10 + i*(size+5)})
+        .attr("width", size)
+        .attr("height", size)
+        .style("fill", function(d){ return colorScale(d)});
+        // .on("mouseover", highlight)
+        // .on("mouseleave", noHighlight)
+
+    // Add one dot in the legend for each name.
+    legend.selectAll("legend-label")
+      .data(selectedTopics)
+      .enter()
+      .append("text")
+        .attr("x", this.heatmapWidth + 50 + size*1.2)
+        .attr("y", function(d,i){ return 10 + i*(size+5) + (size/2)})
+        .style("fill", function(d){ return colorScale(d)})
+        .text(function(d){ return d})
+        .attr("text-anchor", "left")
+        .style("alignment-baseline", "middle");
+        // .on("mouseover", highlight)
+        // .on("mouseleave", noHighlight)
+
+    var areaContainer = svg.append("g")
+      .attr("class", "stacked-area");
+
+    // we create one series per topic
+    areaContainer.selectAll(".series")
+      .data(stackedData)
+      .enter()
+      .append("path")
+      .attr("class", function (d) { return "myArea " + d.key })
+      .style("fill", function (d) { return colorScale(d.key); })
+      .attr("d", area);
 
     this.setState({
       svgCreated: true
     });
   }
 
-  updateHeatmap = () => {
-    if (this.props.visible && this.state.svgCreated) {
-      // var topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Topic 6', 'Civil Rights',
-      //   'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
-      //   'Agriculture', 'Education/Health', 'Topic 18', 'Military Threats', 'Currency'];
-      // var selectedPresidents = this.props.presidents;
-      // var selectedTopics = this.props.topics;
-      // var selectedSpeechIds = [];
-      // var selectedProbabilities = [];
+  updateTopicTrends = () => {
 
-      // var selectedSpeeches = this.state.data.filter(function (d) {
-      //   var nonZeroTopics = Object.keys(d.topic_probabilities).filter(function (key) {
-      //     return d.topic_probabilities[key] !== 0.0;
-      //   });
-      //   return selectedPresidents.some(p => p === d.president) && selectedTopics.some(t => nonZeroTopics.includes(t));
-      // });
+    // // actually create all the new rows for our map
+    // var seriesEnter = speeches.enter()
+    //   .append("g")
+    //   .attr("class", "series");
 
-      // var selectedProbabilityObjects = this.state.topicProbabilities.filter(function (d) {
-      //   return selectedSpeeches.some(s => s.id === d.id);
-      // });
+    // // merge the old state of the graph with the new one
+    // series.merge(seriesEnter);
 
-      // selectedSpeeches.forEach(element => {
-      //   selectedSpeechIds.push(element.id);
-      // });
+    // series.selectAll()
+    //   .data(function (d) { return d.probabilities; })
+    //   .enter()
+    //   .append("rect")
+    //   .attr("x", function (d, i) { return xScale(i); })
+    //   .attr("y", function (d) { return (yScale(d.split(":")[0])) })
+    //   .attr("width", 35)
+    //   .attr("height", 35)
+    //   .attr("class", "heatmap-box")
+    //   .style("fill", function (d) { return colorScale(d.split(":")[1]); })
+    //   .on("mouseover", this.mouseover)
+    //   .on("mousemove", this.mousemove)
+    //   .on("mouseleave", this.mouseleave);
 
-      // selectedProbabilityObjects.forEach(element => {
-      //   var probabilities = [];
-      //   var id = element.id;
-      //   for (var key in element) {
-      //     if (key !== "id") {
-      //       var topicIndex = topics.indexOf(key);
-      //       probabilities.push(id + ":" + element[key] + ":" + topicIndex);
-      //     }
-      //   }
-      //   selectedProbabilities.push({ probabilities });
-      // });
-
-      // this.selectedSpeechIds = selectedSpeechIds;
-      // this.height = (selectedSpeechIds.length * 35);
-
-      // var xScale = d3.scaleLinear()
-      //   .range([0, this.heatmapWidth])
-      //   .domain([0, this.numTopics - 1]);
-
-      // var yScale = d3.scaleBand()
-      //   .range([0, this.height])
-      //   .domain(selectedSpeechIds);
-
-      // var colorScale = d3.scaleSequential(d3.interpolateBuPu)
-      //   .domain([0, 1]);
-
-      // // our entry point for the heatmap is this singular group element, which then gets
-      // // one g element appended to it per speech
-      // var speeches = d3.select(".heatmap-row-container")
-      //   .selectAll(".heatmap-row")
-      //   .data(selectedProbabilities);
-
-      // // actually create all the new rows for our map
-      // var speechesEnter = speeches.enter()
-      //   .append("g")
-      //   .attr("class", "heatmap-row");
-
-      // // merge the old state of the graph with the new one
-      // speeches.merge(speechesEnter);
-
-      // speeches.selectAll()
-      //   .data(function (d) { return d.probabilities; })
-      //   .enter()
-      //   .append("rect")
-      //   .attr("x", function (d, i) { return xScale(i); })
-      //   .attr("y", function (d) { return (yScale(d.split(":")[0])) })
-      //   .attr("width", 35)
-      //   .attr("height", 35)
-      //   .attr("class", "heatmap-box")
-      //   .style("fill", function (d) { return colorScale(d.split(":")[1]); })
-      //   .on("mouseover", this.mouseover)
-      //   .on("mousemove", this.mousemove)
-      //   .on("mouseleave", this.mouseleave);
-
-      // // remove the rows that no longer need to be displayed
-      // speeches.exit().remove();
-    }
+    // // remove the rows that no longer need to be displayed
+    // series.exit().remove();
   }
 
   mouseover() {
@@ -267,23 +234,11 @@ class TopicTrendsView extends React.Component {
 
   render() {
 
-    const TopicRankings = () => (this.state.hoverTopics.map(speech => (
-      <div key={speech.id} className="rankings">
-        <Typography>{speech.rank + ". " + speech.title + " by " + speech.president + " (" + speech.score + "% similar)"}</Typography>
-      </div>
-    )));
-
-    const LanguageRankings = () => (this.state.hoverWords.map(speech => (
-      <div key={speech.id} className="rankings">
-        <Typography>{speech.rank + ". " + speech.title + " by " + speech.president + " (" + speech.score + "% similar)"}</Typography>
-      </div>
-    )));
-
     return (
-      <Grid container={true} className={this.props.visible ? "heatmap-container" : "hidden"}>
-        <Grid item={true} xs={8} className={this.props.visible ? "" : "hidden"}>
-          <svg ref="heatmapSvg" className={this.props.visible ? "" : "hidden"}
-            width={this.heatmapWidth + this.margin.left + this.margin.right}
+      <Grid container={true} className={this.props.visible ? "trends-container" : "hidden"}>
+        <Grid item={true} xs={12} className={this.props.visible ? "" : "hidden"}>
+          <svg ref="trendSvg" className={this.props.visible ? "" : "hidden"}
+            width={this.width + this.margin.left + this.margin.right}
             height={this.height + this.margin.top + this.margin.bottom}>
           </svg>
           {this.state.hoverObj ?
@@ -300,16 +255,6 @@ class TopicTrendsView extends React.Component {
             /> :
             null
           }
-        </Grid>
-        <Grid item={true} xs={4} className={this.props.visible ? "heatmap-sidebar" : "hidden"}>
-          <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverTitle}</Typography>
-          <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverDate}</Typography>
-          <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverPresident}</Typography>
-          <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverParty}</Typography>
-          <Typography className={this.props.visible ? "similarity-header" : "hidden"}>{this.state.hoverId === 0 ? null : "Speeches discussing similar topics"}</Typography>
-          <TopicRankings />
-          <Typography className={this.props.visible ? "similarity-header" : "hidden"}>{this.state.hoverId === 0 ? null : "Speeches using similar language"}</Typography>
-          <LanguageRankings />
         </Grid>
       </Grid>
     );

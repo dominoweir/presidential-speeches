@@ -31,7 +31,7 @@ class App extends React.Component {
   }
 
   state = {
-    currentTopics: ["Middle East"],
+    currentTopics: ["Election", "Middle East"],
     currentPresidents: ["George W. Bush", "Barack Obama", "Donald Trump"],
     currentView: "wordnet",
     data: SpeechData
