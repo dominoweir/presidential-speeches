@@ -4,7 +4,6 @@ import * as d3 from "d3";
 import SpeechData from '../data/all_speeches.json';
 import TopicData from '../data/topic_probability_by_id.json';
 import { Grid } from '@material-ui/core';
-import HeatmapTooltip from './HeatmapTooltip';
 
 class TopicTrendsView extends React.Component {
 
@@ -12,7 +11,7 @@ class TopicTrendsView extends React.Component {
     super();
     this.numTopics = 20;
     this.selectedSpeechIds = [];
-    this.heatmapWidth = 800;
+    this.trendsWidth = 800;
     this.width = 1000;
     this.height = 600;
     this.margin = { top: 50, right: 75, bottom: 150, left: 75 };
@@ -21,14 +20,6 @@ class TopicTrendsView extends React.Component {
   state = {
     data: SpeechData,
     topicProbabilities: TopicData,
-    hoverObj: null,
-    hoverId: 0,
-    hoverTitle: null,
-    hoverPresident: null,
-    hoverDate: null,
-    hoverParty: null,
-    hoverTopics: [],
-    hoverWords: [],
     svgCreated: false,
     currentHoverTopic: 0
   }
@@ -69,7 +60,7 @@ class TopicTrendsView extends React.Component {
       .keys(selectedTopics)(topicObjects);
 
     var xScale = d3.scaleTime()
-      .range([0, this.heatmapWidth])
+      .range([0, this.trendsWidth])
       .domain(d3.extent(selectedSpeeches, function (d) {
         return new Date(d.date.split('/')[2], parseInt(d.date.split('/')[0]) - 1, parseInt(d.date.split('/')[1]) - 1);
       }));
@@ -109,7 +100,7 @@ class TopicTrendsView extends React.Component {
     svg.append("text")
       .attr("class", "x label")
       .attr("text-anchor", "middle")
-      .attr("x", this.heatmapWidth / 2)
+      .attr("x", this.trendsWidth / 2)
       .attr("y", this.height + 50)
       .text("Time (Speech Date)");
 
@@ -130,27 +121,40 @@ class TopicTrendsView extends React.Component {
       .data(selectedTopics)
       .enter()
       .append("rect")
-        .attr("x", this.heatmapWidth + 50)
-        .attr("y", function(d,i){ return 10 + i*(size+5)})
-        .attr("width", size)
-        .attr("height", size)
-        .style("fill", function(d){ return colorScale(d)});
-        // .on("mouseover", highlight)
-        // .on("mouseleave", noHighlight)
+      .attr("x", this.trendsWidth + 50)
+      .attr("y", function (d, i) { return 10 + i * (size + 5) })
+      .attr("width", size)
+      .attr("height", size)
+      .style("fill", function (d) { return colorScale(d) })
+      .on("mouseover", function(d){
+        var className = d.replace(' ', '.');
+        // reduce opacity of all groups
+        d3.selectAll(".myArea").style("opacity", .1)
+        // expect the one that is hovered
+        d3.select(".myArea."+className).style("opacity", 1)
+      })
+      .on("mouseleave", function (d) {
+        d3.selectAll(".myArea").style("opacity", 1)
+      })
 
     // Add one dot in the legend for each name.
     legend.selectAll("legend-label")
       .data(selectedTopics)
       .enter()
       .append("text")
-        .attr("x", this.heatmapWidth + 50 + size*1.2)
-        .attr("y", function(d,i){ return 10 + i*(size+5) + (size/2)})
-        .style("fill", function(d){ return colorScale(d)})
-        .text(function(d){ return d})
-        .attr("text-anchor", "left")
-        .style("alignment-baseline", "middle");
-        // .on("mouseover", highlight)
-        // .on("mouseleave", noHighlight)
+      .attr("x", this.trendsWidth + 50 + size * 1.2)
+      .attr("y", function (d, i) { return 10 + i * (size + 5) + (size / 2) })
+      .style("fill", function (d) { return colorScale(d) })
+      .text(function (d) { return d })
+      .attr("text-anchor", "left")
+      .style("alignment-baseline", "middle");
+    // .on("mouseover", highlight)
+    // .on("mouseleave", noHighlight)
+
+    // Add brushing
+    var brush = d3.brushX()                 // Add the brush feature using the d3.brush function
+      .extent([[0, 0], [this.trendsWidth, this.height]]) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
+      .on("end", this.onBrush) // Each time the brush selection changes, trigger the 'updateChart' function
 
     var areaContainer = svg.append("g")
       .attr("class", "stacked-area");
@@ -163,6 +167,10 @@ class TopicTrendsView extends React.Component {
       .attr("class", function (d) { return "myArea " + d.key })
       .style("fill", function (d) { return colorScale(d.key); })
       .attr("d", area);
+
+    areaContainer.append("g")
+      .attr("class", "brush")
+      .call(brush);
 
     this.setState({
       svgCreated: true
@@ -197,39 +205,8 @@ class TopicTrendsView extends React.Component {
     // series.exit().remove();
   }
 
-  mouseover() {
-    d3.select(".heatmap-tooltip")
-      .attr("class", "heatmap-tooltip");
-    d3.select(this)
-      .style("stroke", "black")
-      .style("opacity", 1);
-  }
+  onBrush = () => {
 
-  mousemove = (d) => {
-    var currentHoverId = d.split(":")[0];
-    var currentHoverTopic = d.split(":")[2];
-    var selectedSpeech = this.state.data.filter(function (d) {
-      return d.id === currentHoverId;
-    })[0];
-    this.setState({
-      hoverObj: selectedSpeech,
-      hoverId: currentHoverId,
-      hoverTitle: selectedSpeech.title,
-      hoverPresident: selectedSpeech.president,
-      hoverDate: selectedSpeech.date,
-      hoverParty: selectedSpeech.party,
-      hoverTopics: selectedSpeech.most_similar_topics,
-      hoverWords: selectedSpeech.most_similar_words,
-      currentHoverTopic: currentHoverTopic,
-    });
-  }
-
-  mouseleave() {
-    d3.select(".heatmap-tooltip")
-      .attr("class", "heatmap-tooltip hidden");
-    d3.select(this)
-      .style("stroke", "none")
-      .style("opacity", 1);
   }
 
   render() {
@@ -241,20 +218,6 @@ class TopicTrendsView extends React.Component {
             width={this.width + this.margin.left + this.margin.right}
             height={this.height + this.margin.top + this.margin.bottom}>
           </svg>
-          {this.state.hoverObj ?
-            <HeatmapTooltip
-              className={"heatmap-tooltip hidden"}
-              hoveredBox={this.state.hoverObj}
-              xScale={d3.scaleLinear()
-                .range([0, this.heatmapWidth])
-                .domain([0, this.numTopics - 1])}
-              yScale={d3.scaleBand()
-                .range([0, this.height])
-                .domain(this.selectedSpeechIds)}
-              topicIndex={this.state.currentHoverTopic}
-            /> :
-            null
-          }
         </Grid>
       </Grid>
     );
