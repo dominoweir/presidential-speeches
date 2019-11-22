@@ -147,9 +147,17 @@ class TopicTrendsView extends React.Component {
       .style("fill", function (d) { return colorScale(d) })
       .text(function (d) { return d })
       .attr("text-anchor", "left")
-      .style("alignment-baseline", "middle");
-    // .on("mouseover", highlight)
-    // .on("mouseleave", noHighlight)
+      .style("alignment-baseline", "middle")
+      .on("mouseover", function(d){
+        var className = d.replace(' ', '.');
+        // reduce opacity of all groups
+        d3.selectAll(".myArea").style("opacity", .1)
+        // expect the one that is hovered
+        d3.select(".myArea."+className).style("opacity", 1)
+      })
+      .on("mouseleave", function (d) {
+        d3.selectAll(".myArea").style("opacity", 1)
+      });
 
     // Add brushing
     var brush = d3.brushX()                 // Add the brush feature using the d3.brush function
