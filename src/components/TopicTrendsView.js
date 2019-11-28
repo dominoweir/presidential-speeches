@@ -10,7 +10,6 @@ class TopicTrendsView extends React.Component {
   constructor() {
     super();
     this.numTopics = 20;
-    this.selectedSpeechIds = [];
     this.trendsWidth = 800;
     this.width = 1000;
     this.height = 600;
@@ -21,10 +20,9 @@ class TopicTrendsView extends React.Component {
     data: SpeechData,
     topicProbabilities: TopicData,
     svgCreated: false,
-    currentHoverTopic: 0
   }
 
-  // update heatmaps here as president/topic selection changes
+  // update as president/topic selection changes
   componentDidUpdate() {
     if (this.props.visible && this.state.svgCreated) {
       this.updateTopicTrends();
@@ -45,16 +43,13 @@ class TopicTrendsView extends React.Component {
       return selectedPresidents.some(p => p === d.president) && selectedTopics.some(t => nonZeroTopics.includes(t));
     });
 
-    var selectedSpeechIds = [];
     var topicObjects = [];
     selectedSpeeches.forEach(d => {
       var topicObj = d.topic_probabilities;
       topicObj["id"] = d.id;
       topicObj["date"] = new Date(d.date.split('/')[2], parseInt(d.date.split('/')[0]) - 1, parseInt(d.date.split('/')[1]) - 1);
-      selectedSpeechIds.push(d.id);
       topicObjects.push(topicObj);
     });
-    this.selectedSpeechIds = selectedSpeechIds;
 
     var stackedData = d3.stack()
       .keys(selectedTopics)(topicObjects);
@@ -92,10 +87,8 @@ class TopicTrendsView extends React.Component {
 
     svg.append("g")
       .call(xAxis)
-      .attr("transform", "translate(0," + this.height + ")");
-
-    svg.append("g")
-      .call(yAxis);
+      .attr("transform", "translate(0," + this.height + ")")
+      .attr("class", "x axis");
 
     svg.append("text")
       .attr("class", "x label")
@@ -103,6 +96,9 @@ class TopicTrendsView extends React.Component {
       .attr("x", this.trendsWidth / 2)
       .attr("y", this.height + 50)
       .text("Time (Speech Date)");
+
+    svg.append("g")
+      .call(yAxis);
 
     svg.append('g')
       .attr('transform', 'translate(' + (-50) + ', ' + (this.height / 2) + ')')
@@ -114,10 +110,10 @@ class TopicTrendsView extends React.Component {
 
     var legend = svg.append("g")
       .attr("class", "legend");
-
-    // Add one dot in the legend for each name.
     var size = 20;
-    legend.selectAll("legend-rect")
+
+    // Add one dot in the legend for each topic
+    legend.selectAll(".legend-rect")
       .data(selectedTopics)
       .enter()
       .append("rect")
@@ -125,44 +121,46 @@ class TopicTrendsView extends React.Component {
       .attr("y", function (d, i) { return 10 + i * (size + 5) })
       .attr("width", size)
       .attr("height", size)
+      .attr("class", "legend-rect")
       .style("fill", function (d) { return colorScale(d) })
-      .on("mouseover", function(d){
+      .on("mouseover", function (d) {
         var className = d.replace(' ', '.');
         // reduce opacity of all groups
-        d3.selectAll(".myArea").style("opacity", .1)
-        // expect the one that is hovered
-        d3.select(".myArea."+className).style("opacity", 1)
+        d3.selectAll(".series").style("opacity", .1)
+        // except the one that is hovered
+        d3.select(".series." + className).style("opacity", 1)
       })
       .on("mouseleave", function (d) {
-        d3.selectAll(".myArea").style("opacity", 1)
+        d3.selectAll(".series").style("opacity", 1)
       })
 
-    // Add one dot in the legend for each name.
-    legend.selectAll("legend-label")
+    // Add one label in the legend for each topic
+    legend.selectAll(".legend-label")
       .data(selectedTopics)
       .enter()
       .append("text")
       .attr("x", this.trendsWidth + 50 + size * 1.2)
       .attr("y", function (d, i) { return 10 + i * (size + 5) + (size / 2) })
+      .attr("class", "legend-label")
       .style("fill", function (d) { return colorScale(d) })
       .text(function (d) { return d })
       .attr("text-anchor", "left")
       .style("alignment-baseline", "middle")
-      .on("mouseover", function(d){
+      .on("mouseover", function (d) {
         var className = d.replace(' ', '.');
         // reduce opacity of all groups
-        d3.selectAll(".myArea").style("opacity", .1)
-        // expect the one that is hovered
-        d3.select(".myArea."+className).style("opacity", 1)
+        d3.selectAll(".series").style("opacity", .1)
+        // except the one that is hovered
+        d3.select(".series." + className).style("opacity", 1)
       })
       .on("mouseleave", function (d) {
-        d3.selectAll(".myArea").style("opacity", 1)
+        d3.selectAll(".series").style("opacity", 1)
       });
 
     // Add brushing
-    var brush = d3.brushX()                 // Add the brush feature using the d3.brush function
-      .extent([[0, 0], [this.trendsWidth, this.height]]) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
-      .on("end", this.onBrush) // Each time the brush selection changes, trigger the 'updateChart' function
+    // var brush = d3.brushX()                 // Add the brush feature using the d3.brush function
+    //   .extent([[0, 0], [this.trendsWidth, this.height]]) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
+    //   .on("end", this.onBrush) // Each time the brush selection changes, trigger the 'updateChart' function
 
     var areaContainer = svg.append("g")
       .attr("class", "stacked-area");
@@ -172,13 +170,13 @@ class TopicTrendsView extends React.Component {
       .data(stackedData)
       .enter()
       .append("path")
-      .attr("class", function (d) { return "myArea " + d.key })
+      .attr("class", function (d) { return "series " + d.key })
       .style("fill", function (d) { return colorScale(d.key); })
       .attr("d", area);
 
-    areaContainer.append("g")
-      .attr("class", "brush")
-      .call(brush);
+    // areaContainer.append("g")
+    //   .attr("class", "brush")
+    //   .call(brush);
 
     this.setState({
       svgCreated: true
@@ -186,31 +184,138 @@ class TopicTrendsView extends React.Component {
   }
 
   updateTopicTrends = () => {
+    var selectedPresidents = this.props.presidents;
+    var selectedTopics = this.props.topics;
 
-    // // actually create all the new rows for our map
-    // var seriesEnter = speeches.enter()
-    //   .append("g")
-    //   .attr("class", "series");
+    var selectedSpeeches = this.state.data.filter(function (d) {
+      var nonZeroTopics = Object.keys(d.topic_probabilities).filter(function (key) {
+        return d.topic_probabilities[key] !== 0.0;
+      });
+      return selectedPresidents.some(p => p === d.president) && selectedTopics.some(t => nonZeroTopics.includes(t));
+    });
 
-    // // merge the old state of the graph with the new one
-    // series.merge(seriesEnter);
+    var topicObjects = [];
+    selectedSpeeches.forEach(d => {
+      var topicObj = d.topic_probabilities;
+      topicObj["id"] = d.id;
+      topicObj["date"] = new Date(d.date.split('/')[2], parseInt(d.date.split('/')[0]) - 1, parseInt(d.date.split('/')[1]) - 1);
+      topicObjects.push(topicObj);
+    });
 
-    // series.selectAll()
-    //   .data(function (d) { return d.probabilities; })
-    //   .enter()
-    //   .append("rect")
-    //   .attr("x", function (d, i) { return xScale(i); })
-    //   .attr("y", function (d) { return (yScale(d.split(":")[0])) })
-    //   .attr("width", 35)
-    //   .attr("height", 35)
-    //   .attr("class", "heatmap-box")
-    //   .style("fill", function (d) { return colorScale(d.split(":")[1]); })
-    //   .on("mouseover", this.mouseover)
-    //   .on("mousemove", this.mousemove)
-    //   .on("mouseleave", this.mouseleave);
+    var stackedData = d3.stack()
+      .keys(selectedTopics)(topicObjects);
 
-    // // remove the rows that no longer need to be displayed
-    // series.exit().remove();
+    var xScale = d3.scaleTime()
+      .range([0, this.trendsWidth])
+      .domain(d3.extent(selectedSpeeches, function (d) {
+        return new Date(d.date.split('/')[2], parseInt(d.date.split('/')[0]) - 1, parseInt(d.date.split('/')[1]) - 1);
+      }));
+
+    var yScale = d3.scaleLinear()
+      .range([this.height, 0])
+      .domain([0, 1]);
+
+    var xAxis = d3.axisBottom(xScale)
+      .tickFormat(function (d) { return d.getFullYear(); });
+
+    var colorScale = d3.scaleOrdinal(d3.schemeCategory10)
+      .domain(selectedTopics);
+
+    var area = d3.area()
+      .x(function (d) {
+        return xScale(d.data.date);
+      })
+      .y0(function (d) { return yScale(d[0]); })
+      .y1(function (d) { return yScale(d[1]); })
+
+    var svg = d3.select(".trends-container");
+
+    svg.select(".x.axis")
+      .transition(750)
+      .call(xAxis);
+
+    // Add one dot in the legend for each topic
+    var legend = svg.select(".legend");
+    var size = 20;
+
+    // Update the dots for each legend entry
+    var rects = legend.selectAll(".legend-rect")
+      .data(selectedTopics);
+    var rectsEnter = rects.enter()
+      .append("rect")
+      .attr("class", "legend-rect");
+    rects.merge(rectsEnter)
+      .attr("x", this.trendsWidth + 50)
+      .attr("y", function (d, i) {
+        return 10 + i * (size + 5)
+      })
+      .attr("width", size)
+      .attr("height", size)
+      .style("fill", function (d) { return colorScale(d) })
+      .on("mouseover", function (d) {
+        var className = d.replace(' ', '.');
+        // reduce opacity of all groups
+        d3.selectAll(".series").style("opacity", .1)
+        // except the one that is hovered
+        d3.select(".series." + className).style("opacity", 1)
+      })
+      .on("mouseleave", function (d) {
+        d3.selectAll(".series").style("opacity", 1)
+      });
+    rects.exit().remove();
+
+    var labels = legend.selectAll(".legend-label")
+      .data(selectedTopics);
+    var labelsEnter = labels.enter()
+      .append("text")
+      .attr("class", "legend-label");
+    labels.merge(labelsEnter)
+      .attr("x", this.trendsWidth + 50 + size * 1.2)
+      .attr("y", function (d, i) { return 10 + i * (size + 5) + (size / 2) })
+      .style("fill", function (d) { return colorScale(d) })
+      .text(function (d) { return d })
+      .attr("text-anchor", "left")
+      .style("alignment-baseline", "middle")
+      .on("mouseover", function (d) {
+        var className = d.replace(' ', '.');
+        // reduce opacity of all groups
+        d3.selectAll(".series").style("opacity", .1)
+        // except the one that is hovered
+        d3.select(".series." + className).style("opacity", 1)
+      })
+      .on("mouseleave", function (d) {
+        d3.selectAll(".series").style("opacity", 1)
+      });
+    labels.exit().remove();
+
+    // Add brushing
+    // var brush = d3.brushX()                 // Add the brush feature using the d3.brush function
+    //   .extent([[0, 0], [this.trendsWidth, this.height]]) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
+    //   .on("end", this.onBrush) // Each time the brush selection changes, trigger the 'updateChart' function
+
+    var areaContainer = svg.select(".stacked-area").selectAll(".series")
+      .data(stackedData);
+
+    var areaEnter = areaContainer.enter()
+      .append("g")
+      .attr("class", "series");
+
+    areaContainer.merge(areaEnter);
+
+    // we create one series per topic
+    areaContainer.enter()
+      .append("path")
+      .attr("class", function (d) {
+        return "series " + d.key
+      })
+      .style("fill", function (d) { return colorScale(d.key); })
+      .attr("d", area);
+
+    areaContainer.exit().remove();
+
+    // areaContainer.append("g")
+    //   .attr("class", "brush")
+    //   .call(brush);
   }
 
   onBrush = () => {
