@@ -53,7 +53,7 @@ class PresidentSelector extends React.Component {
             <Grid container={true} spacing={1}>
               <Grid item={true} xs={6}>
                 <Card>
-                  <CardActionArea className="select-button">
+                  <CardActionArea className="select-button"  onClick={() => this.props.onPresidentChange("Select All")}>
                     <Typography>
                       {"Select All"}
                     </Typography>
@@ -62,7 +62,7 @@ class PresidentSelector extends React.Component {
               </Grid>
               <Grid item={true} xs={6}>
                 <Card>
-                  <CardActionArea className="select-button">
+                  <CardActionArea className="select-button"  onClick={() => this.props.onPresidentChange("Clear All")}>
                     <Typography>
                       {"Clear All"}
                     </Typography>
