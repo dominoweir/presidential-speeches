@@ -294,11 +294,6 @@ class TopicTrendsView extends React.Component {
 
     labels.exit().remove();
 
-    // Add brushing
-    // var brush = d3.brushX()                 // Add the brush feature using the d3.brush function
-    //   .extent([[0, 0], [this.trendsWidth, this.height]]) // initialise the brush area: start at 0,0 and finishes at width,height: it means I select the whole graph area
-    //   .on("end", this.onBrush) // Each time the brush selection changes, trigger the 'updateChart' function
-
     var areaContainer = svg.select(".stacked-area").selectAll(".series")
       .data(stackedData);
 
@@ -311,14 +306,22 @@ class TopicTrendsView extends React.Component {
       .attr("d", area);
 
     areaContainer.exit().remove();
-
-    // areaContainer.append("g")
-    //   .attr("class", "brush")
-    //   .call(brush);
   }
 
   onBrush = () => {
+    var extent = d3.event.selection;
+    var svg = d3.select(".trends-container");
+    var areaContainer = svg.select(".stacked-area");
 
+    // If no selection, back to initial coordinate. Otherwise, update X axis domain
+    if (!extent) {
+      // if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
+      // x.domain(d3.extent(data, function (d) { return d.year; }))
+    } else {
+      // x.domain([ x.invert(extent[0]), x.invert(extent[1]) ])
+      var brush = areaContainer.select(".brush")
+      brush.call(brush.move, null) // This remove the grey brush area as soon as the selection has been done
+    }
   }
 
   render() {
