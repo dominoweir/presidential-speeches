@@ -207,10 +207,7 @@ class HeatMapView extends React.Component {
         .append("g")
         .attr("class", "heatmap-row");
 
-      // merge the old state of the graph with the new one
-      speeches.merge(speechesEnter);
-
-      speeches.selectAll()
+      speechesEnter.selectAll()
         .data(function (d) { return d.probabilities; })
         .enter()
         .append("rect")
@@ -223,6 +220,9 @@ class HeatMapView extends React.Component {
         .on("mouseover", this.mouseover)
         .on("mousemove", this.mousemove)
         .on("mouseleave", this.mouseleave);
+
+      // merge the old state of the graph with the new one
+      speeches.merge(speechesEnter);
 
       // remove the rows that no longer need to be displayed
       speeches.exit().remove();

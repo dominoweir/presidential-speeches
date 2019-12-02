@@ -241,9 +241,11 @@ class TopicTrendsView extends React.Component {
     // Update the dots for each legend entry
     var rects = legend.selectAll(".legend-rect")
       .data(selectedTopics);
+
     var rectsEnter = rects.enter()
       .append("rect")
       .attr("class", "legend-rect");
+
     rects.merge(rectsEnter)
       .attr("x", this.trendsWidth + 50)
       .attr("y", function (d, i) {
@@ -262,13 +264,16 @@ class TopicTrendsView extends React.Component {
       .on("mouseleave", function (d) {
         d3.selectAll(".series").style("opacity", 1)
       });
+
     rects.exit().remove();
 
     var labels = legend.selectAll(".legend-label")
       .data(selectedTopics);
+
     var labelsEnter = labels.enter()
       .append("text")
       .attr("class", "legend-label");
+
     labels.merge(labelsEnter)
       .attr("x", this.trendsWidth + 50 + size * 1.2)
       .attr("y", function (d, i) { return 10 + i * (size + 5) + (size / 2) })
@@ -286,6 +291,7 @@ class TopicTrendsView extends React.Component {
       .on("mouseleave", function (d) {
         d3.selectAll(".series").style("opacity", 1)
       });
+
     labels.exit().remove();
 
     // Add brushing
@@ -297,17 +303,10 @@ class TopicTrendsView extends React.Component {
       .data(stackedData);
 
     var areaEnter = areaContainer.enter()
-      .append("g")
-      .attr("class", "series");
+      .append("path");
 
-    areaContainer.merge(areaEnter);
-
-    // we create one series per topic
-    areaContainer.enter()
-      .append("path")
-      .attr("class", function (d) {
-        return "series " + d.key
-      })
+    areaContainer.merge(areaEnter)
+      .attr("class", function (d) { return "series " + d.key })
       .style("fill", function (d) { return colorScale(d.key); })
       .attr("d", area);
 
