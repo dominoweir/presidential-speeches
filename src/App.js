@@ -5,7 +5,6 @@ import TopicSelector from './components/TopicSelector';
 import { Chip, Grid, Typography } from '@material-ui/core';
 import ToggleButton from '@material-ui/lab/ToggleButton';
 import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
-import WordNetView from './components/WordNetView';
 import HeatMapView from './components/HeatMapView';
 import TopicTrendsView from './components/TopicTrendsView';
 import CompareView from './components/CompareView';
@@ -52,6 +51,7 @@ class App extends React.Component {
         <h2>
           Topics Discussed in Presidential Speeches
         </h2>
+        <CompareView visible={this.state.currentView === "compare"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
         <Grid container={true}>
           <Grid item={true} xs={12}>
             <TopicSelector onTopicChange={this.handleTopicSelectionChange} />
@@ -80,10 +80,8 @@ class App extends React.Component {
             <Typography>{"Compare Presidents by Party"}</Typography>
           </ToggleButton>
         </ToggleButtonGroup>
-        <WordNetView visible={this.state.currentView === "wordnet"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
         <HeatMapView visible={this.state.currentView === "heatmap"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
         <TopicTrendsView visible={this.state.currentView === "trends"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
-        <CompareView visible={this.state.currentView === "compare"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
       </div>
     );
   }

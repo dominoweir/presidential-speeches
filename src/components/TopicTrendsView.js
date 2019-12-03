@@ -10,8 +10,8 @@ class TopicTrendsView extends React.Component {
   constructor() {
     super();
     this.numTopics = 20;
-    this.trendsWidth = 800;
-    this.width = 1000;
+    this.trendsWidth = 1000;
+    this.width = 1200;
     this.height = 600;
     this.margin = { top: 50, right: 75, bottom: 150, left: 75 };
   }
