@@ -7,6 +7,7 @@ import ToggleButton from '@material-ui/lab/ToggleButton';
 import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
 import HeatMapView from './components/HeatMapView';
 import TopicTrendsView from './components/TopicTrendsView';
+import StackedBarView from './components/StackedBarView';
 import CompareView from './components/CompareView';
 import SpeechData from './data/all_speeches.json';
 
@@ -67,21 +68,19 @@ class App extends React.Component {
           </Grid>
         </Grid>
         <ToggleButtonGroup value={this.state.currentView} exclusive={true} onChange={this.handleViewChange} className="view-selector">
-          <ToggleButton value="wordnet">
-            <Typography>{"WordNet"}</Typography>
-          </ToggleButton>
           <ToggleButton value="heatmap">
             <Typography>{"Topics by Speech"}</Typography>
           </ToggleButton>
           <ToggleButton value="trends">
             <Typography>{"Topic Trends Over Time"}</Typography>
           </ToggleButton>
-          <ToggleButton value="compare">
-            <Typography>{"Compare Presidents by Party"}</Typography>
+          <ToggleButton value="bars">
+            <Typography>{"Stacked Bars"}</Typography>
           </ToggleButton>
         </ToggleButtonGroup>
         <HeatMapView visible={this.state.currentView === "heatmap"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
         <TopicTrendsView visible={this.state.currentView === "trends"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
+        <StackedBarView visible={this.state.currentView === "bars"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
       </div>
     );
   }

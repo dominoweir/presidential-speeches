@@ -67,7 +67,8 @@ class TopicTrendsView extends React.Component {
     var xAxis = d3.axisBottom(xScale)
       .tickFormat(function (d) { return d.getFullYear(); });
 
-    var yAxis = d3.axisLeft(yScale);
+    var yAxis = d3.axisLeft(yScale)
+      .tickFormat(function(d) { return ((d * 100) + "%") });;
 
     var colorScale = d3.scaleOrdinal(d3.schemeCategory10)
       .domain(selectedTopics);
@@ -106,7 +107,7 @@ class TopicTrendsView extends React.Component {
       .attr("class", "y label")
       .attr('text-anchor', 'middle')
       .attr('transform', 'rotate(-90)')
-      .text('Topic Probability');
+      .text('Topic Frequency');
 
     var legend = svg.append("g")
       .attr("class", "legend");
