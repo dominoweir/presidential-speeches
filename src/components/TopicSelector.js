@@ -19,9 +19,9 @@ class TopicSelector extends React.Component {
 
   render() {
 
-    const topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Topic 6', 'Civil Rights',
-    'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
-    'Agriculture', 'Education/Health', 'Topic 18', 'Military Threats', 'Currency', 'Select All', 'Clear All'];
+    const topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Westward Expansion', 'Civil Rights',
+    'Economy', 'Immigration', 'Strategic Resources', 'Legislative Issues', 'World War II', 'Industry/Jobs', 'Legislative Issues', 'Colonialism',
+    'Agriculture', 'Education/Health', 'Presidential Cabinet', 'Military Threats', 'Currency', 'Select All', 'Clear All'];
 
     const TopicCards = () => (topics.map(topic => (
       <Grid item={true} xs={2} key={topic}>

@@ -7,77 +7,77 @@
       "avgprob" : 0.12290156,
       "size" : 0.12290156
     },    {
-      
+
       "number" : 17,
       "name" : "Andrew Johnson",
       "numspeeches" : 1,
       "avgprob" : 0.09077394,
       "size" : 0.09077394
     },    {
-      
+
       "number" : 24,
       "name" : "Grover Cleveland",
       "numspeeches" : 1,
       "avgprob" : 0.018176282,
       "size" : 0.018176282
     },    {
-      
+
       "number" : 28,
       "name" : "Woodrow Wilson",
       "numspeeches" : 4,
       "avgprob" : 0.05989276325,
       "size" : 0.239571053
    },    {
-      
+
       "number" : 32,
       "name" : "Franklin Roosevelt",
       "numspeeches" : 16,
       "avgprob" : 0.1168466208125,
       "size" : 1.869545933
    },    {
-      
+
       "number" : 33,
       "name" : "Harry Truman",
       "numspeeches" : 10,
       "avgprob" : 0.500829791,
       "size" : 5.00829791
     },    {
-      
+
       "number" : 35,
       "name" : "John Kennedy",
       "numspeeches" : 14,
       "avgprob" : 0.0927711207857143,
       "size" : 1.298795691
     },    {
-      
+
       "number" : 36,
       "name" : "Lydon Johnson",
       "numspeeches" : 32,
       "avgprob" : 0.20672273925,
       "size" : 6.615127656
    },    {
-      
+
       "number" : 39,
       "name" : "Jimmy Carter",
       "numspeeches" : 7,
       "avgprob" : 0.109098745285714,
       "size" : 0.763691217
     },    {
-      
+
       "number" : 42,
       "name" : "Bill Clinton",
       "numspeeches" : 10,
       "avgprob" : 0.1872631144,
       "size" : 1.872631144
    },    {
-      
+
       "number" : 44,
       "name" : "Barack Obama",
       "numspeeches" : 11,
       "avgprob" : 0.0965039534545455,
       "size" : 1.061543488
     }]},    {
-      
+
       "name" : "Democratic-Republican","children":[{
       "number" : 3,
       "name" : "Thomas Jefferson",
@@ -85,7 +85,7 @@
       "avgprob" : 0.054299146,
       "size" : 0.054299146
     }]},    {
-      
+
       "name" : "Republican","children":[{
       "number" : 18,
       "name" : "Ulysses Grant",
@@ -93,91 +93,91 @@
       "avgprob" : 0.032528531,
       "size" : 0.097585593
    },    {
-      
+
       "number" : 19,
       "name" : "Rutherford Hayes",
       "numspeeches" : 1,
       "avgprob" : 0.02090361,
       "size" : 0.02090361
    },    {
-      
+
       "number" : 23,
       "name" : "Benjamin Harrison",
       "numspeeches" : 2,
       "avgprob" : 0.0404786845,
       "size" : 0.080957369
   },    {
-      
+
       "number" : 25,
       "name" : "William McKinley",
       "numspeeches" : 1,
       "avgprob" : 0.01904188,
       "size" : 0.01904188
    },    {
-      
+
       "number" : 26,
       "name" : "Theodore Roosevelt",
       "numspeeches" : 1,
       "avgprob" : 0.03925122,
       "size" : 0.03925122
   },    {
-      
+
       "number" : 27,
       "name" : "William Taft",
       "numspeeches" : 1,
       "avgprob" : 0.07634243,
       "size" : 0.07634243
   },    {
-      
+
       "number" : 30,
       "name" : "Calvin Coolidge",
       "numspeeches" : 1,
       "avgprob" : 0.015638215,
       "size" : 0.015638215
  },    {
-      
+
       "number" : 31,
       "name" : "Herbert Hoover",
       "numspeeches" : 7,
       "avgprob" : 0.110407892857143,
       "size" : 0.77285525
     },    {
-      
+
       "number" : 34,
       "name" : "Dwight Eisenhower",
       "numspeeches" : 7,
       "avgprob" : 0.622052824285714,
       "size" : 4.35436977
     },    {
-      
+
       "number" : 37,
       "name" : "Richard Nixon",
       "numspeeches" : 14,
       "avgprob" : 0.2713657875,
       "size" : 3.799121025
     },    {
-      
+
       "number" : 38,
       "name" : "Gerald Ford",
       "numspeeches" : 10,
       "avgprob" : 0.1924042993,
       "size" : 1.924042993
     },    {
-      
+
       "number" : 40,
       "name" : "Ronald Reagan",
       "numspeeches" : 25,
       "avgprob" : 0.12002966276,
       "size" : 3.000741569
     },    {
-      
+
       "number" : 41,
       "name" : "George H.W. Bush",
       "numspeeches" : 7,
       "avgprob" : 0.106808005857143,
       "size" : 0.747656041
      },    {
-      
+
       "number" : 43,
       "name" : "George W. Bush",
       "numspeeches" : 6,
@@ -514,7 +514,7 @@
       "size" : 1.752956156
     }]}]},
     {
-      "name" : "Faith-Humanity", "children":[{
+      "name" : "Faith/Humanity", "children":[{
       "name" : "Democratic","children":[{
       "number" : 7,
       "name" : "Andrew Jackson",
@@ -733,7 +733,7 @@
       "size" : 0.0881907
     }]}]},
     {
-      "name" : "Labor China", "children":[{
+      "name" : "Labor/China", "children":[{
       "name" : "Democratic","children":[{
       "number" : 7,
       "name" : "Andrew Jackson",
@@ -891,7 +891,7 @@
       "size" : 0.034358352
     }]}]},
     {
-      "name" : "Circumstance-Consequence", "children":[{
+      "name" : "Westward Expansion", "children":[{
       "name" : "Democratic","children":[{
       "number" : 7,
       "name" : "Andrew Jackson",
@@ -1405,7 +1405,7 @@
       "size" : 0.012798635
     }]}]},
     {
-      "name" : "immegiration", "children":[{
+      "name" : "Immigration", "children":[{
       "name" : "Democratic","children":[{
       "number" : 7,
       "name" : "Andrew Jackson",
@@ -1599,7 +1599,7 @@
       "size" : 2.27353508
     }]}]},
     {
-      "name" : "StrategicResources", "children":[{
+      "name" : "Strategic Resources", "children":[{
       "name" : "Democratic","children":[{
       "number" : 7,
       "name" : "Andrew Jackson",
@@ -2288,7 +2288,7 @@
       "size" : 0.058947377
     }]}]},
     {
-      "name" : "Legislative-Resolution", "children":[{
+      "name" : "Legislative Issues", "children":[{
       "name" : "Democratic","children":[{
       "number" : 7,
       "name" : "Andrew Jackson",
@@ -2838,7 +2838,7 @@
       "size" : 0.195591373
     }]}]},
     {
-      "name" : "Education-Health", "children":[{
+      "name" : "Education/Health", "children":[{
       "name" : "Democratic","children":[{
       "number" : 15,
       "name" : "James Buchanan",
@@ -2943,7 +2943,7 @@
       "size" : 1.27575406
     }]}]},
     {
-      "name" : "Cabinet-Praclamation", "children":[{
+      "name" : "Presidential Cabinet", "children":[{
       "name" : "Democratic","children":[{
       "number" : 7,
       "name" : "Andrew Jackson",
@@ -3111,7 +3111,7 @@
       "size" : 0.38033986
     }]}]},
     {
-      "name" : "Militry Threat", "children":[{
+      "name" : "Military Threats", "children":[{
       "name" : "Democratic","children":[{
       "number" : 28,
       "name" : "Woodrow Wilson",
@@ -3409,4 +3409,3 @@
       "avgprob" : 0.258558805,
       "size" : 1.03423522
     }]}]}]}
-  
