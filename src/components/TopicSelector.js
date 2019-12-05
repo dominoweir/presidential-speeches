@@ -3,6 +3,7 @@ import '../App.css';
 import Card from '@material-ui/core/Card';
 import Grid from '@material-ui/core/Grid';
 import { Typography, ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary, CardActionArea } from '@material-ui/core';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 class TopicSelector extends React.Component {
 
@@ -37,7 +38,7 @@ class TopicSelector extends React.Component {
     return (
       <div className="topic-selector">
         <ExpansionPanel>
-          <ExpansionPanelSummary>
+          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>
               Select Topics
             </Typography>

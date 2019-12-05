@@ -32,12 +32,16 @@ class HeatMapView extends React.Component {
     currentHoverTopic: 0
   }
 
+  componentDidMount() {
+    this.createHeatmap();
+  }
+
   // update heatmaps here as president/topic selection changes
   componentDidUpdate() {
-    if (this.props.visible && this.state.svgCreated) {
+    if (this.state.svgCreated) {
       this.updateHeatmap();
     }
-    else if (this.props.visible && !this.state.svgCreated) {
+    else {
       this.createHeatmap();
     }
   }

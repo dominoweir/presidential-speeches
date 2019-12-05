@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import * as d3 from "d3";
-import { Grid, Typography } from '@material-ui/core';
+import { Grid } from '@material-ui/core';
 import Global1 from '../data/global1.json';
 import Global2 from '../data/global2.json';
 import Global3 from '../data/global3.json';

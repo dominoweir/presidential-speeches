@@ -3,6 +3,7 @@ import '../App.css';
 import Card from '@material-ui/core/Card';
 import Grid from '@material-ui/core/Grid';
 import { Typography, CardActionArea, ExpansionPanel, ExpansionPanelDetails, ExpansionPanelSummary, CardMedia } from '@material-ui/core';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import SpeechData from '../data/all_speeches.json';
 
 class PresidentSelector extends React.Component {
@@ -44,7 +45,7 @@ class PresidentSelector extends React.Component {
     return (
       <div className="president-selector">
         <ExpansionPanel>
-          <ExpansionPanelSummary>
+          <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>
               Select Presidents
             </Typography>

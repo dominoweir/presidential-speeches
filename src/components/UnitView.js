@@ -5,7 +5,7 @@ import SpeechData from '../data/all_speeches.json';
 import TopicData from '../data/topic_probability_by_id.json';
 import { Grid } from '@material-ui/core';
 
-class StackedBarView extends React.Component {
+class UnitView extends React.Component {
 
   constructor() {
     super();
@@ -22,12 +22,16 @@ class StackedBarView extends React.Component {
     svgCreated: false,
   }
 
+  componentDidMount() {
+    this.createStackedBars();
+  }
+
   // update as president/topic selection changes
   componentDidUpdate() {
-    if (this.props.visible && this.state.svgCreated) {
+    if (this.state.svgCreated) {
       this.updateStackedBars();
     }
-    else if (this.props.visible && !this.state.svgCreated) {
+    else {
       this.createStackedBars();
     }
   }
@@ -326,4 +330,4 @@ class StackedBarView extends React.Component {
   }
 }
 
-export default StackedBarView;
+export default UnitView;

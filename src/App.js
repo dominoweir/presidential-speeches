@@ -7,7 +7,7 @@ import ToggleButton from '@material-ui/lab/ToggleButton';
 import ToggleButtonGroup from '@material-ui/lab/ToggleButtonGroup';
 import HeatMapView from './components/HeatMapView';
 import TopicTrendsView from './components/TopicTrendsView';
-import StackedBarView from './components/StackedBarView';
+import UnitView from './components/UnitView';
 import CompareView from './components/CompareView';
 import SpeechData from './data/all_speeches.json';
 
@@ -35,7 +35,7 @@ class App extends React.Component {
   state = {
     currentTopics: ["Election", "Middle East"],
     currentPresidents: ["Bill Clinton", "George W. Bush", "Barack Obama", "Donald Trump"],
-    currentView: "heatmap",
+    currentView: "bars",
     data: SpeechData,
     partieswords: "Topic-Party-President",
   }
@@ -100,19 +100,19 @@ class App extends React.Component {
           </Grid>
         </Grid>
         <ToggleButtonGroup value={this.state.currentView} exclusive={true} onChange={this.handleViewChange} className="view-selector">
-          <ToggleButton value="heatmap">
-            <Typography>{"Topics by Speech"}</Typography>
+          <ToggleButton value="bars">
+            <Typography>{"Topic Frequencies by Speech"}</Typography>
           </ToggleButton>
           <ToggleButton value="trends">
             <Typography>{"Topic Trends Over Time"}</Typography>
           </ToggleButton>
-          <ToggleButton value="bars">
-            <Typography>{"Stacked Bars"}</Typography>
+          <ToggleButton value="heatmap">
+            <Typography>{"View All Topics"}</Typography>
           </ToggleButton>
         </ToggleButtonGroup>
-        <HeatMapView visible={this.state.currentView === "heatmap"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
+        <UnitView visible={this.state.currentView === "bars"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
         <TopicTrendsView visible={this.state.currentView === "trends"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
-        <StackedBarView visible={this.state.currentView === "bars"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
+        <HeatMapView visible={this.state.currentView === "heatmap"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
       </div>
     );
   }
