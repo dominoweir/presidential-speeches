@@ -1,0 +1,722 @@
+{
+  "name":"namefreecuncy" , "children": [
+    {
+      "name" : "Election","children": [{
+      "name" : "senator",
+      "size" : "903"
+    },{ "name" : "kennedy",
+      "size" : "457"
+    },{ "name" : "vice",
+      "size" : "558"
+    },{ "name" : "democratic",
+      "size" : "714"
+    },{ "name" : "candidate",
+      "size" : "354"
+    },{ "name" : "campaign",
+      "size" : "525"
+    },{ "name" : "nixon",
+      "size" : "232"
+    },{ "name" : "statement",
+      "size" : "626"
+    },{ "name" : "record",
+      "size" : "701"
+    },{ "name" : "answer",
+      "size" : "878"
+    },{ "name" : "suggest",
+      "size" : "766"
+    },{ "name" : "happen",
+      "size" : "779"
+    },{ "name" : "committee",
+      "size" : "714"
+    },{ "name" : "yes",
+      "size" : "446"
+    },{ "name" : "something",
+      "size" : "754"
+    },{ "name" : "indicate",
+      "size" : "421"
+    },{ "name" : "hear",
+      "size" : "709"
+    },{ "name" : "stop",
+      "size" : "742"
+    },{ "name" : "five",
+      "size" : "747"
+    },{ "name" : "run",
+      "size" : "671"
+    }]},
+    {
+      "name" : "Middle-East","children": [{
+      "name" : "iraq",
+      "size" : "574"
+    },{ "name" : "terrorist",
+      "size" : "402"
+    },{ "name" : "iraqi",
+      "size" : "287"
+    },{ "name" : "troop",
+      "size" : "866"
+    },{ "name" : "israel",
+      "size" : "319"
+    },{ "name" : "weapon",
+      "size" : "872"
+    },{ "name" : "afghanistan",
+      "size" : "285"
+    },{ "name" : "region",
+      "size" : "565"
+    },{ "name" : "middle",
+      "size" : "707"
+    },{ "name" : "attack",
+      "size" : "902"
+    },{ "name" : "east",
+      "size" : "772"
+    },{ "name" : "ally",
+      "size" : "775"
+    },{ "name" : "regime",
+      "size" : "226"
+    },{ "name" : "mission",
+      "size" : "457"
+    },{ "name" : "democracy",
+      "size" : "766"
+    },{ "name" : "qaeda",
+      "size" : "161"
+    },{ "name" : "terror",
+      "size" : "270"
+    },{ "name" : "lebanon",
+      "size" : "157"
+    },{ "name" : "threat",
+      "size" : "623"
+    },{ "name" : "kill",
+      "size" : "402"
+    }]},
+    {
+      "name" : "Civil War","children": [{
+      "name" : "slavery",
+      "size" : "555"
+    },{ "name" : "slave",
+      "size" : "524"
+    },{ "name" : "declare",
+      "size" : "827"
+    },{ "name" : "judge",
+      "size" : "690"
+    },{ "name" : "section",
+      "size" : "658"
+    },{ "name" : "constitutional",
+      "size" : "828"
+    },{ "name" : "compromise",
+      "size" : "364"
+    },{ "name" : "legislature",
+      "size" : "515"
+    },{ "name" : "rebellion",
+      "size" : "277"
+    },{ "name" : "nebraska",
+      "size" : "207"
+    },{ "name" : "amendment",
+      "size" : "593"
+    },{ "name" : "kansa",
+      "size" : "216"
+    },{ "name" : "missouri",
+      "size" : "304"
+    },{ "name" : "repeal",
+      "size" : "388"
+    },{ "name" : "majority",
+      "size" : "642"
+    },{ "name" : "negro",
+      "size" : "324"
+    },{ "name" : "proclamation",
+      "size" : "369"
+    },{ "name" : "carolina",
+      "size" : "204"
+    },{ "name" : "except",
+      "size" : "713"
+    },{ "name" : "district",
+      "size" : "837"
+    }]},
+    {
+      "name" : "Faith/Humanity","children": [{
+      "name" : "god",
+      "size" : "791"
+    },{ "name" : "heart",
+      "size" : "682"
+    },{ "name" : "faith",
+      "size" : "918"
+    },{ "name" : "century",
+      "size" : "901"
+    },{ "name" : "society",
+      "size" : "706"
+    },{ "name" : "generation",
+      "size" : "762"
+    },{ "name" : "learn",
+      "size" : "752"
+    },{ "name" : "dream",
+      "size" : "466"
+    },{ "name" : "young",
+      "size" : "856"
+    },{ "name" : "love",
+      "size" : "601"
+    },{ "name" : "space",
+      "size" : "424"
+    },{ "name" : "earth",
+      "size" : "496"
+    },{ "name" : "courage",
+      "size" : "455"
+    },{ "name" : "remember",
+      "size" : "606"
+    },{ "name" : "challenge",
+      "size" : "845"
+    },{ "name" : "truth",
+      "size" : "466"
+    },{ "name" : "task",
+      "size" : "619"
+    },{ "name" : "struggle",
+      "size" : "668"
+    },{ "name" : "join",
+      "size" : "714"
+    }]},
+    {
+      "name" : "Labor/China","children": [{
+      "name" : "examination",
+      "size" : "539"
+    },{ "name" : "chinese",
+      "size" : "410"
+    },{ "name" : "classify",
+      "size" : "182"
+    },{ "name" : "name",
+      "size" : "701"
+    },{ "name" : "pension",
+      "size" : "409"
+    },{ "name" : "appointment",
+      "size" : "461"
+    },{ "name" : "appoint",
+      "size" : "758"
+    },{ "name" : "board",
+      "size" : "728"
+    },{ "name" : "test",
+      "size" : "766"
+    },{ "name" : "register",
+      "size" : "152"
+    },{ "name" : "fitness",
+      "size" : "108"
+    },{ "name" : "registration",
+      "size" : "101"
+    },{ "name" : "china",
+      "size" : "662"
+    },{ "name" : "custom",
+      "size" : "408"
+    },{ "name" : "laborer",
+      "size" : "220"
+    },{ "name" : "clerk",
+      "size" : "122"
+    },{ "name" : "disability",
+      "size" : "115"
+    },{ "name" : "grade",
+      "size" : "236"
+    }]},
+    {
+      "name" : "Circumstance-Consequence","children": [{
+      "name" : "circumstance",
+      "size" : "837"
+    },{ "name" : "portion",
+      "size" : "765"
+    },{ "name" : "render",
+      "size" : "701"
+    },{ "name" : "extent",
+      "size" : "721"
+    },{ "name" : "occasion",
+      "size" : "765"
+    },{ "name" : "intercourse",
+      "size" : "528"
+    },{ "name" : "preserve",
+      "size" : "821"
+    },{ "name" : "influence",
+      "size" : "770"
+    },{ "name" : "establishment",
+      "size" : "766"
+    },{ "name" : "expense",
+      "size" : "835"
+    },{ "name" : "consequence",
+      "size" : "632"
+    },{ "name" : "advantage",
+      "size" : "847"
+    },{ "name" : "appear",
+      "size" : "772"
+    },{ "name" : "doubt",
+      "size" : "893"
+    },{ "name" : "branch",
+      "size" : "779"
+    },{ "name" : "lay",
+      "size" : "792"
+    },{ "name" : "internal",
+      "size" : "474"
+    },{ "name" : "payment",
+      "size" : "881"
+    },{ "name" : "bless",
+      "size" : "698"
+    }]},
+    {
+      "name" : "Civil Rights","children": [{
+      "name" : "bush",
+      "size" : "265"
+    },{ "name" : "lehrer",
+      "size" : "179"
+    },{ "name" : "black",
+      "size" : "305"
+    },{ "name" : "clinton",
+      "size" : "151"
+    },{ "name" : "white",
+      "size" : "803"
+    },{ "name" : "minute",
+      "size" : "275"
+    },{ "name" : "clay",
+      "size" : "112"
+    },{ "name" : "saw",
+      "size" : "320"
+    },{ "name" : "perot",
+      "size" : "62"
+    },{ "name" : "death",
+      "size" : "400"
+    },{ "name" : "die",
+      "size" : "345"
+    },{ "name" : "dukakis",
+      "size" : "52"
+    },{ "name" : "african",
+      "size" : "200"
+    },{ "name" : "victim",
+      "size" : "185"
+    },{ "name" : "brother",
+      "size" : "162"
+    },{ "name" : "father",
+      "size" : "359"
+    }]},
+    {
+      "name" : "Economy","children": [{
+      "name" : "inflation",
+      "size" : "476"
+    },{ "name" : "income",
+      "size" : "758"
+    },{ "name" : "oil",
+      "size" : "483"
+    },{ "name" : "deficit",
+      "size" : "662"
+    },{ "name" : "carter",
+      "size" : "266"
+    },{ "name" : "growth",
+      "size" : "840"
+    },{ "name" : "unemployment",
+      "size" : "402"
+    },{ "name" : "ford",
+      "size" : "214"
+    },{ "name" : "reduction",
+      "size" : "887"
+    },{ "name" : "balance",
+      "size" : "785"
+    },{ "name" : "investment",
+      "size" : "518"
+    },{ "name" : "major",
+      "size" : "594"
+    },{ "name" : "level",
+      "size" : "507"
+    },{ "name" : "social",
+      "size" : "815"
+    },{ "name" : "develop",
+      "size" : "837"
+    },{ "name" : "reagan",
+      "size" : "235"
+    },{ "name" : "proposal",
+      "size" : "654"
+    },{ "name" : "goal",
+      "size" : "662"
+    },{ "name" : "mondale",
+      "size" : "161"
+    },{ "name" : "crime",
+      "size" : "653"
+    }]},
+    {
+      "name" : "Immigeration","children": [{
+      "name" : "panama",
+      "size" : "543"
+    },{ "name" : "texas",
+      "size" : "551"
+    },{ "name" : "mexican",
+      "size" : "433"
+    },{ "name" : "river",
+      "size" : "666"
+    },{ "name" : "article",
+      "size" : "900"
+    },{ "name" : "boundary",
+      "size" : "502"
+    },{ "name" : "british",
+      "size" : "806"
+    },{ "name" : "commissioner",
+      "size" : "661"
+    },{ "name" : "water",
+      "size" : "826"
+    },{ "name" : "isthmus",
+      "size" : "250"
+    },{ "name" : "november",
+      "size" : "453"
+    },{ "name" : "coast",
+      "size" : "681"
+    },{ "name" : "possession",
+      "size" : "458"
+    },{ "name" : "information",
+      "size" : "833"
+    },{ "name" : "communicate",
+      "size" : "369"
+    },{ "name" : "canal",
+      "size" : "581"
+    },{ "name" : "lake",
+      "size" : "230"
+    },{ "name" : "command",
+      "size" : "623"
+    },{ "name" : "letter",
+      "size" : "454"
+    }]},
+    {
+      "name" : "Strategic Resources","children": [{
+      "name" : "tariff",
+      "size" : "836"
+    },{ "name" : "corporation",
+      "size" : "557"
+    },{ "name" : "method",
+      "size" : "736"
+    },{ "name" : "interstate",
+      "size" : "317"
+    },{ "name" : "railroad",
+      "size" : "493"
+    },{ "name" : "industrial",
+      "size" : "506"
+    },{ "name" : "conference",
+      "size" : "760"
+    },{ "name" : "forest",
+      "size" : "270"
+    },{ "name" : "employee",
+      "size" : "398"
+    },{ "name" : "company",
+      "size" : "819"
+    },{ "name" : "efficiency",
+      "size" : "458"
+    },{ "name" : "investigation",
+      "size" : "380"
+    },{ "name" : "bureau",
+      "size" : "404"
+    },{ "name" : "combination",
+      "size" : "340"
+    },{ "name" : "statute",
+      "size" : "488"
+    },{ "name" : "especially",
+      "size" : "831"
+    },{ "name" : "cent",
+      "size" : "814"
+    }]},
+    {
+      "name" : "Vietnam War","children": [{
+      "name" : "viet",
+      "size" : "330"
+    },{ "name" : "nam",
+      "size" : "324"
+    },{ "name" : "situation",
+      "size" : "753"
+    },{ "name" : "ambassador",
+      "size" : "239"
+    },{ "name" : "week",
+      "size" : "729"
+    },{ "name" : "morning",
+      "size" : "239"
+    },{ "name" : "press",
+      "size" : "592"
+    },{ "name" : "sir",
+      "size" : "241"
+    },{ "name" : "recommendation",
+      "size" : "868"
+    },{ "name" : "official",
+      "size" : "735"
+    },{ "name" : "dominican",
+      "size" : "100"
+    },{ "name" : "attorney",
+      "size" : "284"
+    },{ "name" : "visit",
+      "size" : "415"
+    },{ "name" : "available",
+      "size" : "433"
+    },{ "name" : "night",
+      "size" : "384"
+    },{ "name" : "discussion",
+      "size" : "552"
+    }]},
+    {
+      "name" : "World War II","children": [{
+      "name" : "enemy",
+      "size" : "911"
+    },{ "name" : "sea",
+      "size" : "743"
+    },{ "name" : "germany",
+      "size" : "395"
+    },{ "name" : "victory",
+      "size" : "402"
+    },{ "name" : "plane",
+      "size" : "191"
+    },{ "name" : "production",
+      "size" : "776"
+    },{ "name" : "japanese",
+      "size" : "175"
+    },{ "name" : "japan",
+      "size" : "370"
+    },{ "name" : "nazi",
+      "size" : "111"
+    },{ "name" : "air",
+      "size" : "454"
+    },{ "name" : "hundred",
+      "size" : "727"
+    },{ "name" : "thousand",
+      "size" : "741"
+    },{ "name" : "britain",
+      "size" : "775"
+    },{ "name" : "german",
+      "size" : "345"
+    },{ "name" : "gun",
+      "size" : "392"
+    },{ "name" : "win",
+      "size" : "354"
+    },{ "name" : "soldier",
+      "size" : "522"
+    }]},
+    {
+      "name" : "Industry","children": [{
+      "name" : "enterprise",
+      "size" : "668"
+    },{ "name" : "wage",
+      "size" : "697"
+    },{ "name" : "wish",
+      "size" : "770"
+    },{ "name" : "credit",
+      "size" : "835"
+    },{ "name" : "standard",
+      "size" : "660"
+    },{ "name" : "self",
+      "size" : "884"
+    },{ "name" : "fear",
+      "size" : "680"
+    },{ "name" : "farmer",
+      "size" : "600"
+    },{ "name" : "affair",
+      "size" : "897"
+    },{ "name" : "financial",
+      "size" : "590"
+    },{ "name" : "civilization",
+      "size" : "407"
+    },{ "name" : "cooperation",
+      "size" : "663"
+    },{ "name" : "group",
+      "size" : "600"
+    }]},
+    {
+      "name" : "Legislative-Resolution","children": [{
+      "name" : "resolution",
+      "size" : "627"
+    },{ "name" : "poland",
+      "size" : "132"
+    },{ "name" : "deposit",
+      "size" : "393"
+    },{ "name" : "charter",
+      "size" : "276"
+    },{ "name" : "charge",
+      "size" : "867"
+    },{ "name" : "legislative",
+      "size" : "596"
+    },{ "name" : "impeachment",
+      "size" : "50"
+    },{ "name" : "imperial",
+      "size" : "133"
+    },{ "name" : "neutral",
+      "size" : "217"
+    },{ "name" : "removal",
+      "size" : "318"
+    },{ "name" : "body",
+      "size" : "688"
+    }]},
+    {
+      "name" : "Colonialism","children": [{
+      "name" : "cuba",
+      "size" : "652"
+    },{ "name" : "spain",
+      "size" : "616"
+    },{ "name" : "spanish",
+      "size" : "335"
+    },{ "name" : "commercial",
+      "size" : "899"
+    },{ "name" : "port",
+      "size" : "655"
+    },{ "name" : "colony",
+      "size" : "269"
+    },{ "name" : "cuban",
+      "size" : "229"
+    },{ "name" : "product",
+      "size" : "779"
+    },{ "name" : "central",
+      "size" : "512"
+    },{ "name" : "import",
+      "size" : "564"
+    },{ "name" : "manufacture",
+      "size" : "606"
+    },{ "name" : "export",
+      "size" : "510"
+    },{ "name" : "pacific",
+      "size" : "668"
+    },{ "name" : "european",
+      "size" : "417"
+    },{ "name" : "independence",
+      "size" : "848"
+    },{ "name" : "nicaragua",
+      "size" : "280"
+    }]},
+    {
+      "name" : "Agriculture","children": [{
+      "name" : "relief",
+      "size" : "599"
+    },{ "name" : "farm",
+      "size" : "539"
+    },{ "name" : "employment",
+      "size" : "567"
+    },{ "name" : "local",
+      "size" : "888"
+    },{ "name" : "veteran",
+      "size" : "255"
+    },{ "name" : "agriculture",
+      "size" : "521"
+    },{ "name" : "loan",
+      "size" : "597"
+    },{ "name" : "depression",
+      "size" : "245"
+    },{ "name" : "construction",
+      "size" : "793"
+    },{ "name" : "agency",
+      "size" : "569"
+    },{ "name" : "organization",
+      "size" : "840"
+    },{ "name" : "emergency",
+      "size" : "443"
+    },{ "name" : "project",
+      "size" : "400"
+    },{ "name" : "recovery",
+      "size" : "335"
+    },{ "name" : "agricultural",
+      "size" : "439"
+    }]},
+    {
+      "name" : "Education/Health","children": [{
+      "name" : "worker",
+      "size" : "734"
+    },{ "name" : "drug",
+      "size" : "435"
+    },{ "name" : "insurance",
+      "size" : "487"
+    },{ "name" : "hard",
+      "size" : "740"
+    },{ "name" : "start",
+      "size" : "758"
+    },{ "name" : "college",
+      "size" : "459"
+    },{ "name" : "parent",
+      "size" : "415"
+    },{ "name" : "sure",
+      "size" : "808"
+    },{ "name" : "lot",
+      "size" : "487"
+    },{ "name" : "idea",
+      "size" : "647"
+    },{ "name" : "laughter",
+      "size" : "394"
+    },{ "name" : "raise",
+      "size" : "806"
+    }]},
+    {
+      "name" : "Cabinet-Praclamation","children": [{
+      "name" : "stanton",
+      "size" : "97"
+    },{ "name" : "cell",
+      "size" : "86"
+    },{ "name" : "cabinet",
+      "size" : "244"
+    },{ "name" : "research",
+      "size" : "322"
+    },{ "name" : "remove",
+      "size" : "678"
+    },{ "name" : "stem",
+      "size" : "69"
+    },{ "name" : "request",
+      "size" : "534"
+    },{ "name" : "vacancy",
+      "size" : "98"
+    },{ "name" : "conversation",
+      "size" : "156"
+    },{ "name" : "head",
+      "size" : "573"
+    },{ "name" : "august",
+      "size" : "337"
+    },{ "name" : "interim",
+      "size" : "58"
+    },{ "name" : "discharge",
+      "size" : "516"
+    },{ "name" : "reply",
+      "size" : "180"
+    },{ "name" : "perform",
+      "size" : "493"
+    }]},
+    {
+      "name" : "Militry Threat","children": [{
+      "name" : "vietnam",
+      "size" : "819"
+    },{ "name" : "nuclear",
+      "size" : "890"
+    },{ "name" : "communist",
+      "size" : "515"
+    },{ "name" : "asia",
+      "size" : "495"
+    },{ "name" : "aggression",
+      "size" : "494"
+    },{ "name" : "missile",
+      "size" : "335"
+    },{ "name" : "commitment",
+      "size" : "625"
+    },{ "name" : "vietnamese",
+      "size" : "238"
+    },{ "name" : "strategic",
+      "size" : "261"
+    },{ "name" : "peaceful",
+      "size" : "609"
+    },{ "name" : "berlin",
+      "size" : "289"
+    },{ "name" : "western",
+      "size" : "530"
+    },{ "name" : "conflict",
+      "size" : "811"
+    }]},
+    {
+      "name" : "Currency","children": [{
+      "name" : "gold",
+      "size" : "708"
+    },{ "name" : "note",
+      "size" : "783"
+    },{ "name" : "silver",
+      "size" : "522"
+    },{ "name" : "june",
+      "size" : "733"
+    },{ "name" : "currency",
+      "size" : "646"
+    },{ "name" : "bond",
+      "size" : "625"
+    },{ "name" : "receipt",
+      "size" : "543"
+    },{ "name" : "annual",
+      "size" : "656"
+    },{ "name" : "sum",
+      "size" : "772"
+    },{ "name" : "total",
+      "size" : "764"
+    },{ "name" : "mail",
+      "size" : "441"
+    },{ "name" : "circulation",
+      "size" : "302"
+    },{ "name" : "coin",
+      "size" : "301"
+    }]}
+  ]
+}

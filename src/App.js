@@ -26,33 +26,65 @@ class App extends React.Component {
       "William Harding", "Calvin Coolidge", "Herbert Hoover", "Franklin Roosevelt", "Harry Truman", "Dwight Eisenhower", "John Kennedy",
       "Lydon Johnson", "Richard Nixon", "Gerald Ford", "Jimmy Carter", "Ronald Reagan", "George H.W. Bush", "Bill Clinton", "George W. Bush",
       "Barack Obama", "Donald Trump"];
+    this.partieswords = ["Topic-Party-President", "Party-Topic", "President-Topic", "frequency", "numspeeches", "sublingweight"];
     this.handlePresidentSelectionChange.bind(this);
     this.handleTopicSelectionChange.bind(this);
+    this.handlepartieswords.bind(this);
   }
 
   state = {
     currentTopics: ["Election", "Middle East"],
     currentPresidents: ["Bill Clinton", "George W. Bush", "Barack Obama", "Donald Trump"],
-    currentView: "wordnet",
-    data: SpeechData
+    currentView: "heatmap",
+    data: SpeechData,
+    partieswords: "Topic-Party-President",
   }
 
   render() {
 
     const TopicTags = () => (this.state.currentTopics.map(topic => (
-      <Chip key={topic} label={topic} onDelete={() => this.handleTopicSelectionChange(topic)} className="tag"/>
+      <Chip key={topic} label={topic} onDelete={() => this.handleTopicSelectionChange(topic)} className="tag" />
     )));
 
     const PresidentTags = () => (this.state.currentPresidents.map(president => (
-      <Chip key={president} label={president} onDelete={() => this.handlePresidentSelectionChange(president)} className="tag"/>
+      <Chip key={president} label={president} onDelete={() => this.handlePresidentSelectionChange(president)} className="tag" />
     )));
 
     return (
       <div className='App'>
-        <h2>
-          Topics Discussed in Presidential Speeches
-        </h2>
-        <CompareView visible={this.state.currentView === "compare"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
+        <h2>Language Used in Presidential Speeches</h2>
+        <Grid container={true}>
+          <Grid item={true} xs={12} className="compare-selector">
+            <div className='radio'>
+              <Typography>Select a bubble hierarchy:
+    			      <label className='radio-inline'>
+                  <input type="radio" name="presidentword" value="Topic-Party-President" onChange={this.handlepartieswords} checked={this.state.partieswords === "Topic-Party-President"} /> Topic -> Party -> President
+    			      </label>
+                <label className='radio-inline'>
+                  <input type="radio" name="presidentword" value="Party-Topic" onChange={this.handlepartieswords} checked={this.state.partieswords === "Party-Topic"} /> Party -> Topic
+    			      </label>
+                <label className='radio-inline'>
+                  <input type="radio" name="presidentword" value="President-Topic" onChange={this.handlepartieswords} checked={this.state.partieswords === "President-Topic"} /> President -> Topic
+    			      </label>
+              </Typography>
+              <Typography>Select an attribute to display:
+    			      <label className='radio-inline'>
+                  <input type="radio" name="presidentword" value="frequency" onChange={this.handlepartieswords} checked={this.state.partieswords === "frequency"} /> total word frequency
+    			      </label>
+                <label className='radio-inline'>
+                  <input type="radio" name="presidentword" value="numspeeches" onChange={this.handlepartieswords} checked={this.state.partieswords === "numspeeches"} /> # of speeches containing a word
+    			      </label>
+                <label className='radio-inline'>
+                  <input type="radio" name="presidentword" value="sublingweight" onChange={this.handlepartieswords} checked={this.state.partieswords === "sublingweight"} /> word-topic relationship strength
+    			      </label>
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item={true} xs={12}>
+            <CompareView selection={this.state.partieswords} />
+          </Grid>
+        </Grid>
+        <h2>Topics Discussed in Presidential Speeches</h2>
         <Grid container={true}>
           <Grid item={true} xs={12}>
             <TopicSelector onTopicChange={this.handleTopicSelectionChange} />
@@ -83,6 +115,12 @@ class App extends React.Component {
         <StackedBarView visible={this.state.currentView === "bars"} topics={this.state.currentTopics} presidents={this.state.currentPresidents} />
       </div>
     );
+  }
+
+  handlepartieswords = (event) => {
+    this.setState({
+      partieswords: event.target.value
+    });
   }
 
   handleTopicSelectionChange = (selection) => {

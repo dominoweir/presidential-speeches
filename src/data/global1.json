@@ -1,0 +1,3412 @@
+  {"name":"Topic visualization", "children":[  {
+      "name" : "Election", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 1,
+      "avgprob" : 0.12290156,
+      "size" : 0.12290156
+    },    {
+      
+      "number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 1,
+      "avgprob" : 0.09077394,
+      "size" : 0.09077394
+    },    {
+      
+      "number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 1,
+      "avgprob" : 0.018176282,
+      "size" : 0.018176282
+    },    {
+      
+      "number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 4,
+      "avgprob" : 0.05989276325,
+      "size" : 0.239571053
+   },    {
+      
+      "number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 16,
+      "avgprob" : 0.1168466208125,
+      "size" : 1.869545933
+   },    {
+      
+      "number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 10,
+      "avgprob" : 0.500829791,
+      "size" : 5.00829791
+    },    {
+      
+      "number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 14,
+      "avgprob" : 0.0927711207857143,
+      "size" : 1.298795691
+    },    {
+      
+      "number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 32,
+      "avgprob" : 0.20672273925,
+      "size" : 6.615127656
+   },    {
+      
+      "number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 7,
+      "avgprob" : 0.109098745285714,
+      "size" : 0.763691217
+    },    {
+      
+      "number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 10,
+      "avgprob" : 0.1872631144,
+      "size" : 1.872631144
+   },    {
+      
+      "number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 11,
+      "avgprob" : 0.0965039534545455,
+      "size" : 1.061543488
+    }]},    {
+      
+      "name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 1,
+      "avgprob" : 0.054299146,
+      "size" : 0.054299146
+    }]},    {
+      
+      "name" : "Republican","children":[{
+      "number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 3,
+      "avgprob" : 0.032528531,
+      "size" : 0.097585593
+   },    {
+      
+      "number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 1,
+      "avgprob" : 0.02090361,
+      "size" : 0.02090361
+   },    {
+      
+      "number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 2,
+      "avgprob" : 0.0404786845,
+      "size" : 0.080957369
+  },    {
+      
+      "number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 1,
+      "avgprob" : 0.01904188,
+      "size" : 0.01904188
+   },    {
+      
+      "number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 1,
+      "avgprob" : 0.03925122,
+      "size" : 0.03925122
+  },    {
+      
+      "number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 1,
+      "avgprob" : 0.07634243,
+      "size" : 0.07634243
+  },    {
+      
+      "number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 1,
+      "avgprob" : 0.015638215,
+      "size" : 0.015638215
+ },    {
+      
+      "number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 7,
+      "avgprob" : 0.110407892857143,
+      "size" : 0.77285525
+    },    {
+      
+      "number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 7,
+      "avgprob" : 0.622052824285714,
+      "size" : 4.35436977
+    },    {
+      
+      "number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 14,
+      "avgprob" : 0.2713657875,
+      "size" : 3.799121025
+    },    {
+      
+      "number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 10,
+      "avgprob" : 0.1924042993,
+      "size" : 1.924042993
+    },    {
+      
+      "number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 25,
+      "avgprob" : 0.12002966276,
+      "size" : 3.000741569
+    },    {
+      
+      "number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 7,
+      "avgprob" : 0.106808005857143,
+      "size" : 0.747656041
+     },    {
+      
+      "number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 6,
+      "avgprob" : 0.125053986833333,
+      "size" : 0.750323921
+    }]}]},
+    {
+      "name" : "Middle East", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 1,
+      "avgprob" : 0.019482153,
+      "size" : 0.019482153
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 1,
+      "avgprob" : 0.086255856,
+      "size" : 0.086255856
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 2,
+      "avgprob" : 0.052885142,
+      "size" : 0.105770284
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 1,
+      "avgprob" : 0.061731264,
+      "size" : 0.061731264
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 2,
+      "avgprob" : 0.042617017,
+      "size" : 0.085234034
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 6,
+      "avgprob" : 0.0556122945,
+      "size" : 0.333673767
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 10,
+      "avgprob" : 0.169230065,
+      "size" : 1.69230065
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 17,
+      "avgprob" : 0.295349179,
+      "size" : 5.020936043
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 24,
+      "avgprob" : 0.402438762208333,
+      "size" : 9.658530293
+    }]},{"name" : "Republican","children":[{
+      "number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 1,
+      "avgprob" : 0.027441977,
+      "size" : 0.027441977
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 1,
+      "avgprob" : 0.13871501,
+      "size" : 0.13871501
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 1,
+      "avgprob" : 0.05,
+      "size" : 0.05
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 1,
+      "avgprob" : 0.024507824,
+      "size" : 0.024507824
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 1,
+      "avgprob" : 0.05650709,
+      "size" : 0.05650709
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 2,
+      "avgprob" : 0.04673836,
+      "size" : 0.09347672
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 27,
+      "avgprob" : 0.189592256666667,
+      "size" : 5.11899093
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 15,
+      "avgprob" : 0.360178626866667,
+      "size" : 5.402679403
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 31,
+      "avgprob" : 0.507997335806452,
+      "size" : 15.74791741
+    },{"number" : 45,
+      "name" : "Donald Trump",
+      "numspeeches" : 2,
+      "avgprob" : 0.17167039,
+      "size" : 0.34334078
+    }]}]},
+    {
+      "name" : "Civil War", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 7,
+      "avgprob" : 0.250737574857143,
+      "size" : 1.755163024
+    },{"number" : 8,
+      "name" : "Martin Van Buren",
+      "numspeeches" : 4,
+      "avgprob" : 0.2489729165,
+      "size" : 0.995891666
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 10,
+      "avgprob" : 0.1288641536,
+      "size" : 1.288641536
+    },{"number" : 14,
+      "name" : "Franklin Pierce",
+      "numspeeches" : 9,
+      "avgprob" : 0.435485505555556,
+      "size" : 3.91936955
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 13,
+      "avgprob" : 0.313150589615385,
+      "size" : 4.070957665
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 5,
+      "avgprob" : 0.6659437372,
+      "size" : 3.329718686
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 3,
+      "avgprob" : 0.0971842333333333,
+      "size" : 0.2915527
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 5,
+      "avgprob" : 0.4018462232,
+      "size" : 2.009231116
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 6,
+      "avgprob" : 0.122406047833333,
+      "size" : 0.734436287
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 6,
+      "avgprob" : 0.09321692,
+      "size" : 0.55930152
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 1,
+      "avgprob" : 0.06405897,
+      "size" : 0.06405897
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 8,
+      "avgprob" : 0.130156679,
+      "size" : 1.041253432
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 9,
+      "avgprob" : 0.0794540198888889,
+      "size" : 0.715086179
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 5,
+      "avgprob" : 0.0843466346,
+      "size" : 0.421733173
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 4,
+      "avgprob" : 0.05775659375,
+      "size" : 0.231026375
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 6,
+      "avgprob" : 0.166296470666667,
+      "size" : 0.997778824
+    },{"number" : 4,
+      "name" : "James Madison",
+      "numspeeches" : 7,
+      "avgprob" : 0.152737222285714,
+      "size" : 1.069160556
+    },{"number" : 5,
+      "name" : "James Monroe",
+      "numspeeches" : 2,
+      "avgprob" : 0.095712938,
+      "size" : 0.191425876
+    },{"number" : 6,
+      "name" : "John Quincy Adams",
+      "numspeeches" : 2,
+      "avgprob" : 0.2473042185,
+      "size" : 0.494608437
+    }]},{"name" : "Federalist","children":[{
+      "number" : 2,
+      "name" : "John Adams",
+      "numspeeches" : 3,
+      "avgprob" : 0.335769758333333,
+      "size" : 1.007309275
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 9,
+      "avgprob" : 0.382819971111111,
+      "size" : 3.44537974
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 23,
+      "avgprob" : 0.623364967826087,
+      "size" : 14.33739426
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 25,
+      "avgprob" : 0.35518060404,
+      "size" : 8.879515101
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 9,
+      "avgprob" : 0.522211718444444,
+      "size" : 4.699905466
+    },{"number" : 20,
+      "name" : "James Garfield",
+      "numspeeches" : 1,
+      "avgprob" : 0.20959134,
+      "size" : 0.20959134
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 4,
+      "avgprob" : 0.05038946825,
+      "size" : 0.201557873
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 4,
+      "avgprob" : 0.219664057,
+      "size" : 0.878656228
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 6,
+      "avgprob" : 0.0859884351666667,
+      "size" : 0.515930611
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 5,
+      "avgprob" : 0.1038369296,
+      "size" : 0.519184648
+    },{"number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 3,
+      "avgprob" : 0.108848785,
+      "size" : 0.326546355
+    },{"number" : 29,
+      "name" : "William Harding",
+      "numspeeches" : 1,
+      "avgprob" : 0.012102917,
+      "size" : 0.012102917
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 3,
+      "avgprob" : 0.0575528866666667,
+      "size" : 0.17265866
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 4,
+      "avgprob" : 0.08049779125,
+      "size" : 0.321991165
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 2,
+      "avgprob" : 0.1042679435,
+      "size" : 0.208535887
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 3,
+      "avgprob" : 0.094681338,
+      "size" : 0.284044014
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 8,
+      "avgprob" : 0.03799030775,
+      "size" : 0.303922462
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 2,
+      "avgprob" : 0.014796798,
+      "size" : 0.029593596
+    },{"number" : 45,
+      "name" : "Donald Trump",
+      "numspeeches" : 1,
+      "avgprob" : 0.013590045,
+      "size" : 0.013590045
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 10,
+      "avgprob" : 0.418378023,
+      "size" : 4.18378023
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 6,
+      "avgprob" : 0.0846186368333333,
+      "size" : 0.507711821
+    }]},{"name" : "Whig","children":[{
+      "number" : 9,
+      "name" : "William Harrison",
+      "numspeeches" : 1,
+      "avgprob" : 0.09778226,
+      "size" : 0.09778226
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 3,
+      "avgprob" : 0.217530476666667,
+      "size" : 0.65259143
+    },{"number" : 12,
+      "name" : "Zachary Taylor",
+      "numspeeches" : 2,
+      "avgprob" : 0.133241955,
+      "size" : 0.26648391
+    },{"number" : 13,
+      "name" : "Millard Filmore",
+      "numspeeches" : 6,
+      "avgprob" : 0.292159359333333,
+      "size" : 1.752956156
+    }]}]},
+    {
+      "name" : "Faith-Humanity", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 4,
+      "avgprob" : 0.07682977125,
+      "size" : 0.307319085
+    },{"number" : 8,
+      "name" : "Martin Van Buren",
+      "numspeeches" : 1,
+      "avgprob" : 0.075581014,
+      "size" : 0.075581014
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 4,
+      "avgprob" : 0.0787227725,
+      "size" : 0.31489109
+    },{"number" : 14,
+      "name" : "Franklin Pierce",
+      "numspeeches" : 2,
+      "avgprob" : 0.0888962845,
+      "size" : 0.177792569
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 4,
+      "avgprob" : 0.178475792,
+      "size" : 0.713903168
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 2,
+      "avgprob" : 0.0862797815,
+      "size" : 0.172559563
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 2,
+      "avgprob" : 0.072777262,
+      "size" : 0.145554524
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 28,
+      "avgprob" : 0.282283064642857,
+      "size" : 7.90392581
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 26,
+      "avgprob" : 0.280989074,
+      "size" : 7.305715924
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 13,
+      "avgprob" : 0.319934658923077,
+      "size" : 4.159150566
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 35,
+      "avgprob" : 0.479732880285714,
+      "size" : 16.79065081
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 47,
+      "avgprob" : 0.41055080493617,
+      "size" : 19.295887832
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 15,
+      "avgprob" : 0.311694428866667,
+      "size" : 4.675416433
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 33,
+      "avgprob" : 0.327213979818182,
+      "size" : 10.798061334
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 31,
+      "avgprob" : 0.338346616741936,
+      "size" : 10.488745119
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 8,
+      "avgprob" : 0.22869884675,
+      "size" : 1.829590774
+    },{"number" : 4,
+      "name" : "James Madison",
+      "numspeeches" : 7,
+      "avgprob" : 0.227612063142857,
+      "size" : 1.593284442
+    },{"number" : 5,
+      "name" : "James Monroe",
+      "numspeeches" : 1,
+      "avgprob" : 0.6410415,
+      "size" : 0.6410415
+    },{"number" : 6,
+      "name" : "John Quincy Adams",
+      "numspeeches" : 2,
+      "avgprob" : 0.097129791,
+      "size" : 0.194259582
+    }]},{"name" : "Federalist","children":[{
+      "number" : 2,
+      "name" : "John Adams",
+      "numspeeches" : 4,
+      "avgprob" : 0.186701568,
+      "size" : 0.746806272
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 5,
+      "avgprob" : 0.3110252252,
+      "size" : 1.555126126
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 4,
+      "avgprob" : 0.09844787325,
+      "size" : 0.393791493
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 4,
+      "avgprob" : 0.14690558975,
+      "size" : 0.587622359
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 1,
+      "avgprob" : 0.029421562,
+      "size" : 0.029421562
+    },{"number" : 20,
+      "name" : "James Garfield",
+      "numspeeches" : 1,
+      "avgprob" : 0.23691209,
+      "size" : 0.23691209
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 3,
+      "avgprob" : 0.128985161333333,
+      "size" : 0.386955484
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 6,
+      "avgprob" : 0.224684609,
+      "size" : 1.348107654
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 7,
+      "avgprob" : 0.108298279571429,
+      "size" : 0.758087957
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 10,
+      "avgprob" : 0.1344805831,
+      "size" : 1.344805831
+    },{"number" : 29,
+      "name" : "William Harding",
+      "numspeeches" : 4,
+      "avgprob" : 0.4000113,
+      "size" : 1.6000452
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 6,
+      "avgprob" : 0.316099103333333,
+      "size" : 1.89659462
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 6,
+      "avgprob" : 0.154411936,
+      "size" : 0.926471616
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 9,
+      "avgprob" : 0.487335657,
+      "size" : 4.386020913
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 16,
+      "avgprob" : 0.354668563,
+      "size" : 5.674697008
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 11,
+      "avgprob" : 0.352577531363636,
+      "size" : 3.878352845
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 49,
+      "avgprob" : 0.417393689489796,
+      "size" : 20.452290785
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 14,
+      "avgprob" : 0.377495939071429,
+      "size" : 5.284943147
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 26,
+      "avgprob" : 0.266484237807692,
+      "size" : 6.928590183
+    },{"number" : 45,
+      "name" : "Donald Trump",
+      "numspeeches" : 3,
+      "avgprob" : 0.420908833333333,
+      "size" : 1.2627265
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 4,
+      "avgprob" : 0.11634725625,
+      "size" : 0.465389025
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 1,
+      "avgprob" : 0.043774687,
+      "size" : 0.043774687
+    }]},{"name" : "Whig","children":[{
+      "number" : 9,
+      "name" : "William Harrison",
+      "numspeeches" : 1,
+      "avgprob" : 0.0881907,
+      "size" : 0.0881907
+    }]}]},
+    {
+      "name" : "Labor China", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 1,
+      "avgprob" : 0.0739248,
+      "size" : 0.0739248
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 2,
+      "avgprob" : 0.0392764005,
+      "size" : 0.078552801
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 9,
+      "avgprob" : 0.358905728111111,
+      "size" : 3.230151553
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 2,
+      "avgprob" : 0.020775702,
+      "size" : 0.041551404
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 3,
+      "avgprob" : 0.25997772,
+      "size" : 0.77993316
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 3,
+      "avgprob" : 0.020954778,
+      "size" : 0.062864334
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 3,
+      "avgprob" : 0.0205823023333333,
+      "size" : 0.061746907
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 2,
+      "avgprob" : 0.02243466,
+      "size" : 0.04486932
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 1,
+      "avgprob" : 0.023640875,
+      "size" : 0.023640875
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 2,
+      "avgprob" : 0.019735791,
+      "size" : 0.039471582
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 1,
+      "avgprob" : 0.04404489,
+      "size" : 0.04404489
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 3,
+      "avgprob" : 0.0302045006666667,
+      "size" : 0.090613502
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 1,
+      "avgprob" : 0.014913985,
+      "size" : 0.014913985
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 10,
+      "avgprob" : 0.1657982303,
+      "size" : 1.657982303
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 9,
+      "avgprob" : 0.218976655777778,
+      "size" : 1.970789902
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 4,
+      "avgprob" : 0.11809055825,
+      "size" : 0.472362233
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 1,
+      "avgprob" : 0.39276114,
+      "size" : 0.39276114
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 2,
+      "avgprob" : 0.080821658,
+      "size" : 0.161643316
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 3,
+      "avgprob" : 0.183587706666667,
+      "size" : 0.55076312
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 4,
+      "avgprob" : 0.02719100175,
+      "size" : 0.108764007
+    },{"number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 1,
+      "avgprob" : 0.015051539,
+      "size" : 0.015051539
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 1,
+      "avgprob" : 0.019764088,
+      "size" : 0.019764088
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 3,
+      "avgprob" : 0.0336357713333333,
+      "size" : 0.100907314
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 1,
+      "avgprob" : 0.018783415,
+      "size" : 0.018783415
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 1,
+      "avgprob" : 0.010177728,
+      "size" : 0.010177728
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 4,
+      "avgprob" : 0.0329932575,
+      "size" : 0.13197303
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 1,
+      "avgprob" : 0.0986651,
+      "size" : 0.0986651
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 1,
+      "avgprob" : 0.02248761,
+      "size" : 0.02248761
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 1,
+      "avgprob" : 0.07835468,
+      "size" : 0.07835468
+    }]},{"name" : "Whig","children":[{
+      "number" : 13,
+      "name" : "Millard Filmore",
+      "numspeeches" : 1,
+      "avgprob" : 0.034358352,
+      "size" : 0.034358352
+    }]}]},
+    {
+      "name" : "Circumstance-Consequence", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 23,
+      "avgprob" : 0.673134829130435,
+      "size" : 15.48210107
+    },{"number" : 8,
+      "name" : "Martin Van Buren",
+      "numspeeches" : 8,
+      "avgprob" : 0.5881586075,
+      "size" : 4.70526886
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 21,
+      "avgprob" : 0.395335336857143,
+      "size" : 8.302042074
+    },{"number" : 14,
+      "name" : "Franklin Pierce",
+      "numspeeches" : 13,
+      "avgprob" : 0.449859720769231,
+      "size" : 5.84817637
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 12,
+      "avgprob" : 0.311063313833333,
+      "size" : 3.732759766
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 3,
+      "avgprob" : 0.19124514,
+      "size" : 0.57373542
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 13,
+      "avgprob" : 0.166247875384615,
+      "size" : 2.16122238
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 5,
+      "avgprob" : 0.1895623,
+      "size" : 0.9478115
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 17,
+      "avgprob" : 0.103032676235294,
+      "size" : 1.751555496
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 8,
+      "avgprob" : 0.07535736525,
+      "size" : 0.602858922
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 2,
+      "avgprob" : 0.0555568635,
+      "size" : 0.111113727
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 8,
+      "avgprob" : 0.05608727125,
+      "size" : 0.44869817
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 4,
+      "avgprob" : 0.0460329035,
+      "size" : 0.184131614
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 6,
+      "avgprob" : 0.0369530863333333,
+      "size" : 0.221718518
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 2,
+      "avgprob" : 0.054525502,
+      "size" : 0.109051004
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 3,
+      "avgprob" : 0.0273818623333333,
+      "size" : 0.082145587
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 21,
+      "avgprob" : 0.563313287619048,
+      "size" : 11.82957904
+    },{"number" : 4,
+      "name" : "James Madison",
+      "numspeeches" : 22,
+      "avgprob" : 0.669507060909091,
+      "size" : 14.72915534
+    },{"number" : 5,
+      "name" : "James Monroe",
+      "numspeeches" : 10,
+      "avgprob" : 0.713387424,
+      "size" : 7.13387424
+    },{"number" : 6,
+      "name" : "John Quincy Adams",
+      "numspeeches" : 7,
+      "avgprob" : 0.624813854285714,
+      "size" : 4.37369698
+    }]},{"name" : "Federalist","children":[{
+      "number" : 2,
+      "name" : "John Adams",
+      "numspeeches" : 8,
+      "avgprob" : 0.70245376125,
+      "size" : 5.61963009
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 7,
+      "avgprob" : 0.225547697142857,
+      "size" : 1.57883388
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 11,
+      "avgprob" : 0.235242469909091,
+      "size" : 2.587667169
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 16,
+      "avgprob" : 0.1765296946875,
+      "size" : 2.824475115
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 10,
+      "avgprob" : 0.1620997371,
+      "size" : 1.620997371
+    },{"number" : 20,
+      "name" : "James Garfield",
+      "numspeeches" : 1,
+      "avgprob" : 0.16083865,
+      "size" : 0.16083865
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 6,
+      "avgprob" : 0.239892828166667,
+      "size" : 1.439356969
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 3,
+      "avgprob" : 0.275321496666667,
+      "size" : 0.82596449
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 9,
+      "avgprob" : 0.112067932777778,
+      "size" : 1.008611395
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 8,
+      "avgprob" : 0.05257275025,
+      "size" : 0.420582002
+    },{"number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 4,
+      "avgprob" : 0.099829422,
+      "size" : 0.399317688
+    },{"number" : 29,
+      "name" : "William Harding",
+      "numspeeches" : 3,
+      "avgprob" : 0.048787129,
+      "size" : 0.146361387
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 11,
+      "avgprob" : 0.143560265272727,
+      "size" : 1.579162918
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 4,
+      "avgprob" : 0.04238577475,
+      "size" : 0.169543099
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 5,
+      "avgprob" : 0.0828404358,
+      "size" : 0.414202179
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 1,
+      "avgprob" : 0.05266584,
+      "size" : 0.05266584
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 1,
+      "avgprob" : 0.02372316,
+      "size" : 0.02372316
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 6,
+      "avgprob" : 0.0564350896666667,
+      "size" : 0.338610538
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 1,
+      "avgprob" : 0.0255371,
+      "size" : 0.0255371
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 1,
+      "avgprob" : 0.021182679,
+      "size" : 0.021182679
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 17,
+      "avgprob" : 0.686622873529412,
+      "size" : 11.67258885
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 13,
+      "avgprob" : 0.518690474615385,
+      "size" : 6.74297617
+    }]},{"name" : "Whig","children":[{
+      "number" : 9,
+      "name" : "William Harrison",
+      "numspeeches" : 1,
+      "avgprob" : 0.7516259,
+      "size" : 0.7516259
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 4,
+      "avgprob" : 0.580494295,
+      "size" : 2.32197718
+    },{"number" : 12,
+      "name" : "Zachary Taylor",
+      "numspeeches" : 4,
+      "avgprob" : 0.47417142125,
+      "size" : 1.896685685
+    },{"number" : 13,
+      "name" : "Millard Filmore",
+      "numspeeches" : 6,
+      "avgprob" : 0.283124941666667,
+      "size" : 1.69874965
+    }]}]},
+    {
+      "name" : "Civil Rights", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 8,
+      "name" : "Martin Van Buren",
+      "numspeeches" : 1,
+      "avgprob" : 0.27737117,
+      "size" : 0.27737117
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 1,
+      "avgprob" : 0.010964566,
+      "size" : 0.010964566
+    },{"number" : 14,
+      "name" : "Franklin Pierce",
+      "numspeeches" : 1,
+      "avgprob" : 0.09578859,
+      "size" : 0.09578859
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 2,
+      "avgprob" : 0.050767377,
+      "size" : 0.101534754
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 8,
+      "avgprob" : 0.2995767425,
+      "size" : 2.39661394
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 2,
+      "avgprob" : 0.0460098935,
+      "size" : 0.092019787
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 5,
+      "avgprob" : 0.1262423242,
+      "size" : 0.631211621
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 2,
+      "avgprob" : 0.0985393985,
+      "size" : 0.197078797
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 3,
+      "avgprob" : 0.0294937716666667,
+      "size" : 0.088481315
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 13,
+      "avgprob" : 0.102332336769231,
+      "size" : 1.330320378
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 9,
+      "avgprob" : 0.0679395237777778,
+      "size" : 0.611455714
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 4,
+      "avgprob" : 0.2010492,
+      "size" : 0.8041968
+    }]},{"name" : "Federalist","children":[{
+      "number" : 2,
+      "name" : "John Adams",
+      "numspeeches" : 2,
+      "avgprob" : 0.138746091,
+      "size" : 0.277492182
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 5,
+      "avgprob" : 0.059688363,
+      "size" : 0.298441815
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 1,
+      "avgprob" : 0.03993174,
+      "size" : 0.03993174
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 2,
+      "avgprob" : 0.032429475,
+      "size" : 0.06485895
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 1,
+      "avgprob" : 0.14551972,
+      "size" : 0.14551972
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 2,
+      "avgprob" : 0.12527079,
+      "size" : 0.25054158
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 1,
+      "avgprob" : 0.21126084,
+      "size" : 0.21126084
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 2,
+      "avgprob" : 0.095987145,
+      "size" : 0.19197429
+    },{"number" : 29,
+      "name" : "William Harding",
+      "numspeeches" : 1,
+      "avgprob" : 0.22682339,
+      "size" : 0.22682339
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 2,
+      "avgprob" : 0.143086545,
+      "size" : 0.28617309
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 3,
+      "avgprob" : 0.0521783366666667,
+      "size" : 0.15653501
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 2,
+      "avgprob" : 0.124079926,
+      "size" : 0.248159852
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 12,
+      "avgprob" : 0.144673386166667,
+      "size" : 1.736080634
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 3,
+      "avgprob" : 0.163467682,
+      "size" : 0.490403046
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 4,
+      "avgprob" : 0.0449223725,
+      "size" : 0.17968949
+    },{"number" : 45,
+      "name" : "Donald Trump",
+      "numspeeches" : 1,
+      "avgprob" : 0.010810578,
+      "size" : 0.010810578
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 2,
+      "avgprob" : 0.17111129,
+      "size" : 0.34222258
+    }]},{"name" : "Whig","children":[{
+      "number" : 9,
+      "name" : "William Harrison",
+      "numspeeches" : 1,
+      "avgprob" : 0.010887536,
+      "size" : 0.010887536
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 1,
+      "avgprob" : 0.025690574,
+      "size" : 0.025690574
+    },{"number" : 13,
+      "name" : "Millard Filmore",
+      "numspeeches" : 1,
+      "avgprob" : 0.99661976,
+      "size" : 0.99661976
+    }]}]},
+    {
+      "name" : "Economy", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 3,
+      "avgprob" : 0.0577110943333333,
+      "size" : 0.173133283
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 16,
+      "avgprob" : 0.0764179463125,
+      "size" : 1.222687141
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 2,
+      "avgprob" : 0.094216805,
+      "size" : 0.18843361
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 12,
+      "avgprob" : 0.258567300583333,
+      "size" : 3.102807607
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 23,
+      "avgprob" : 0.109813860869565,
+      "size" : 2.5257188
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 17,
+      "avgprob" : 0.407304983588235,
+      "size" : 6.924184721
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 6,
+      "avgprob" : 0.1192027715,
+      "size" : 0.715216629
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 11,
+      "avgprob" : 0.0596046510909091,
+      "size" : 0.655651162
+    }]},{"name" : "Republican","children":[{
+      "number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 1,
+      "avgprob" : 0.032226384,
+      "size" : 0.032226384
+    },{"number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 3,
+      "avgprob" : 0.107212676666667,
+      "size" : 0.32163803
+    },{"number" : 29,
+      "name" : "William Harding",
+      "numspeeches" : 1,
+      "avgprob" : 0.013789278,
+      "size" : 0.013789278
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 2,
+      "avgprob" : 0.0170550465,
+      "size" : 0.034110093
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 5,
+      "avgprob" : 0.0473398428,
+      "size" : 0.236699214
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 2,
+      "avgprob" : 0.036289232,
+      "size" : 0.072578464
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 9,
+      "avgprob" : 0.273216212111111,
+      "size" : 2.458945909
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 12,
+      "avgprob" : 0.443307416,
+      "size" : 5.319688992
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 29,
+      "avgprob" : 0.225343448758621,
+      "size" : 6.534960014
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 11,
+      "avgprob" : 0.130383526636364,
+      "size" : 1.434218793
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 12,
+      "avgprob" : 0.11924425875,
+      "size" : 1.430931105
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 1,
+      "avgprob" : 0.012798635,
+      "size" : 0.012798635
+    }]}]},
+    {
+      "name" : "immegiration", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 7,
+      "avgprob" : 0.0988022732857143,
+      "size" : 0.691615913
+    },{"number" : 8,
+      "name" : "Martin Van Buren",
+      "numspeeches" : 6,
+      "avgprob" : 0.408855136666667,
+      "size" : 2.45313082
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 24,
+      "avgprob" : 0.432628748458333,
+      "size" : 10.383089963
+    },{"number" : 14,
+      "name" : "Franklin Pierce",
+      "numspeeches" : 11,
+      "avgprob" : 0.244244858454545,
+      "size" : 2.686693443
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 11,
+      "avgprob" : 0.261673641818182,
+      "size" : 2.87841006
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 2,
+      "avgprob" : 0.151567625,
+      "size" : 0.30313525
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 5,
+      "avgprob" : 0.257002836,
+      "size" : 1.28501418
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 3,
+      "avgprob" : 0.175181601,
+      "size" : 0.525544803
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 4,
+      "avgprob" : 0.1165429605,
+      "size" : 0.466171842
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 3,
+      "avgprob" : 0.0253889936666667,
+      "size" : 0.076166981
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 9,
+      "avgprob" : 0.0825324842222222,
+      "size" : 0.742792358
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 3,
+      "avgprob" : 0.0653607566666667,
+      "size" : 0.19608227
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 3,
+      "avgprob" : 0.0317065383333333,
+      "size" : 0.095119615
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 18,
+      "avgprob" : 0.336746100277778,
+      "size" : 6.061429805
+    },{"number" : 4,
+      "name" : "James Madison",
+      "numspeeches" : 11,
+      "avgprob" : 0.145860370181818,
+      "size" : 1.604464072
+    },{"number" : 5,
+      "name" : "James Monroe",
+      "numspeeches" : 9,
+      "avgprob" : 0.161913485444444,
+      "size" : 1.457221369
+    },{"number" : 6,
+      "name" : "John Quincy Adams",
+      "numspeeches" : 5,
+      "avgprob" : 0.092526381,
+      "size" : 0.462631905
+    }]},{"name" : "Federalist","children":[{
+      "number" : 2,
+      "name" : "John Adams",
+      "numspeeches" : 4,
+      "avgprob" : 0.20462155,
+      "size" : 0.8184862
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 5,
+      "avgprob" : 0.049163682,
+      "size" : 0.24581841
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 7,
+      "avgprob" : 0.128686631,
+      "size" : 0.900806417
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 13,
+      "avgprob" : 0.111439788846154,
+      "size" : 1.448717255
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 5,
+      "avgprob" : 0.2815494632,
+      "size" : 1.407747316
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 5,
+      "avgprob" : 0.2053624204,
+      "size" : 1.026812102
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 7,
+      "avgprob" : 0.435961575857143,
+      "size" : 3.051731031
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 3,
+      "avgprob" : 0.0209352093333333,
+      "size" : 0.062805628
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 9,
+      "avgprob" : 0.308580554555556,
+      "size" : 2.777224991
+    },{"number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 3,
+      "avgprob" : 0.0372837726666667,
+      "size" : 0.111851318
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 3,
+      "avgprob" : 0.061885466,
+      "size" : 0.185656398
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 3,
+      "avgprob" : 0.0268828576666667,
+      "size" : 0.080648573
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 2,
+      "avgprob" : 0.0408031935,
+      "size" : 0.081606387
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 8,
+      "avgprob" : 0.03141501525,
+      "size" : 0.251320122
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 2,
+      "avgprob" : 0.1362786025,
+      "size" : 0.272557205
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 1,
+      "avgprob" : 0.037809227,
+      "size" : 0.037809227
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 10,
+      "avgprob" : 0.1691520115,
+      "size" : 1.691520115
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 12,
+      "avgprob" : 0.310101594083333,
+      "size" : 3.721219129
+    }]},{"name" : "Whig","children":[{
+      "number" : 12,
+      "name" : "Zachary Taylor",
+      "numspeeches" : 3,
+      "avgprob" : 0.431252286666667,
+      "size" : 1.29375686
+    },{"number" : 13,
+      "name" : "Millard Filmore",
+      "numspeeches" : 7,
+      "avgprob" : 0.324790725714286,
+      "size" : 2.27353508
+    }]}]},
+    {
+      "name" : "StrategicResources", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 4,
+      "avgprob" : 0.05140517125,
+      "size" : 0.205620685
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 3,
+      "avgprob" : 0.145646465,
+      "size" : 0.436939395
+    },{"number" : 14,
+      "name" : "Franklin Pierce",
+      "numspeeches" : 4,
+      "avgprob" : 0.07531739475,
+      "size" : 0.301269579
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 2,
+      "avgprob" : 0.0321642305,
+      "size" : 0.064328461
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 6,
+      "avgprob" : 0.0718576325,
+      "size" : 0.431145795
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 7,
+      "avgprob" : 0.120750419428571,
+      "size" : 0.845252936
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 12,
+      "avgprob" : 0.233206140666667,
+      "size" : 2.798473688
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 13,
+      "avgprob" : 0.102555265461538,
+      "size" : 1.333218451
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 4,
+      "avgprob" : 0.142007059,
+      "size" : 0.568028236
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 10,
+      "avgprob" : 0.0620078524,
+      "size" : 0.620078524
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 9,
+      "avgprob" : 0.0621855891111111,
+      "size" : 0.559670302
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 2,
+      "avgprob" : 0.117511545,
+      "size" : 0.23502309
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 1,
+      "avgprob" : 0.15247609,
+      "size" : 0.15247609
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 2,
+      "avgprob" : 0.0671118475,
+      "size" : 0.134223695
+    }]},{"name" : "Democratic-Republican", "children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 3,
+      "avgprob" : 0.062307849,
+      "size" : 0.186923547
+    },{"number" : 4,
+      "name" : "James Madison",
+      "numspeeches" : 1,
+      "avgprob" : 0.168854,
+      "size" : 0.168854
+    }]},{"name" : "Federalist","children":[{
+      "number" : 2,
+      "name" : "John Adams",
+      "numspeeches" : 1,
+      "avgprob" : 0.029780628,
+      "size" : 0.029780628
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 1,
+      "avgprob" : 0.026055416,
+      "size" : 0.026055416
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 2,
+      "avgprob" : 0.056426227,
+      "size" : 0.112852454
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 9,
+      "avgprob" : 0.0915764125555556,
+      "size" : 0.824187713
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 6,
+      "avgprob" : 0.0547859336666667,
+      "size" : 0.328715602
+    },{"number" : 20,
+      "name" : "James Garfield",
+      "numspeeches" : 1,
+      "avgprob" : 0.026586698,
+      "size" : 0.026586698
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 6,
+      "avgprob" : 0.128619720666667,
+      "size" : 0.771718324
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 7,
+      "avgprob" : 0.174742597857143,
+      "size" : 1.223198185
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 6,
+      "avgprob" : 0.121425211166667,
+      "size" : 0.728551267
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 18,
+      "avgprob" : 0.634732238055556,
+      "size" : 11.425180285
+    },{"number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 12,
+      "avgprob" : 0.5778890175,
+      "size" : 6.93466821
+    },{"number" : 29,
+      "name" : "William Harding",
+      "numspeeches" : 2,
+      "avgprob" : 0.21303002,
+      "size" : 0.42606004
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 6,
+      "avgprob" : 0.38665258,
+      "size" : 2.31991548
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 14,
+      "avgprob" : 0.168141208142857,
+      "size" : 2.353976914
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 1,
+      "avgprob" : 0.028106363,
+      "size" : 0.028106363
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 1,
+      "avgprob" : 0.038047202,
+      "size" : 0.038047202
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 2,
+      "avgprob" : 0.04599951,
+      "size" : 0.09199902
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 3,
+      "avgprob" : 0.099791714,
+      "size" : 0.299375142
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 1,
+      "avgprob" : 0.065663464,
+      "size" : 0.065663464
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 1,
+      "avgprob" : 0.04492906,
+      "size" : 0.04492906
+    }]},{"name" : "Whig","children":[{
+      "number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 1,
+      "avgprob" : 0.06706579,
+      "size" : 0.06706579
+    },{"number" : 12,
+      "name" : "Zachary Taylor",
+      "numspeeches" : 1,
+      "avgprob" : 0.028502572,
+      "size" : 0.028502572
+    },{"number" : 13,
+      "name" : "Millard Filmore",
+      "numspeeches" : 2,
+      "avgprob" : 0.0153681,
+      "size" : 0.0307362
+    }]}]},
+    {
+      "name" : "Vietnam War", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 1,
+      "avgprob" : 0.5968187,
+      "size" : 0.5968187
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 1,
+      "avgprob" : 0.27487952,
+      "size" : 0.27487952
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 1,
+      "avgprob" : 0.13445106,
+      "size" : 0.13445106
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 3,
+      "avgprob" : 0.0491996143333333,
+      "size" : 0.147598843
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 2,
+      "avgprob" : 0.0871464835,
+      "size" : 0.174292967
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 20,
+      "avgprob" : 0.0850263043,
+      "size" : 1.700526086
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 56,
+      "avgprob" : 0.386534331125,
+      "size" : 21.645922543
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 4,
+      "avgprob" : 0.09794776,
+      "size" : 0.39179104
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 3,
+      "avgprob" : 0.101195939,
+      "size" : 0.303587817
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 2,
+      "avgprob" : 0.141756205,
+      "size" : 0.28351241
+    }]},{"name" : "Republican","children":[{
+      "number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 2,
+      "avgprob" : 0.0581162315,
+      "size" : 0.116232463
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 1,
+      "avgprob" : 0.0853712,
+      "size" : 0.0853712
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 1,
+      "avgprob" : 0.34624973,
+      "size" : 0.34624973
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 1,
+      "avgprob" : 0.068562746,
+      "size" : 0.068562746
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 3,
+      "avgprob" : 0.204018409333333,
+      "size" : 0.612055228
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 2,
+      "avgprob" : 0.0568086575,
+      "size" : 0.113617315
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 2,
+      "avgprob" : 0.0509810885,
+      "size" : 0.101962177
+    },{"number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 1,
+      "avgprob" : 0.010349799,
+      "size" : 0.010349799
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 1,
+      "avgprob" : 0.025695719,
+      "size" : 0.025695719
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 3,
+      "avgprob" : 0.107231293333333,
+      "size" : 0.32169388
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 6,
+      "avgprob" : 0.085060338,
+      "size" : 0.510362028
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 3,
+      "avgprob" : 0.130027392666667,
+      "size" : 0.390082178
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 7,
+      "avgprob" : 0.139705013714286,
+      "size" : 0.977935096
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 4,
+      "avgprob" : 0.05926360525,
+      "size" : 0.237054421
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 2,
+      "avgprob" : 0.057875244,
+      "size" : 0.115750488
+    }]}]},
+    {
+      "name" : "World War II", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 2,
+      "avgprob" : 0.026682471,
+      "size" : 0.053364942
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 2,
+      "avgprob" : 0.086953715,
+      "size" : 0.17390743
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 1,
+      "avgprob" : 0.010674702,
+      "size" : 0.010674702
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 11,
+      "avgprob" : 0.132080685545455,
+      "size" : 1.452887541
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 39,
+      "avgprob" : 0.500542780974359,
+      "size" : 19.521168458
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 11,
+      "avgprob" : 0.295553054272727,
+      "size" : 3.251083597
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 10,
+      "avgprob" : 0.0822292513,
+      "size" : 0.822292513
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 17,
+      "avgprob" : 0.0571304815294118,
+      "size" : 0.971218186
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 2,
+      "avgprob" : 0.05102149,
+      "size" : 0.10204298
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 8,
+      "avgprob" : 0.06975362125,
+      "size" : 0.55802897
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 4,
+      "avgprob" : 0.02978362175,
+      "size" : 0.119134487
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 5,
+      "avgprob" : 0.0854900572,
+      "size" : 0.427450286
+    },{"number" : 4,
+      "name" : "James Madison",
+      "numspeeches" : 6,
+      "avgprob" : 0.0863342246666667,
+      "size" : 0.518005348
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 3,
+      "avgprob" : 0.076436514,
+      "size" : 0.229309542
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 1,
+      "avgprob" : 0.027061062,
+      "size" : 0.027061062
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 1,
+      "avgprob" : 0.062100247,
+      "size" : 0.062100247
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 1,
+      "avgprob" : 0.044145726,
+      "size" : 0.044145726
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 4,
+      "avgprob" : 0.03566636375,
+      "size" : 0.142665455
+    },{"number" : 29,
+      "name" : "William Harding",
+      "numspeeches" : 1,
+      "avgprob" : 0.023338344,
+      "size" : 0.023338344
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 2,
+      "avgprob" : 0.024637634,
+      "size" : 0.049275268
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 4,
+      "avgprob" : 0.18603986775,
+      "size" : 0.744159471
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 4,
+      "avgprob" : 0.05857201525,
+      "size" : 0.234288061
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 2,
+      "avgprob" : 0.098741817,
+      "size" : 0.197483634
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 3,
+      "avgprob" : 0.030856217,
+      "size" : 0.092568651
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 15,
+      "avgprob" : 0.0959358845333333,
+      "size" : 1.439038268
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 5,
+      "avgprob" : 0.0831188538,
+      "size" : 0.415594269
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 2,
+      "avgprob" : 0.0238230275,
+      "size" : 0.047646055
+    }]}]},
+    {
+      "name" : "Industry Jobs", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 1,
+      "avgprob" : 0.0836381,
+      "size" : 0.0836381
+    },{"number" : 8,
+      "name" : "Martin Van Buren",
+      "numspeeches" : 2,
+      "avgprob" : 0.040210822,
+      "size" : 0.080421644
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 1,
+      "avgprob" : 0.06418656,
+      "size" : 0.06418656
+    },{"number" : 14,
+      "name" : "Franklin Pierce",
+      "numspeeches" : 5,
+      "avgprob" : 0.0833610624,
+      "size" : 0.416805312
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 2,
+      "avgprob" : 0.032662507,
+      "size" : 0.065325014
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 1,
+      "avgprob" : 0.031452198,
+      "size" : 0.031452198
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 9,
+      "avgprob" : 0.193516660444444,
+      "size" : 1.741649944
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 11,
+      "avgprob" : 0.207433890454545,
+      "size" : 2.281772795
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 40,
+      "avgprob" : 0.502192787875,
+      "size" : 20.087711515
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 32,
+      "avgprob" : 0.25196889009375,
+      "size" : 8.063004483
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 10,
+      "avgprob" : 0.1680208082,
+      "size" : 1.680208082
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 17,
+      "avgprob" : 0.093769085117647,
+      "size" : 1.594074447
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 6,
+      "avgprob" : 0.0684040343333333,
+      "size" : 0.410424206
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 8,
+      "avgprob" : 0.053930377125,
+      "size" : 0.431443017
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 3,
+      "avgprob" : 0.0642869303333333,
+      "size" : 0.192860791
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 5,
+      "avgprob" : 0.0445477248,
+      "size" : 0.222738624
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 4,
+      "name" : "James Madison",
+      "numspeeches" : 1,
+      "avgprob" : 0.06884792,
+      "size" : 0.06884792
+    },{"number" : 6,
+      "name" : "John Quincy Adams",
+      "numspeeches" : 1,
+      "avgprob" : 0.036413766,
+      "size" : 0.036413766
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 3,
+      "avgprob" : 0.035161635,
+      "size" : 0.105484905
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 5,
+      "avgprob" : 0.087211271,
+      "size" : 0.436056355
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 5,
+      "avgprob" : 0.1396647888,
+      "size" : 0.698323944
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 2,
+      "avgprob" : 0.148919283,
+      "size" : 0.297838566
+    },{"number" : 20,
+      "name" : "James Garfield",
+      "numspeeches" : 1,
+      "avgprob" : 0.15070151,
+      "size" : 0.15070151
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 2,
+      "avgprob" : 0.168146495,
+      "size" : 0.33629299
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 4,
+      "avgprob" : 0.187235905,
+      "size" : 0.74894362
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 8,
+      "avgprob" : 0.197648229625,
+      "size" : 1.581185837
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 8,
+      "avgprob" : 0.1136536355,
+      "size" : 0.909229084
+    },{"number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 5,
+      "avgprob" : 0.085847129,
+      "size" : 0.429235645
+    },{"number" : 29,
+      "name" : "William Harding",
+      "numspeeches" : 6,
+      "avgprob" : 0.551143648333333,
+      "size" : 3.30686189
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 11,
+      "avgprob" : 0.264851652727273,
+      "size" : 2.91336818
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 24,
+      "avgprob" : 0.367796279875,
+      "size" : 8.827110717
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 6,
+      "avgprob" : 0.165958726,
+      "size" : 0.995752356
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 1,
+      "avgprob" : 0.093130074,
+      "size" : 0.093130074
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 4,
+      "avgprob" : 0.11225645,
+      "size" : 0.4490258
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 8,
+      "avgprob" : 0.023310917,
+      "size" : 0.186487336
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 1,
+      "avgprob" : 0.05677892,
+      "size" : 0.05677892
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 5,
+      "avgprob" : 0.0611401356,
+      "size" : 0.305700678
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 1,
+      "avgprob" : 0.07198049,
+      "size" : 0.07198049
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 1,
+      "avgprob" : 0.0502997,
+      "size" : 0.0502997
+    }]},{"name" : "Whig","children":[{
+      "number" : 9,
+      "name" : "William Harrison",
+      "numspeeches" : 1,
+      "avgprob" : 0.026481519,
+      "size" : 0.026481519
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 1,
+      "avgprob" : 0.058947377,
+      "size" : 0.058947377
+    }]}]},
+    {
+      "name" : "Legislative-Resolution", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 7,
+      "avgprob" : 0.305909651714286,
+      "size" : 2.141367562
+    },{"number" : 8,
+      "name" : "Martin Van Buren",
+      "numspeeches" : 1,
+      "avgprob" : 0.06485054,
+      "size" : 0.06485054
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 4,
+      "avgprob" : 0.14129095375,
+      "size" : 0.565163815
+    },{"number" : 14,
+      "name" : "Franklin Pierce",
+      "numspeeches" : 1,
+      "avgprob" : 0.06426935,
+      "size" : 0.06426935
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 3,
+      "avgprob" : 0.728029006666667,
+      "size" : 2.18408702
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 2,
+      "avgprob" : 0.12975994,
+      "size" : 0.25951988
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 1,
+      "avgprob" : 0.18426359,
+      "size" : 0.18426359
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 13,
+      "avgprob" : 0.343301452,
+      "size" : 4.462918876
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 6,
+      "avgprob" : 0.213989213833333,
+      "size" : 1.283935283
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 3,
+      "avgprob" : 0.131446381666667,
+      "size" : 0.394339145
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 6,
+      "avgprob" : 0.0404082361666667,
+      "size" : 0.242449417
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 4,
+      "avgprob" : 0.05477076325,
+      "size" : 0.219083053
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 1,
+      "avgprob" : 0.063848235,
+      "size" : 0.063848235
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 1,
+      "avgprob" : 0.020665955,
+      "size" : 0.020665955
+    },{"number" : 4,
+      "name" : "James Madison",
+      "numspeeches" : 1,
+      "avgprob" : 0.09848521,
+      "size" : 0.09848521
+    }]},{"name" : "Federalist","children":[{
+      "number" : 2,
+      "name" : "John Adams",
+      "numspeeches" : 1,
+      "avgprob" : 0.035092555,
+      "size" : 0.035092555
+    }]},{"name" : "Republican","children":[{
+      "number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 1,
+      "avgprob" : 0.08745954,
+      "size" : 0.08745954
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 2,
+      "avgprob" : 0.21609843,
+      "size" : 0.43219686
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 3,
+      "avgprob" : 0.0422633246666667,
+      "size" : 0.126789974
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 1,
+      "avgprob" : 0.24814463,
+      "size" : 0.24814463
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 1,
+      "avgprob" : 0.024826204,
+      "size" : 0.024826204
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 5,
+      "avgprob" : 0.134727829,
+      "size" : 0.673639145
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 2,
+      "avgprob" : 0.0390991725,
+      "size" : 0.078198345
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 4,
+      "avgprob" : 0.1422717725,
+      "size" : 0.56908709
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 2,
+      "avgprob" : 0.11787955,
+      "size" : 0.2357591
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 8,
+      "avgprob" : 0.0420032855,
+      "size" : 0.336026284
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 2,
+      "avgprob" : 0.0148213665,
+      "size" : 0.029642733
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 1,
+      "avgprob" : 0.020424418,
+      "size" : 0.020424418
+    },{"number" : 45,
+      "name" : "Donald Trump",
+      "numspeeches" : 1,
+      "avgprob" : 0.016950432,
+      "size" : 0.016950432
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 3,
+      "avgprob" : 0.437663956666667,
+      "size" : 1.31299187
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 2,
+      "avgprob" : 0.06693545,
+      "size" : 0.1338709
+    }]},{"name" : "Whig","children":[{
+      "number" : 9,
+      "name" : "William Harrison",
+      "numspeeches" : 1,
+      "avgprob" : 0.024564229,
+      "size" : 0.024564229
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 2,
+      "avgprob" : 0.22061963,
+      "size" : 0.44123926
+    },{"number" : 12,
+      "name" : "Zachary Taylor",
+      "numspeeches" : 2,
+      "avgprob" : 0.04975782,
+      "size" : 0.09951564
+    }]}]},
+    {
+      "name" : "Colonialism", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 7,
+      "avgprob" : 0.346757855,
+      "size" : 2.427304985
+    },{"number" : 8,
+      "name" : "Martin Van Buren",
+      "numspeeches" : 2,
+      "avgprob" : 0.439976755,
+      "size" : 0.87995351
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 7,
+      "avgprob" : 0.166309389857143,
+      "size" : 1.164165729
+    },{"number" : 14,
+      "name" : "Franklin Pierce",
+      "numspeeches" : 7,
+      "avgprob" : 0.187845750571429,
+      "size" : 1.314920254
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 5,
+      "avgprob" : 0.0571698444,
+      "size" : 0.285849222
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 1,
+      "avgprob" : 0.05812781,
+      "size" : 0.05812781
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 1,
+      "avgprob" : 0.22328286,
+      "size" : 0.22328286
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 8,
+      "avgprob" : 0.098231071,
+      "size" : 0.785848568
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 3,
+      "avgprob" : 0.097055729,
+      "size" : 0.291167187
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 4,
+      "avgprob" : 0.06682047275,
+      "size" : 0.267281891
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 1,
+      "avgprob" : 0.02447953,
+      "size" : 0.02447953
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 6,
+      "avgprob" : 0.0508903971666667,
+      "size" : 0.305342383
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 6,
+      "avgprob" : 0.022255327,
+      "size" : 0.133531962
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 2,
+      "avgprob" : 0.0922548485,
+      "size" : 0.184509697
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 1,
+      "avgprob" : 0.053983204,
+      "size" : 0.053983204
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 3,
+      "avgprob" : 0.0893867153333333,
+      "size" : 0.268160146
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 1,
+      "avgprob" : 0.18059939,
+      "size" : 0.18059939
+    },{"number" : 4,
+      "name" : "James Madison",
+      "numspeeches" : 9,
+      "avgprob" : 0.0817654152222222,
+      "size" : 0.735888737
+    },{"number" : 5,
+      "name" : "James Monroe",
+      "numspeeches" : 10,
+      "avgprob" : 0.1452103238,
+      "size" : 1.452103238
+    },{"number" : 6,
+      "name" : "John Quincy Adams",
+      "numspeeches" : 5,
+      "avgprob" : 0.234057064,
+      "size" : 1.17028532
+    }]},{"name" : "Federalist","children":[{
+      "number" : 2,
+      "name" : "John Adams",
+      "numspeeches" : 2,
+      "avgprob" : 0.056523381,
+      "size" : 0.113046762
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 2,
+      "avgprob" : 0.049393095,
+      "size" : 0.09878619
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 2,
+      "avgprob" : 0.144107168,
+      "size" : 0.288214336
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 15,
+      "avgprob" : 0.282391504533333,
+      "size" : 4.235872568
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 2,
+      "avgprob" : 0.15964979,
+      "size" : 0.31929958
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 4,
+      "avgprob" : 0.17328242825,
+      "size" : 0.693129713
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 6,
+      "avgprob" : 0.177605162333333,
+      "size" : 1.065630974
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 10,
+      "avgprob" : 0.443612243,
+      "size" : 4.43612243
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 11,
+      "avgprob" : 0.258096850727273,
+      "size" : 2.839065358
+    },{"number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 6,
+      "avgprob" : 0.249829609666667,
+      "size" : 1.498977658
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 4,
+      "avgprob" : 0.071078597,
+      "size" : 0.284314388
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 7,
+      "avgprob" : 0.261852708571429,
+      "size" : 1.83296896
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 2,
+      "avgprob" : 0.066609754,
+      "size" : 0.133219508
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 6,
+      "avgprob" : 0.045382452,
+      "size" : 0.272294712
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 1,
+      "avgprob" : 0.01817192,
+      "size" : 0.01817192
+    },{"number" : 45,
+      "name" : "Donald Trump",
+      "numspeeches" : 1,
+      "avgprob" : 0.025966514,
+      "size" : 0.025966514
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 1,
+      "avgprob" : 0.27484113,
+      "size" : 0.27484113
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 4,
+      "avgprob" : 0.202143367,
+      "size" : 0.808573468
+    }]},{"name" : "Whig","children":[{
+      "number" : 12,
+      "name" : "Zachary Taylor",
+      "numspeeches" : 2,
+      "avgprob" : 0.090045017,
+      "size" : 0.180090034
+    },{"number" : 13,
+      "name" : "Millard Filmore",
+      "numspeeches" : 2,
+      "avgprob" : 0.0563075115,
+      "size" : 0.112615023
+    }]}]},
+    {
+      "name" : "Agriculture", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 1,
+      "avgprob" : 0.019108402,
+      "size" : 0.019108402
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 1,
+      "avgprob" : 0.033858508,
+      "size" : 0.033858508
+    },{"number" : 14,
+      "name" : "Franklin Pierce",
+      "numspeeches" : 1,
+      "avgprob" : 0.040630948,
+      "size" : 0.040630948
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 2,
+      "avgprob" : 0.073009624,
+      "size" : 0.146019248
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 2,
+      "avgprob" : 0.26934498,
+      "size" : 0.53868996
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 1,
+      "avgprob" : 0.014353505,
+      "size" : 0.014353505
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 18,
+      "avgprob" : 0.188812138055556,
+      "size" : 3.398618485
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 3,
+      "avgprob" : 0.110448911333333,
+      "size" : 0.331346734
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 9,
+      "avgprob" : 0.0619803764444445,
+      "size" : 0.557823388
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 14,
+      "avgprob" : 0.0544395575714286,
+      "size" : 0.762153806
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 2,
+      "avgprob" : 0.0195062815,
+      "size" : 0.039012563
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 3,
+      "avgprob" : 0.111136490333333,
+      "size" : 0.333409471
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 2,
+      "avgprob" : 0.040963103,
+      "size" : 0.081926206
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 3,
+      "avgprob" : 0.0539633096666667,
+      "size" : 0.161889929
+    }]},{"name" : "Republican","children":[{
+      "number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 2,
+      "avgprob" : 0.0157110295,
+      "size" : 0.031422059
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 1,
+      "avgprob" : 0.017884223,
+      "size" : 0.017884223
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 2,
+      "avgprob" : 0.3056068755,
+      "size" : 0.611213751
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 1,
+      "avgprob" : 0.43595338,
+      "size" : 0.43595338
+    },{"number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 4,
+      "avgprob" : 0.02970188725,
+      "size" : 0.118807549
+    },{"number" : 29,
+      "name" : "William Harding",
+      "numspeeches" : 2,
+      "avgprob" : 0.0480509975,
+      "size" : 0.096101995
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 5,
+      "avgprob" : 0.180806952,
+      "size" : 0.90403476
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 28,
+      "avgprob" : 0.420030349,
+      "size" : 11.760849772
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 3,
+      "avgprob" : 0.0163188136666667,
+      "size" : 0.048956441
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 3,
+      "avgprob" : 0.0183789403333333,
+      "size" : 0.055136821
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 3,
+      "avgprob" : 0.0562695893333333,
+      "size" : 0.168808768
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 5,
+      "avgprob" : 0.0340167212,
+      "size" : 0.170083606
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 1,
+      "avgprob" : 0.07129393,
+      "size" : 0.07129393
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 11,
+      "avgprob" : 0.238949166363636,
+      "size" : 2.62844083
+    },{"number" : 45,
+      "name" : "Donald Trump",
+      "numspeeches" : 1,
+      "avgprob" : 0.023120087,
+      "size" : 0.023120087
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 1,
+      "avgprob" : 0.11657135,
+      "size" : 0.11657135
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 3,
+      "avgprob" : 0.0651971243333333,
+      "size" : 0.195591373
+    }]}]},
+    {
+      "name" : "Education-Health", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 1,
+      "avgprob" : 0.06727443,
+      "size" : 0.06727443
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 16,
+      "avgprob" : 0.0902364175625,
+      "size" : 1.443782681
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 8,
+      "avgprob" : 0.138492856625,
+      "size" : 1.107942853
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 8,
+      "avgprob" : 0.04884285275,
+      "size" : 0.390742822
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 16,
+      "avgprob" : 0.07330187075,
+      "size" : 1.172829932
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 9,
+      "avgprob" : 0.0775866984444444,
+      "size" : 0.698280286
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 31,
+      "avgprob" : 0.509321141677419,
+      "size" : 15.788955392
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 41,
+      "avgprob" : 0.569862340341463,
+      "size" : 23.364355954
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 1,
+      "avgprob" : 0.013775407,
+      "size" : 0.013775407
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 1,
+      "avgprob" : 0.01528473,
+      "size" : 0.01528473
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 2,
+      "avgprob" : 0.047628405,
+      "size" : 0.09525681
+    },{"number" : 29,
+      "name" : "William Harding",
+      "numspeeches" : 1,
+      "avgprob" : 0.036009524,
+      "size" : 0.036009524
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 2,
+      "avgprob" : 0.05225019,
+      "size" : 0.10450038
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 2,
+      "avgprob" : 0.0425256655,
+      "size" : 0.085051331
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 6,
+      "avgprob" : 0.0842146771666667,
+      "size" : 0.505288063
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 5,
+      "avgprob" : 0.0813664638,
+      "size" : 0.406832319
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 37,
+      "avgprob" : 0.153818116675676,
+      "size" : 5.691270317
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 14,
+      "avgprob" : 0.270596739357143,
+      "size" : 3.788354351
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 29,
+      "avgprob" : 0.374885431655172,
+      "size" : 10.871677518
+    },{"number" : 45,
+      "name" : "Donald Trump",
+      "numspeeches" : 3,
+      "avgprob" : 0.425251353333333,
+      "size" : 1.27575406
+    }]}]},
+    {
+      "name" : "Cabinet-Praclamation", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 3,
+      "avgprob" : 0.365298786666667,
+      "size" : 1.09589636
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 3,
+      "avgprob" : 0.404455653333333,
+      "size" : 1.21336696
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 1,
+      "avgprob" : 0.07316309,
+      "size" : 0.07316309
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 2,
+      "avgprob" : 0.5672524,
+      "size" : 1.1345048
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 2,
+      "avgprob" : 0.0517477905,
+      "size" : 0.103495581
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 1,
+      "avgprob" : 0.07085239,
+      "size" : 0.07085239
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 1,
+      "avgprob" : 0.52994955,
+      "size" : 0.52994955
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 2,
+      "avgprob" : 0.047939887,
+      "size" : 0.095879774
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 2,
+      "avgprob" : 0.07347898,
+      "size" : 0.14695796
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 3,
+      "avgprob" : 0.0431644196666667,
+      "size" : 0.129493259
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 1,
+      "avgprob" : 0.03957159,
+      "size" : 0.03957159
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 2,
+      "avgprob" : 0.026406858,
+      "size" : 0.052813716
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 1,
+      "avgprob" : 0.09135459,
+      "size" : 0.09135459
+    },{"number" : 4,
+      "name" : "James Madison",
+      "numspeeches" : 6,
+      "avgprob" : 0.270225218,
+      "size" : 1.621351308
+    },{"number" : 5,
+      "name" : "James Monroe",
+      "numspeeches" : 1,
+      "avgprob" : 0.026233487,
+      "size" : 0.026233487
+    }]},{"name" : "Federalist","children":[{
+      "number" : 2,
+      "name" : "John Adams",
+      "numspeeches" : 2,
+      "avgprob" : 0.129261068,
+      "size" : 0.258522136
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 2,
+      "avgprob" : 0.157611648,
+      "size" : 0.315223296
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 4,
+      "avgprob" : 0.52702729875,
+      "size" : 2.108109195
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 6,
+      "avgprob" : 0.243322070166667,
+      "size" : 1.459932421
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 2,
+      "avgprob" : 0.36273934,
+      "size" : 0.72547868
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 3,
+      "avgprob" : 0.213146242666667,
+      "size" : 0.639438728
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 3,
+      "avgprob" : 0.484369326666667,
+      "size" : 1.45310798
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 2,
+      "avgprob" : 0.22625023,
+      "size" : 0.45250046
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 1,
+      "avgprob" : 0.45192307,
+      "size" : 0.45192307
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 1,
+      "avgprob" : 0.05,
+      "size" : 0.05
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 1,
+      "avgprob" : 0.014437917,
+      "size" : 0.014437917
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 2,
+      "avgprob" : 0.0339941645,
+      "size" : 0.067988329
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 2,
+      "avgprob" : 0.082435035,
+      "size" : 0.16487007
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 3,
+      "avgprob" : 0.0763284246666667,
+      "size" : 0.228985274
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 1,
+      "avgprob" : 0.0737553,
+      "size" : 0.0737553
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 2,
+      "avgprob" : 0.44945964,
+      "size" : 0.89891928
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 4,
+      "avgprob" : 0.095084965,
+      "size" : 0.38033986
+    }]}]},
+    {
+      "name" : "Militry Threat", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 1,
+      "avgprob" : 0.059991226,
+      "size" : 0.059991226
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 5,
+      "avgprob" : 0.1171157006,
+      "size" : 0.585578503
+    },{"number" : 33,
+      "name" : "Harry Truman",
+      "numspeeches" : 6,
+      "avgprob" : 0.3353553975,
+      "size" : 2.012132385
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 25,
+      "avgprob" : 0.37186270708,
+      "size" : 9.296567677
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 46,
+      "avgprob" : 0.299640320847826,
+      "size" : 13.783454759
+    },{"number" : 39,
+      "name" : "Jimmy Carter",
+      "numspeeches" : 17,
+      "avgprob" : 0.309206916823529,
+      "size" : 5.256517586
+    },{"number" : 42,
+      "name" : "Bill Clinton",
+      "numspeeches" : 14,
+      "avgprob" : 0.0806891900714286,
+      "size" : 1.129648661
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 10,
+      "avgprob" : 0.0386817678,
+      "size" : 0.386817678
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 1,
+      "avgprob" : 0.01982441,
+      "size" : 0.01982441
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 1,
+      "avgprob" : 0.0664291,
+      "size" : 0.0664291
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 1,
+      "avgprob" : 0.04573185,
+      "size" : 0.04573185
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 2,
+      "avgprob" : 0.060495758,
+      "size" : 0.120991516
+    },{"number" : 34,
+      "name" : "Dwight Eisenhower",
+      "numspeeches" : 7,
+      "avgprob" : 0.28663466,
+      "size" : 2.00644262
+    },{"number" : 37,
+      "name" : "Richard Nixon",
+      "numspeeches" : 16,
+      "avgprob" : 0.4743305671875,
+      "size" : 7.589289075
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 10,
+      "avgprob" : 0.3158941439,
+      "size" : 3.158941439
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 35,
+      "avgprob" : 0.2698426042,
+      "size" : 9.444491147
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 12,
+      "avgprob" : 0.222005880833333,
+      "size" : 2.66407057
+    },{"number" : 43,
+      "name" : "George W. Bush",
+      "numspeeches" : 5,
+      "avgprob" : 0.130161638,
+      "size" : 0.65080819
+    }]}]},
+    {
+      "name" : "Currency", "children":[{
+      "name" : "Democratic","children":[{
+      "number" : 7,
+      "name" : "Andrew Jackson",
+      "numspeeches" : 11,
+      "avgprob" : 0.143297510727273,
+      "size" : 1.576272618
+    },{"number" : 8,
+      "name" : "Martin Van Buren",
+      "numspeeches" : 5,
+      "avgprob" : 0.273193456,
+      "size" : 1.36596728
+    },{"number" : 11,
+      "name" : "James Polk",
+      "numspeeches" : 6,
+      "avgprob" : 0.164632433333333,
+      "size" : 0.9877946
+    },{"number" : 14,
+      "name" : "Franklin Pierce",
+      "numspeeches" : 6,
+      "avgprob" : 0.176788789,
+      "size" : 1.060732734
+    },{"number" : 15,
+      "name" : "James Buchanan",
+      "numspeeches" : 8,
+      "avgprob" : 0.190433021375,
+      "size" : 1.523464171
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 1,
+      "avgprob" : 0.67760724,
+      "size" : 0.67760724
+    },{"number" : 22,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 10,
+      "avgprob" : 0.4191576376,
+      "size" : 4.191576376
+    },{"number" : 24,
+      "name" : "Grover Cleveland",
+      "numspeeches" : 14,
+      "avgprob" : 0.654417462,
+      "size" : 9.161844468
+    },{"number" : 28,
+      "name" : "Woodrow Wilson",
+      "numspeeches" : 5,
+      "avgprob" : 0.0930650106,
+      "size" : 0.465325053
+    },{"number" : 32,
+      "name" : "Franklin Roosevelt",
+      "numspeeches" : 4,
+      "avgprob" : 0.0878793875,
+      "size" : 0.35151755
+    },{"number" : 35,
+      "name" : "John Kennedy",
+      "numspeeches" : 4,
+      "avgprob" : 0.04528574475,
+      "size" : 0.181142979
+    },{"number" : 36,
+      "name" : "Lydon Johnson",
+      "numspeeches" : 6,
+      "avgprob" : 0.0612498881666667,
+      "size" : 0.367499329
+    },{"number" : 44,
+      "name" : "Barack Obama",
+      "numspeeches" : 1,
+      "avgprob" : 0.03294009,
+      "size" : 0.03294009
+    }]},{"name" : "Democratic-Republican","children":[{
+      "number" : 3,
+      "name" : "Thomas Jefferson",
+      "numspeeches" : 4,
+      "avgprob" : 0.04228099825,
+      "size" : 0.169123993
+    },{"number" : 4,
+      "name" : "James Madison",
+      "numspeeches" : 6,
+      "avgprob" : 0.112403136,
+      "size" : 0.674418816
+    },{"number" : 5,
+      "name" : "James Monroe",
+      "numspeeches" : 2,
+      "avgprob" : 0.0350661835,
+      "size" : 0.070132367
+    },{"number" : 6,
+      "name" : "John Quincy Adams",
+      "numspeeches" : 3,
+      "avgprob" : 0.0821400966666667,
+      "size" : 0.24642029
+    }]},{"name" : "Federalist","children":[{
+      "number" : 2,
+      "name" : "John Adams",
+      "numspeeches" : 1,
+      "avgprob" : 0.044412825,
+      "size" : 0.044412825
+    }]},{"name" : "Republican","children":[{
+      "number" : 16,
+      "name" : "Abraham Lincoln",
+      "numspeeches" : 4,
+      "avgprob" : 0.5012520275,
+      "size" : 2.00500811
+    },{"number" : 17,
+      "name" : "Andrew Johnson",
+      "numspeeches" : 10,
+      "avgprob" : 0.1780707224,
+      "size" : 1.780707224
+    },{"number" : 18,
+      "name" : "Ulysses Grant",
+      "numspeeches" : 14,
+      "avgprob" : 0.580032311285714,
+      "size" : 8.120452358
+    },{"number" : 19,
+      "name" : "Rutherford Hayes",
+      "numspeeches" : 10,
+      "avgprob" : 0.5425724725,
+      "size" : 5.425724725
+    },{"number" : 20,
+      "name" : "James Garfield",
+      "numspeeches" : 1,
+      "avgprob" : 0.21426208,
+      "size" : 0.21426208
+    },{"number" : 21,
+      "name" : "Chester Arthur",
+      "numspeeches" : 7,
+      "avgprob" : 0.492663671714286,
+      "size" : 3.448645702
+    },{"number" : 23,
+      "name" : "Benjamin Harrison",
+      "numspeeches" : 8,
+      "avgprob" : 0.4323702755,
+      "size" : 3.458962204
+    },{"number" : 25,
+      "name" : "William McKinley",
+      "numspeeches" : 9,
+      "avgprob" : 0.322541112222222,
+      "size" : 2.90287001
+    },{"number" : 26,
+      "name" : "Theodore Roosevelt",
+      "numspeeches" : 6,
+      "avgprob" : 0.0576777265,
+      "size" : 0.346066359
+    },{"number" : 27,
+      "name" : "William Taft",
+      "numspeeches" : 6,
+      "avgprob" : 0.27946099,
+      "size" : 1.67676594
+    },{"number" : 29,
+      "name" : "William Harding",
+      "numspeeches" : 1,
+      "avgprob" : 0.0802724,
+      "size" : 0.0802724
+    },{"number" : 30,
+      "name" : "Calvin Coolidge",
+      "numspeeches" : 4,
+      "avgprob" : 0.05031736175,
+      "size" : 0.201269447
+    },{"number" : 31,
+      "name" : "Herbert Hoover",
+      "numspeeches" : 11,
+      "avgprob" : 0.112777730454545,
+      "size" : 1.240555035
+    },{"number" : 38,
+      "name" : "Gerald Ford",
+      "numspeeches" : 1,
+      "avgprob" : 0.021013146,
+      "size" : 0.021013146
+    },{"number" : 40,
+      "name" : "Ronald Reagan",
+      "numspeeches" : 2,
+      "avgprob" : 0.416164456,
+      "size" : 0.832328912
+    },{"number" : 41,
+      "name" : "George H.W. Bush",
+      "numspeeches" : 1,
+      "avgprob" : 0.016374966,
+      "size" : 0.016374966
+    }]},{"name" : "Unaffiliated","children":[{
+      "number" : 1,
+      "name" : "George Washington",
+      "numspeeches" : 2,
+      "avgprob" : 0.0899678095,
+      "size" : 0.179935619
+    },{"number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 6,
+      "avgprob" : 0.268930458333333,
+      "size" : 1.61358275
+    }]},{"name" : "Whig","children":[{
+      "number" : 10,
+      "name" : "John Tyler",
+      "numspeeches" : 2,
+      "avgprob" : 0.212961625,
+      "size" : 0.42592325
+    },{"number" : 12,
+      "name" : "Zachary Taylor",
+      "numspeeches" : 1,
+      "avgprob" : 0.22402719,
+      "size" : 0.22402719
+    },{"number" : 13,
+      "name" : "Millard Filmore",
+      "numspeeches" : 4,
+      "avgprob" : 0.258558805,
+      "size" : 1.03423522
+    }]}]}]}
+  

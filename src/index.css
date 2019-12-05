@@ -19,6 +19,12 @@ body {
   padding-bottom: 10px;
 }
 
+.compare-selector {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+
 .president-selector {
   padding-top: 30px;
   padding-left: 40px;
@@ -86,4 +92,46 @@ body {
   padding-bottom: 2px;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label {
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.label,
+.node--root,
+.node--leaf {
+  pointer-events: none;
+}
+
+.radio-inline {
+  padding-left: 10px;
+}
+
+.row {
+	text-align: left;
+}
+
+.container {
+  float: left;
+}
+
+.compare-container {
+  padding-bottom: 50px
 }
