@@ -43,7 +43,7 @@
     },{ "name" : "run",
       "size" : "312"
     }]},    {
-      "name" : "Middle-East","children":[{
+      "name" : "Middle East","children":[{
       "name" : "iraq",
       "size" : "67"
     },{ "name" : "terrorist",
@@ -321,7 +321,7 @@
     },{ "name" : "crime",
       "size" : "214"
     }]},    {
-      "name" : "Immigeration","children":[{
+      "name" : "Immigration","children":[{
       "name" : "panama",
       "size" : "81"
     },{ "name" : "texas",

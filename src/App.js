@@ -26,7 +26,7 @@ class App extends React.Component {
       "William Harding", "Calvin Coolidge", "Herbert Hoover", "Franklin Roosevelt", "Harry Truman", "Dwight Eisenhower", "John Kennedy",
       "Lydon Johnson", "Richard Nixon", "Gerald Ford", "Jimmy Carter", "Ronald Reagan", "George H.W. Bush", "Bill Clinton", "George W. Bush",
       "Barack Obama", "Donald Trump"];
-    this.partieswords = ["Topic-Party-President", "Party-Topic", "President-Topic", "frequency", "numspeeches", "sublingweight"];
+    this.partieswords = "Topic-Party-President";
     this.handlePresidentSelectionChange.bind(this);
     this.handleTopicSelectionChange.bind(this);
     this.handlepartieswords.bind(this);
@@ -55,29 +55,28 @@ class App extends React.Component {
         <h2>Language Used in Presidential Speeches</h2>
         <Grid container={true}>
           <Grid item={true} xs={12} className="compare-selector">
+            <Typography>Select a hierarchy and size attribute to display</Typography>
+            <br/>
             <div className='radio'>
-              <Typography>Select a bubble hierarchy:
     			      <label className='radio-inline'>
-                  <input type="radio" name="presidentword" value="Topic-Party-President" onChange={this.handlepartieswords} checked={this.state.partieswords === "Topic-Party-President"} /> Topic -> Party -> President
+                  <input type="radio" name="presidentword" value="Topic-Party-President" onChange={this.handlepartieswords} checked={this.state.partieswords === "Topic-Party-President"} /> Topic -> Party -> President Topic Usage
     			      </label>
                 <label className='radio-inline'>
-                  <input type="radio" name="presidentword" value="Party-Topic" onChange={this.handlepartieswords} checked={this.state.partieswords === "Party-Topic"} /> Party -> Topic
+                  <input type="radio" name="presidentword" value="Party-Topic" onChange={this.handlepartieswords} checked={this.state.partieswords === "Party-Topic"} /> Party -> Topic Frequency
     			      </label>
                 <label className='radio-inline'>
-                  <input type="radio" name="presidentword" value="President-Topic" onChange={this.handlepartieswords} checked={this.state.partieswords === "President-Topic"} /> President -> Topic
+                  <input type="radio" name="presidentword" value="President-Topic" onChange={this.handlepartieswords} checked={this.state.partieswords === "President-Topic"} /> President -> Topic Frequency
     			      </label>
-              </Typography>
-              <Typography>Select an attribute to display:
-    			      <label className='radio-inline'>
-                  <input type="radio" name="presidentword" value="frequency" onChange={this.handlepartieswords} checked={this.state.partieswords === "frequency"} /> total word frequency
-    			      </label>
-                <label className='radio-inline'>
-                  <input type="radio" name="presidentword" value="numspeeches" onChange={this.handlepartieswords} checked={this.state.partieswords === "numspeeches"} /> # of speeches containing a word
+                <br/>
+    			      <label className='radio-inline'> 
+                  <input type="radio" name="presidentword" value="frequency" onChange={this.handlepartieswords} checked={this.state.partieswords === "frequency"} /> Topic -> Frequently Used Words
     			      </label>
                 <label className='radio-inline'>
-                  <input type="radio" name="presidentword" value="sublingweight" onChange={this.handlepartieswords} checked={this.state.partieswords === "sublingweight"} /> word-topic relationship strength
+                  <input type="radio" name="presidentword" value="numspeeches" onChange={this.handlepartieswords} checked={this.state.partieswords === "numspeeches"} /> Topic -> Number of Speeches Containing a Word
     			      </label>
-              </Typography>
+                <label className='radio-inline'>
+                  <input type="radio" name="presidentword" value="sublingweight" onChange={this.handlepartieswords} checked={this.state.partieswords === "sublingweight"} /> Topic -> Word-Topic Relationship Strength
+    			      </label>
             </div>
           </Grid>
           <Grid item={true} xs={12}>
