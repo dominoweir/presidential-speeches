@@ -130,7 +130,7 @@
       "size" : "0.004205744"
     }]},
     {
-      "name" : "Faith-Humanity","children": [{
+      "name" : "Faith/Humanity","children": [{
       "name" : "god",
       "size" : "0.006732772"
     },{ "name" : "heart",
@@ -216,7 +216,7 @@
       "size" : "0.0080381"
     }]},
     {
-      "name" : "Circumstance-Consequence","children": [{
+      "name" : "Westward Expansion","children": [{
       "name" : "circumstance",
       "size" : "0.003850991"
     },{ "name" : "portion",
@@ -517,7 +517,7 @@
       "size" : "0.004601444"
     }]},
     {
-      "name" : "Industry-Jobs","children": [{
+      "name" : "Industry/Jobs","children": [{
       "name" : "enterprise",
       "size" : "0.004489029"
     },{ "name" : "method",
@@ -560,7 +560,7 @@
       "size" : "0.002707417"
     }]},
     {
-      "name" : "Legislative-Resolution","children": [{
+      "name" : "Legislative Issues","children": [{
       "name" : "german",
       "size" : "0.017605511"
     },{ "name" : "resolution",
@@ -732,7 +732,7 @@
       "size" : "0.004106425"
     }]},
     {
-      "name" : "Cabinet-Praclamation","children": [{
+      "name" : "Presidential Cabinet","children": [{
       "name" : "stanton",
       "size" : "0.01756713"
     },{ "name" : "letter",
@@ -775,7 +775,7 @@
       "size" : "0.005602047"
     }]},
     {
-      "name" : "Militry Threat","children": [{
+      "name" : "Military Threats","children": [{
       "name" : "vietnam",
       "size" : "0.01834195"
     },{ "name" : "nuclear",

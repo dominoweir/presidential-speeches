@@ -16,9 +16,9 @@ class App extends React.Component {
   constructor() {
     super();
     this.numTopics = 20;
-    this.topics = ['Election', 'Middle East', 'Civil War', 'Faith-Humanity', 'Labor China', 'Topic 6', 'Civil Rights',
-      'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
-      'Agriculture', 'Education/Health', 'Topic 18', 'Militry Threats', 'Currency'];
+    this.topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor China', 'Westward Expansion', 'Civil Rights',
+      'Economy', 'Immigration', 'Strategic Resources', 'Vietnam  War', 'World War II', 'Industry/Jobs', 'Legislative Issues', 'Colonialism',
+      'Agriculture', 'Education/Health', 'Presidential Cabinet', 'Military Threatss', 'Currency'];
     this.presidents = ["George Washington", "John Adams", "Thomas Jefferson", "James Madison", "James Monroe", "John Quincy Adams",
       "Andrew Jackson", "Martin Van Buren", "William Harrison", "John Tyler", "James Polk", "Zachary Taylor", "Millard Filmore",
       "Franklin Pierce", "James Buchanan", "Abraham Lincoln", "Andrew Johnson", "Ulysses Grant", "Rutherford Hayes", "James Garfield",

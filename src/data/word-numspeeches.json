@@ -205,7 +205,7 @@
     },{ "name" : "grade",
       "size" : "86"
     }]},    {
-      "name" : "Circumstance-Consequence","children":[{
+      "name" : "Westward Expansion","children":[{
       "name" : "circumstance",
       "size" : "338"
     },{ "name" : "portion",
@@ -495,7 +495,7 @@
     },{ "name" : "group",
       "size" : "275"
     }]},    {
-      "name" : "Legislative-Resolution","children":[{
+      "name" : "Legislative Issues","children":[{
       "name" : "resolution",
       "size" : "238"
     },{ "name" : "poland",
@@ -611,7 +611,7 @@
     },{ "name" : "raise",
       "size" : "351"
     }]},    {
-      "name" : "Cabinet-Praclamation","children":[{
+      "name" : "Presidential Cabinet","children":[{
       "name" : "stanton",
       "size" : "6"
     },{ "name" : "cell",
@@ -643,7 +643,7 @@
     },{ "name" : "perform",
       "size" : "240"
     }]},    {
-      "name" : "Militry Threat","children":[{
+      "name" : "Military Threats","children":[{
       "name" : "vietnam",
       "size" : "83"
     },{ "name" : "nuclear",

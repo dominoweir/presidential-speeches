@@ -2,9 +2,9 @@ import React from 'react';
 
 export default ({ className, hoveredBox, xScale, yScale, topicIndex }) => {
 
-  const topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Topic 6', 'Civil Rights',
-    'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
-    'Agriculture', 'Education/Health', 'Topic 18', 'Military Threats', 'Currency'];
+  const topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Westward Expansion', 'Civil Rights',
+    'Economy', 'Immigration', 'Strategic Resources', 'Vietnam  War', 'World War II', 'Industry/Jobs', 'Legislative Issues', 'Colonialism',
+    'Agriculture', 'Education/Health', 'Presidential Cabinet', 'Military Threats', 'Currency'];
 
   const styles = {
     left: (xScale(topicIndex) + 153) + "px",

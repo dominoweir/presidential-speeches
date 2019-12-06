@@ -47,9 +47,9 @@ class HeatMapView extends React.Component {
   }
 
   createHeatmap = () => {
-    var topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Topic 6', 'Civil Rights',
-      'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
-      'Agriculture', 'Education/Health', 'Topic 18', 'Military Threats', 'Currency'];
+    var topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Westward Expansion', 'Civil Rights',
+      'Economy', 'Immigration', 'Strategic Resources', 'Vietnam  War', 'World War II', 'Industry/Jobs', 'Legislative Issues', 'Colonialism',
+      'Agriculture', 'Education/Health', 'Presidential Cabinet', 'Military Threats', 'Currency'];
     var selectedPresidents = this.props.presidents;
     var selectedTopics = this.props.topics;
 
@@ -151,9 +151,9 @@ class HeatMapView extends React.Component {
 
   updateHeatmap = () => {
     if (this.props.visible && this.state.svgCreated) {
-      var topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Topic 6', 'Civil Rights',
-        'Economy', 'Immigration', 'Strategic Resources', 'Topic 11', 'World War II', 'Industry/Jobs', 'Topic 14', 'Colonialism',
-        'Agriculture', 'Education/Health', 'Topic 18', 'Military Threats', 'Currency'];
+      var topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Westward Expansion', 'Civil Rights',
+        'Economy', 'Immigration', 'Strategic Resources', 'Vietnam  War', 'World War II', 'Industry/Jobs', 'Legislative Issues', 'Colonialism',
+        'Agriculture', 'Education/Health', 'Presidential Cabinet', 'Military Threats', 'Currency'];
       var selectedPresidents = this.props.presidents;
       var selectedTopics = this.props.topics;
       var selectedSpeechIds = [];

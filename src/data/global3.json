@@ -2,69 +2,69 @@
   "name" :"global3", "children":[
     {
       "name" : "Abraham Lincoln","children":[{
-      "name" : "CivilRights",
+      "name" : "Civil Rights",
       "size" : "0.298441815"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "3.44537974"
     },{"name": "Colonialism",
       "size" : "0.09878619"
     },{"name": "Currency",
       "size" : "2.00500811"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "0.013775407"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "1.555126126"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.24581841"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.105484905"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.014913985"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "0.01982441"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.026055416"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.315223296"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "1.57883388"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.229309542"
     }]},    {
       "name" : "Andrew Jackson","children":[{
       "name" : "Agriculture",
       "size" : "0.019108402"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "1.755163024"
     },{"name": "Colonialism",
       "size" : "2.427304985"
     },{"name": "Currency",
       "size" : "1.576272618"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.307319085"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.691615913"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.0836381"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.0739248"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.205620685"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "2.141367562"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "1.09589636"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "15.48210107"
     }]},    {
       "name" : "Andrew Johnson","children":[{
       "name" : "Agriculture",
       "size" : "0.031422059"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.03993174"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "3.329718686"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "14.33739426"
     },{"name": "Colonialism",
       "size" : "0.05812781"
@@ -76,39 +76,39 @@
       "size" : "1.780707224"
     },{"name": "Election",
       "size" : "0.09077394"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.393791493"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.900806417"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.031452198"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.436056355"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.078552801"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "1.657982303"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.112852454"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.08745954"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "1.1345048"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "2.108109195"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.57373542"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "2.587667169"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.116232463"
     }]},    {
       "name" : "Barack Obama","children":[{
       "name" : "Agriculture",
       "size" : "0.081926206"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.611455714"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.231026375"
     },{"name": "Colonialism",
       "size" : "0.268160146"
@@ -116,39 +116,39 @@
       "size" : "0.03294009"
     },{"name": "Economy",
       "size" : "0.655651162"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "23.36435595"
     },{"name": "Election",
       "size" : "1.061543488"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "10.48874512"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.095119615"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.222738624"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.04404489"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "9.658530293"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "0.386817678"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.134223695"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.052813716"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.082145587"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.28351241"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.119134487"
     }]},    {
       "name" : "Benjamin Harrison","children":[{
       "name" : "Agriculture",
       "size" : "0.611213751"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.25054158"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.878656228"
     },{"name": "Colonialism",
       "size" : "1.065630974"
@@ -156,67 +156,67 @@
       "size" : "3.458962204"
     },{"name": "Election",
       "size" : "0.080957369"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "1.348107654"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "3.051731031"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.74894362"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.161643316"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.027441977"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "1.223198185"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "1.45310798"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.82596449"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.612055228"
     }]},    {
       "name" : "Bill Clinton","children":[{
       "name" : "Agriculture",
       "size" : "0.333409471"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "1.330320378"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.421733173"
     },{"name": "Colonialism",
       "size" : "0.053983204"
     },{"name": "Economy",
       "size" : "0.715216629"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "15.78895539"
     },{"name": "Election",
       "size" : "1.872631144"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "10.79806133"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.192860791"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.039471582"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "5.020936043"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "1.129648661"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.15247609"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.03957159"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.109051004"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.303587817"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.55802897"
     }]},    {
       "name" : "Calvin Coolidge","children":[{
       "name" : "Agriculture",
       "size" : "0.90403476"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.28617309"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.17265866"
     },{"name": "Colonialism",
       "size" : "0.284314388"
@@ -226,137 +226,137 @@
       "size" : "0.034110093"
     },{"name": "Election",
       "size" : "0.015638215"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "1.89659462"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.185656398"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "2.91336818"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.019764088"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "2.31991548"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.024826204"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "1.579162918"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.025695719"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.049275268"
     }]},    {
       "name" : "Chester Arthur","children":[{
-      "name" : "CivilRights",
+      "name" : "Civil Rights",
       "size" : "0.14551972"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.201557873"
     },{"name": "Colonialism",
       "size" : "0.693129713"
     },{"name": "Currency",
       "size" : "3.448645702"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.386955484"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "1.026812102"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.33629299"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.39276114"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "0.0664291"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.771718324"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.24814463"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.639438728"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "1.439356969"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.068562746"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.062100247"
     }]},    {
       "name" : "Donald Trump","children":[{
       "name" : "Agriculture",
       "size" : "0.023120087"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.010810578"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.013590045"
     },{"name": "Colonialism",
       "size" : "0.025966514"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "1.27575406"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "1.2627265"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.34334078"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.016950432"
     }]},    {
       "name" : "Dwight Eisenhower","children":[{
       "name" : "Agriculture",
       "size" : "0.048956441"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.208535887"
     },{"name": "Economy",
       "size" : "0.072578464"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "0.085051331"
     },{"name": "Election",
       "size" : "4.35436977"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "4.386020913"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.995752356"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.018783415"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.024507824"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "2.00644262"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.028106363"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.078198345"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.014437917"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.414202179"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.234288061"
     }]},    {
       "name" : "Franklin Pierce","children":[{
       "name" : "Agriculture",
       "size" : "0.040630948"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.09578859"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "3.91936955"
     },{"name": "Colonialism",
       "size" : "1.314920254"
     },{"name": "Currency",
       "size" : "1.060732734"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.177792569"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "2.686693443"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.416805312"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.301269579"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.06426935"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "5.84817637"
     }]},    {
       "name" : "Franklin Roosevelt","children":[{
       "name" : "Agriculture",
       "size" : "3.398618485"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.092019787"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.55930152"
     },{"name": "Colonialism",
       "size" : "0.267281891"
@@ -364,39 +364,39 @@
       "size" : "0.35151755"
     },{"name": "Economy",
       "size" : "1.222687141"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "1.443782681"
     },{"name": "Election",
       "size" : "1.869545933"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "7.305715924"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.466171842"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "8.063004483"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.062864334"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.105770284"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "0.585578503"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "1.333218451"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "1.283935283"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.095879774"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.602858922"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.147598843"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "19.52116846"
     }]},    {
       "name" : "George H.W. Bush","children":[{
       "name" : "Agriculture",
       "size" : "0.07129393"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.490403046"
     },{"name": "Colonialism",
       "size" : "0.01817192"
@@ -404,99 +404,99 @@
       "size" : "0.016374966"
     },{"name": "Economy",
       "size" : "1.434218793"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "3.788354351"
     },{"name": "Election",
       "size" : "0.747656041"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "5.284943147"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.272557205"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.05677892"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.0986651"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "5.402679403"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "2.66407057"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.029642733"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.0737553"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.0255371"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.415594269"
     }]},    {
       "name" : "George W. Bush","children":[{
       "name" : "Agriculture",
       "size" : "2.62844083"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.17968949"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.029593596"
     },{"name": "Economy",
       "size" : "1.430931105"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "10.87167752"
     },{"name": "Election",
       "size" : "0.750323921"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "6.928590183"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.037809227"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.305700678"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "15.74791741"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "0.65080819"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.065663464"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.020424418"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.89891928"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.021182679"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.237054421"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.047646055"
     }]},    {
       "name" : "George Washington","children":[{
       "name" : "Agriculture",
       "size" : "0.11657135"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.34222258"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "4.18378023"
     },{"name": "Colonialism",
       "size" : "0.27484113"
     },{"name": "Currency",
       "size" : "0.179935619"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.465389025"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "1.691520115"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.07198049"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.02248761"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "1.31299187"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.38033986"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "11.67258885"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.115750488"
     }]},    {
       "name" : "Gerald Ford","children":[{
       "name" : "Agriculture",
       "size" : "0.168808768"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.284044014"
     },{"name": "Colonialism",
       "size" : "0.133219508"
@@ -504,39 +504,39 @@
       "size" : "0.021013146"
     },{"name": "Economy",
       "size" : "5.319688992"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "0.406832319"
     },{"name": "Election",
       "size" : "1.924042993"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "3.878352845"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.081606387"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.4490258"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.010177728"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.09347672"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "3.158941439"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.09199902"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.2357591"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.16487007"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.02372316"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.390082178"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.092568651"
     }]},    {
       "name" : "Grover Cleveland","children":[{
       "name" : "Agriculture",
       "size" : "0.553043465"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "2.300783816"
     },{"name": "Colonialism",
       "size" : "1.009131428"
@@ -544,71 +544,71 @@
       "size" : "13.35342084"
     },{"name": "Election",
       "size" : "0.018176282"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.318114087"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "1.58814943"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "4.023422739"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "3.271702957"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.086255856"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "1.276398731"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.44378347"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.174347971"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "3.10903388"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.27487952"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.010674702"
     }]},    {
       "name" : "Harry Truman","children":[{
       "name" : "Agriculture",
       "size" : "0.331346734"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.631211621"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.06405897"
     },{"name": "Colonialism",
       "size" : "0.02447953"
     },{"name": "Economy",
       "size" : "0.18843361"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "1.107942853"
     },{"name": "Election",
       "size" : "5.00829791"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "4.159150566"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "1.680208082"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.061731264"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "2.012132385"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.568028236"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.394339145"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.14695796"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.111113727"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.174292967"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "3.251083597"
     }]},    {
       "name" : "Herbert Hoover","children":[{
       "name" : "Agriculture",
       "size" : "11.76084977"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.15653501"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.321991165"
     },{"name": "Colonialism",
       "size" : "1.83296896"
@@ -616,151 +616,151 @@
       "size" : "1.240555035"
     },{"name": "Economy",
       "size" : "0.236699214"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "0.10450038"
     },{"name": "Election",
       "size" : "0.77285525"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.926471616"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.080648573"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "8.827110717"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.100907314"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.05"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "0.120991516"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "2.353976914"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.673639145"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.05"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.169543099"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.32169388"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.744159471"
     }]},    {
       "name" : "James Buchanan","children":[{
       "name" : "Agriculture",
       "size" : "0.146019248"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.101534754"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "4.070957665"
     },{"name": "Colonialism",
       "size" : "0.285849222"
     },{"name": "Currency",
       "size" : "1.523464171"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "0.06727443"
     },{"name": "Election",
       "size" : "0.12290156"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.713903168"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "2.87841006"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.065325014"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.019482153"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.064328461"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "2.18408702"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.07316309"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "3.732759766"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.5968187"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.17390743"
     }]},    {
       "name" : "James Garfield","children":[{
-      "name" : "CivilWar",
+      "name" : "Civil War",
       "size" : "0.20959134"
     },{"name": "Currency",
       "size" : "0.21426208"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.23691209"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.15070151"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.026586698"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.16083865"
     }]},    {
       "name" : "James Madison","children":[{
-      "name" : "CivilWar",
+      "name" : "Civil War",
       "size" : "1.069160556"
     },{"name": "Colonialism",
       "size" : "0.735888737"
     },{"name": "Currency",
       "size" : "0.674418816"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "1.593284442"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "1.604464072"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.06884792"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.168854"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.09848521"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "1.621351308"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "14.72915534"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.518005348"
     }]},    {
       "name" : "James Monroe","children":[{
-      "name" : "CivilWar",
+      "name" : "Civil War",
       "size" : "0.191425876"
     },{"name": "Colonialism",
       "size" : "1.452103238"
     },{"name": "Currency",
       "size" : "0.070132367"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.6410415"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "1.457221369"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.026233487"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "7.13387424"
     }]},    {
       "name" : "James Polk","children":[{
       "name" : "Agriculture",
       "size" : "0.033858508"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.010964566"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "1.288641536"
     },{"name": "Colonialism",
       "size" : "1.164165729"
     },{"name": "Currency",
       "size" : "0.9877946"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.31489109"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "10.38308996"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.06418656"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.436939395"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.565163815"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "1.21336696"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "8.302042074"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.053364942"
     }]},    {
       "name" : "Jimmy Carter","children":[{
@@ -770,61 +770,61 @@
       "size" : "0.184509697"
     },{"name": "Economy",
       "size" : "6.924184721"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "0.698280286"
     },{"name": "Election",
       "size" : "0.763691217"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "4.675416433"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.19608227"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.431443017"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.023640875"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "1.69230065"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "5.256517586"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.23502309"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.063848235"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.221718518"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.39179104"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.10204298"
     }]},    {
       "name" : "John Adams","children":[{
-      "name" : "CivilRights",
+      "name" : "Civil Rights",
       "size" : "0.277492182"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "1.007309275"
     },{"name": "Colonialism",
       "size" : "0.113046762"
     },{"name": "Currency",
       "size" : "0.044412825"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.746806272"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.8184862"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.029780628"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.035092555"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.258522136"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "5.61963009"
     }]},    {
       "name" : "John Kennedy","children":[{
       "name" : "Agriculture",
       "size" : "0.557823388"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.197078797"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "1.041253432"
     },{"name": "Colonialism",
       "size" : "0.305342383"
@@ -832,57 +832,57 @@
       "size" : "0.181142979"
     },{"name": "Economy",
       "size" : "3.102807607"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "0.390742822"
     },{"name": "Election",
       "size" : "1.298795691"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "16.79065081"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.076166981"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "1.594074447"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.061746907"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.085234034"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "9.296567677"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.620078524"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.242449417"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.44869817"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "1.700526086"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.822292513"
     }]},    {
       "name" : "John Quincy Adams","children":[{
-      "name" : "CivilWar",
+      "name" : "Civil War",
       "size" : "0.494608437"
     },{"name": "Colonialism",
       "size" : "1.17028532"
     },{"name": "Currency",
       "size" : "0.24642029"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.194259582"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.462631905"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.036413766"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "4.37369698"
     }]},    {
       "name" : "John Tyler","children":[{
       "name" : "Agriculture",
       "size" : "0.195591373"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.025690574"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.507711821"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.65259143"
     },{"name": "Colonialism",
       "size" : "0.808573468"
@@ -892,35 +892,35 @@
       "size" : "1.61358275"
     },{"name": "Economy",
       "size" : "0.012798635"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.043774687"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "3.721219129"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.0502997"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.058947377"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.07835468"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.04492906"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.06706579"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.1338709"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.44123926"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "2.32197718"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "6.74297617"
     }]},    {
       "name" : "Lydon Johnson","children":[{
       "name" : "Agriculture",
       "size" : "0.762153806"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.088481315"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.715086179"
     },{"name": "Colonialism",
       "size" : "0.133531962"
@@ -928,111 +928,111 @@
       "size" : "0.367499329"
     },{"name": "Economy",
       "size" : "2.5257188"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "1.172829932"
     },{"name": "Election",
       "size" : "6.615127656"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "19.29588783"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.742792358"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.410424206"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.04486932"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.333673767"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "13.78345476"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.559670302"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.219083053"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.129493259"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.184131614"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "21.64592254"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.971218186"
     }]},    {
       "name" : "Martin Van Buren","children":[{
-      "name" : "CivilRights",
+      "name" : "Civil Rights",
       "size" : "0.27737117"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.995891666"
     },{"name": "Colonialism",
       "size" : "0.87995351"
     },{"name": "Currency",
       "size" : "1.36596728"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.075581014"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "2.45313082"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.080421644"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.06485054"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "4.70526886"
     }]},    {
       "name" : "Millard Filmore","children":[{
-      "name" : "CivilRights",
+      "name" : "Civil Rights",
       "size" : "0.99661976"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "1.752956156"
     },{"name": "Colonialism",
       "size" : "0.112615023"
     },{"name": "Currency",
       "size" : "1.03423522"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "2.27353508"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.034358352"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.0307362"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "1.69874965"
     }]},    {
       "name" : "Richard Nixon","children":[{
       "name" : "Agriculture",
       "size" : "0.055136821"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.248159852"
     },{"name": "Economy",
       "size" : "2.458945909"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "0.505288063"
     },{"name": "Election",
       "size" : "3.799121025"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "5.674697008"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.093130074"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.05650709"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "7.589289075"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.038047202"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.56908709"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.067988329"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.05266584"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.510362028"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.197483634"
     }]},    {
       "name" : "Ronald Reagan","children":[{
       "name" : "Agriculture",
       "size" : "0.170083606"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "1.736080634"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.303922462"
     },{"name": "Colonialism",
       "size" : "0.272294712"
@@ -1040,39 +1040,39 @@
       "size" : "0.832328912"
     },{"name": "Economy",
       "size" : "6.534960014"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "5.691270317"
     },{"name": "Election",
       "size" : "3.000741569"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "20.45229079"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.251320122"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.186487336"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.13197303"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "5.11899093"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "9.444491147"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.299375142"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.336026284"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.228985274"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.338610538"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.977935096"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "1.439038268"
     }]},    {
       "name" : "Rutherford Hayes","children":[{
       "name" : "Agriculture",
       "size" : "0.017884223"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "4.699905466"
     },{"name": "Colonialism",
       "size" : "0.31929958"
@@ -1082,65 +1082,65 @@
       "size" : "0.032226384"
     },{"name": "Election",
       "size" : "0.02090361"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.029421562"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "1.407747316"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.297838566"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.472362233"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.328715602"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.126789974"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.72547868"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "1.620997371"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.34624973"
     }]},    {
       "name" : "Theodore Roosevelt","children":[{
-      "name" : "CivilRights",
+      "name" : "Civil Rights",
       "size" : "0.19197429"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.519184648"
     },{"name": "Colonialism",
       "size" : "2.839065358"
     },{"name": "Currency",
       "size" : "0.346066359"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "0.09525681"
     },{"name": "Election",
       "size" : "0.03925122"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "1.344805831"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "2.777224991"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.909229084"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.108764007"
-    },{"name": "MiddleEast",
+    },{"name": "Middle East",
       "size" : "0.13871501"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "11.42518029"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.45192307"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.420582002"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.101962177"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.142665455"
     }]},    {
       "name" : "Thomas Jefferson","children":[{
       "name" : "Agriculture",
       "size" : "0.161889929"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.8041968"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.997778824"
     },{"name": "Colonialism",
       "size" : "0.18059939"
@@ -1148,27 +1148,27 @@
       "size" : "0.169123993"
     },{"name": "Election",
       "size" : "0.054299146"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "1.829590774"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "6.061429805"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.090613502"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.186923547"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.020665955"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.09135459"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "11.82957904"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.427450286"
     }]},    {
       "name" : "Ulysses Grant","children":[{
-      "name" : "CivilRights",
+      "name" : "Civil Rights",
       "size" : "0.06485895"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "8.879515101"
     },{"name": "Colonialism",
       "size" : "4.235872568"
@@ -1176,103 +1176,103 @@
       "size" : "8.120452358"
     },{"name": "Election",
       "size" : "0.097585593"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.587622359"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "1.448717255"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.698323944"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "1.970789902"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.824187713"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.43219686"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "1.459932421"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "2.824475115"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.0853712"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.027061062"
     }]},    {
       "name" : "William Harding","children":[{
       "name" : "Agriculture",
       "size" : "0.096101995"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.22682339"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.012102917"
     },{"name": "Currency",
       "size" : "0.0802724"
     },{"name": "Economy",
       "size" : "0.013789278"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "0.036009524"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "1.6000452"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "3.30686189"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.42606004"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.146361387"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.023338344"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.010887536"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.09778226"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.0881907"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.026481519"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.024564229"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.7516259"
     }]},    {
       "name" : "William McKinley","children":[{
       "name" : "Agriculture",
       "size" : "0.43595338"
-    },{"name": "CivilRights",
+    },{"name": "Civil Rights",
       "size" : "0.21126084"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.515930611"
     },{"name": "Colonialism",
       "size" : "4.43612243"
     },{"name": "Currency",
       "size" : "2.90287001"
-    },{"name": "Education-Health",
+    },{"name": "Education/Health",
       "size" : "0.01528473"
     },{"name": "Election",
       "size" : "0.01904188"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "0.758087957"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.062805628"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "1.581185837"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.55076312"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "0.04573185"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.728551267"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.45250046"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "1.008611395"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.113617315"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "0.044145726"
     }]},    {
       "name" : "William Taft","children":[{
       "name" : "Agriculture",
       "size" : "0.118807549"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.326546355"
     },{"name": "Colonialism",
       "size" : "1.498977658"
@@ -1282,23 +1282,23 @@
       "size" : "0.32163803"
     },{"name": "Election",
       "size" : "0.07634243"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.111851318"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "0.429235645"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.015051539"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "6.93466821"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "0.399317688"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.010349799"
     }]},    {
       "name" : "Woodrow Wilson","children":[{
-      "name" : "CivilRights",
+      "name" : "Civil Rights",
       "size" : "2.39661394"
-    },{"name": "CivilWar",
+    },{"name": "Civil War",
       "size" : "0.734436287"
     },{"name": "Colonialism",
       "size" : "0.291167187"
@@ -1308,43 +1308,43 @@
       "size" : "0.173133283"
     },{"name": "Election",
       "size" : "0.239571053"
-    },{"name": "Faith-Humanity",
+    },{"name": "Faith/Humanity",
       "size" : "7.90392581"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "0.525544803"
-    },{"name": "Industry-Jobs",
+    },{"name": "Industry/Jobs",
       "size" : "20.08771152"
-    },{"name": "LaborChina",
+    },{"name": "Labor/China",
       "size" : "0.77993316"
-    },{"name": "MilitryThreat",
+    },{"name": "Military Threats",
       "size" : "0.059991226"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "2.798473688"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "4.462918876"
-    },{"name": "Cabinet-Praclamation",
+    },{"name": "Presidential Cabinet",
       "size" : "0.52994955"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "1.751555496"
-    },{"name": "vietnamWar",
+    },{"name": "Vietnam War",
       "size" : "0.13445106"
-    },{"name": "WorldWarII",
+    },{"name": "World War II",
       "size" : "1.452887541"
     }]},    {
       "name" : "Zachary Taylor","children":[{
-      "name" : "CivilWar",
+      "name" : "Civil War",
       "size" : "0.26648391"
     },{"name": "Colonialism",
       "size" : "0.180090034"
     },{"name": "Currency",
       "size" : "0.22402719"
-    },{"name": "immegiration",
+    },{"name": "Immigration",
       "size" : "1.29375686"
-    },{"name": "StrategicResources",
+    },{"name": "Strategic Resources",
       "size" : "0.028502572"
-    },{"name": "Legislative-Resolution",
+    },{"name": "Legislative Issues",
       "size" : "0.09951564"
-    },{"name": "Circumstance-Consequence",
+    },{"name": "Westward Expansion",
       "size" : "1.896685685"
     }]}
   ]
