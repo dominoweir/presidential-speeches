@@ -53,6 +53,8 @@ class UnitView extends React.Component {
       var topicObj = d.topic_probabilities;
       topicObj["id"] = d.id;
       topicObj["date"] = new Date(d.date.split('/')[2], parseInt(d.date.split('/')[0]) - 1, parseInt(d.date.split('/')[1]) - 1);
+      topicObj["title"] = d.title;
+      topicObj["president"] = d.president;
       topicObjects.push(topicObj);
       speechIds.push(d.id);
     });
@@ -174,7 +176,35 @@ class UnitView extends React.Component {
       .attr("x", function (d) { return xScale(d.data.id); })
       .attr("y", function (d) { return yScale(d[1]); })
       .attr("height", function (d) { return yScale(d[0]) - yScale(d[1]); })
-      .attr("width", xScale.bandwidth());
+      .attr("width", xScale.bandwidth())
+      .on("mouseover", function() { d3.select(".unit-container").select(".tooltip").style("display", "block"); })
+      .on("mouseout", function() { d3.select(".unit-container").select(".tooltip").style("display", "none"); })
+      .on("mousemove", function(d) {
+        var xPosition = d3.mouse(this)[0] - 5;
+        var yPosition = d3.mouse(this)[1] - 5;
+        var tooltip = d3.select(".unit-container").select(".tooltip");
+        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+        tooltip.select("text").text(d.data.president);
+      });
+
+    var tooltip = svg.append("g")
+      .attr("class", "tooltip")
+      .style("display", "none")  
+      .style("border", "1px")
+      .style("border-color", "black")
+      .style("border-style", "solid");
+        
+    tooltip.append("rect")
+      .attr("width", 200)
+      .attr("height", 50)
+      .attr("fill", "white")
+      .style("opacity", 1);
+  
+    tooltip.append("text")
+      .attr("x", 30)
+      .attr("dy", "1.2em")
+      .style("text-anchor", "middle")
+      .attr("font-size", "12px");
 
     this.setState({
       svgCreated: true

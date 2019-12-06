@@ -94,6 +94,12 @@ body {
   padding-right: 5px;
 }
 
+.tooltip {
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
 .node {
   cursor: pointer;
 }
