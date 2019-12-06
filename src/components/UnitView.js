@@ -10,8 +10,8 @@ class UnitView extends React.Component {
   constructor() {
     super();
     this.numTopics = 20;
-    this.trendsWidth = 1000;
-    this.width = 1200;
+    this.trendsWidth = 1100;
+    this.width = 1300;
     this.height = 600;
     this.margin = { top: 50, right: 75, bottom: 150, left: 75 };
   }
@@ -177,33 +177,53 @@ class UnitView extends React.Component {
       .attr("y", function (d) { return yScale(d[1]); })
       .attr("height", function (d) { return yScale(d[0]) - yScale(d[1]); })
       .attr("width", xScale.bandwidth())
-      .on("mouseover", function() { d3.select(".unit-container").select(".tooltip").style("display", "block"); })
-      .on("mouseout", function() { d3.select(".unit-container").select(".tooltip").style("display", "none"); })
-      .on("mousemove", function(d) {
-        var xPosition = d3.mouse(this)[0] - 5;
-        var yPosition = d3.mouse(this)[1] - 5;
+      .on("mouseover", function () { d3.select(".unit-container").select(".tooltip").style("display", null); })
+      .on("mouseout", function () { d3.select(".unit-container").select(".tooltip").style("display", "none"); })
+      .on("mousemove", function (d) {
+        var xPosition = d3.mouse(this)[0] + 5;
+        var yPosition = d3.mouse(this)[1] + 5;
         var tooltip = d3.select(".unit-container").select(".tooltip");
-        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-        tooltip.select("text").text(d.data.president);
+        var canvas = document.createElement("canvas");
+        var context = canvas.getContext("2d");
+        context.font = 'Helvetica Neue 12pt';
+        var nameWidth = context.measureText(d.data.president).width;
+        var titleWidth = context.measureText(d.data.title).width;
+        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")")
+        tooltip.select("rect").attr("width", nameWidth > titleWidth ? nameWidth + 60 : titleWidth + 60);
+        tooltip.select(".speech-title").text(d.data.title);
+        tooltip.select(".speech-president").text(d.data.president);
+        tooltip.select(".topic-frequency").text(((d[1] - d[0]) * 100).toFixed(3) + "%");
       });
 
     var tooltip = svg.append("g")
       .attr("class", "tooltip")
-      .style("display", "none")  
-      .style("border", "1px")
-      .style("border-color", "black")
-      .style("border-style", "solid");
-        
+      .style("display", "none");
+
     tooltip.append("rect")
-      .attr("width", 200)
+      .attr("width", 300)
       .attr("height", 50)
       .attr("fill", "white")
       .style("opacity", 1);
-  
+
     tooltip.append("text")
-      .attr("x", 30)
+      .attr("class", "speech-title")
+      .attr("x", 10)
       .attr("dy", "1.2em")
-      .style("text-anchor", "middle")
+      .style("text-anchor", "left")
+      .attr("font-size", "12px");
+
+    tooltip.append("text")
+      .attr("class", "speech-president")
+      .attr("x", 10)
+      .attr("dy", "2.2em")
+      .style("text-anchor", "left")
+      .attr("font-size", "12px");
+
+    tooltip.append("text")
+      .attr("class", "topic-frequency")
+      .attr("x", 10)
+      .attr("dy", "3.2em")
+      .style("text-anchor", "left")
       .attr("font-size", "12px");
 
     this.setState({
@@ -322,7 +342,7 @@ class UnitView extends React.Component {
 
     var barsEnter = barContainer.enter()
       .append("g")
-      .attr("class", function (d) { return "frequency " + d.key; })
+      .attr("class", function (d) { console.log(d.key); return "frequency " + d.key; })
       .style("fill", function (d) { return colorScale(d.key); });
 
     barContainer.merge(barsEnter);
@@ -336,13 +356,47 @@ class UnitView extends React.Component {
       .attr("x", function (d) { return xScale(d.data.id); })
       .attr("y", function (d) { return yScale(d[1]); })
       .attr("height", function (d) { return yScale(d[0]) - yScale(d[1]); })
-      .attr("width", xScale.bandwidth());
+      .attr("width", xScale.bandwidth())
+      .on("mouseover", function () { d3.select(".unit-container").select(".tooltip").style("display", null); })
+      .on("mouseout", function () { d3.select(".unit-container").select(".tooltip").style("display", "none"); })
+      .on("mousemove", function (d) {
+        var xPosition = d3.mouse(this)[0] + 5;
+        var yPosition = d3.mouse(this)[1] + 5;
+        var tooltip = d3.select(".unit-container").select(".tooltip");
+        var canvas = document.createElement("canvas");
+        var context = canvas.getContext("2d");
+        context.font = 'Helvetica Neue 12pt';
+        var nameWidth = context.measureText(d.data.president).width;
+        var titleWidth = context.measureText(d.data.title).width;
+        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")")
+        tooltip.select("rect").attr("width", nameWidth > titleWidth ? nameWidth + 60 : titleWidth + 60);
+        tooltip.select(".speech-title").text(d.data.title);
+        tooltip.select(".speech-president").text(d.data.president);
+        tooltip.select(".topic-frequency").text(((d[1] - d[0]) * 100).toFixed(3) + "%");
+      });
 
     barContainer.selectAll("rect")
       .attr("x", function (d) { return xScale(d.data.id); })
       .attr("y", function (d) { return yScale(d[1]); })
       .attr("height", function (d) { return yScale(d[0]) - yScale(d[1]); })
-      .attr("width", xScale.bandwidth());
+      .attr("width", xScale.bandwidth())
+      .on("mouseover", function () { d3.select(".unit-container").select(".tooltip").style("display", null); })
+      .on("mouseout", function () { d3.select(".unit-container").select(".tooltip").style("display", "none"); })
+      .on("mousemove", function (d) {
+        var xPosition = d3.mouse(this)[0] + 5;
+        var yPosition = d3.mouse(this)[1] + 5;
+        var tooltip = d3.select(".unit-container").select(".tooltip");
+        var canvas = document.createElement("canvas");
+        var context = canvas.getContext("2d");
+        context.font = 'Helvetica Neue 12pt';
+        var nameWidth = context.measureText(d.data.president).width;
+        var titleWidth = context.measureText(d.data.title).width;
+        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")")
+        tooltip.select("rect").attr("width", nameWidth > titleWidth ? nameWidth + 60 : titleWidth + 60);
+        tooltip.select(".speech-title").text(d.data.title);
+        tooltip.select(".speech-president").text(d.data.president);
+        tooltip.select(".topic-frequency").text(((d[1] - d[0]) * 100).toFixed(3) + "%");
+      });
   }
 
   render() {

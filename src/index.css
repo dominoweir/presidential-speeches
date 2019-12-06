@@ -95,9 +95,9 @@ body {
 }
 
 .tooltip {
-  border: 1px;
-  border-color: black;
-  border-style: solid;
+  border: 1px !important;
+  border-color: black !important;
+  border-style: solid !important;
 }
 
 .node {
