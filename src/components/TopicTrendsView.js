@@ -68,7 +68,7 @@ class TopicTrendsView extends React.Component {
       .tickFormat(function (d) { return d.getFullYear(); });
 
     var yAxis = d3.axisLeft(yScale)
-      .tickFormat(function(d) { return ((d * 100) + "%") });;
+      .tickFormat(function (d) { return ((d * 100) + "%") });;
 
     var colorScale = d3.scaleOrdinal(d3.schemeCategory10)
       .domain(selectedTopics);
@@ -168,7 +168,7 @@ class TopicTrendsView extends React.Component {
 
     // we create one series per topic
     areaContainer.selectAll(".series")
-      .data(stackedData)
+      .data(stackedData, function (d) { return d.key; })
       .enter()
       .append("path")
       .attr("class", function (d) { return "series " + d.key })
@@ -296,7 +296,7 @@ class TopicTrendsView extends React.Component {
     labels.exit().remove();
 
     var areaContainer = svg.select(".stacked-area").selectAll(".series")
-      .data(stackedData);
+      .data(stackedData, function (d) { return d.key; });
 
     var areaEnter = areaContainer.enter()
       .append("path");

@@ -125,7 +125,7 @@ class UnitView extends React.Component {
       .attr("class", "legend-rect")
       .style("fill", function (d) { return colorScale(d) })
       .on("mouseover", function (d) {
-        var className = d.replace(' ', '.');
+        var className = d.replace(' ', '.').replace("/", "");
         // reduce opacity of all groups
         d3.selectAll(".frequency").style("opacity", .1)
         // except the one that is hovered
@@ -148,7 +148,7 @@ class UnitView extends React.Component {
       .attr("text-anchor", "left")
       .style("alignment-baseline", "middle")
       .on("mouseover", function (d) {
-        var className = d.replace(' ', '.');
+        var className = d.replace(' ', '.').replace("/", "");
         // reduce opacity of all groups
         d3.selectAll(".frequency").style("opacity", .1)
         // except the one that is hovered
@@ -163,10 +163,10 @@ class UnitView extends React.Component {
 
     // we create one series per topic
     var groups = barContainer.selectAll(".frequency")
-      .data(stackedData)
+      .data(stackedData, function (d) { return d.key; })
       .enter()
       .append("g")
-      .attr("class", function (d) { return "frequency " + d.key })
+      .attr("class", function (d) { return "frequency " + d.key.replace("/", ""); })
       .style("fill", function (d) { return colorScale(d.key); });
 
     groups.selectAll("rect")
@@ -248,6 +248,8 @@ class UnitView extends React.Component {
       var topicObj = d.topic_probabilities;
       topicObj["id"] = d.id;
       topicObj["date"] = new Date(d.date.split('/')[2], parseInt(d.date.split('/')[0]) - 1, parseInt(d.date.split('/')[1]) - 1);
+      topicObj["title"] = d.title;
+      topicObj["president"] = d.president;
       topicObjects.push(topicObj);
       speechIds.push(d.id);
     });
@@ -297,7 +299,7 @@ class UnitView extends React.Component {
       .attr("height", size)
       .style("fill", function (d) { return colorScale(d) })
       .on("mouseover", function (d) {
-        var className = d.replace(' ', '.');
+        var className = d.replace(' ', '.').replace("/", "");
         // reduce opacity of all groups
         d3.selectAll(".frequency").style("opacity", .1)
         // except the one that is hovered
@@ -324,7 +326,7 @@ class UnitView extends React.Component {
       .attr("text-anchor", "left")
       .style("alignment-baseline", "middle")
       .on("mouseover", function (d) {
-        var className = d.replace(' ', '.');
+        var className = d.replace(' ', '.').replace("/", "");
         // reduce opacity of all groups
         d3.selectAll(".frequency").style("opacity", .1)
         // except the one that is hovered
@@ -338,16 +340,13 @@ class UnitView extends React.Component {
 
     var barContainer = svg.select(".stacked-bars")
       .selectAll(".frequency")
-      .data(stackedData);
+      .data(stackedData, function (d) { return d.key; });
+
+    barContainer.exit().remove();
 
     var barsEnter = barContainer.enter()
       .append("g")
-      .attr("class", function (d) { console.log(d.key); return "frequency " + d.key; })
-      .style("fill", function (d) { return colorScale(d.key); });
-
-    barContainer.merge(barsEnter);
-
-    barContainer.exit().remove();
+      .attr("class", function (d) { return "frequency " + d.key.replace("/", ""); });
 
     barsEnter.selectAll()
       .data(function (d) { return d; })
@@ -374,6 +373,9 @@ class UnitView extends React.Component {
         tooltip.select(".speech-president").text(d.data.president);
         tooltip.select(".topic-frequency").text(((d[1] - d[0]) * 100).toFixed(3) + "%");
       });
+
+    barContainer = barContainer.merge(barsEnter)
+      .style("fill", function (d) { return colorScale(d.key); });
 
     barContainer.selectAll("rect")
       .attr("x", function (d) { return xScale(d.data.id); })

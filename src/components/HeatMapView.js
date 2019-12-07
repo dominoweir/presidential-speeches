@@ -4,7 +4,6 @@ import * as d3 from "d3";
 import SpeechData from '../data/all_speeches.json';
 import TopicData from '../data/topic_probability_by_id.json';
 import { Grid, Typography } from '@material-ui/core';
-import HeatmapTooltip from './HeatmapTooltip';
 
 class HeatMapView extends React.Component {
 
@@ -26,6 +25,7 @@ class HeatMapView extends React.Component {
     hoverPresident: null,
     hoverDate: null,
     hoverParty: null,
+    hoverProbability: null,
     hoverTopics: [],
     hoverWords: [],
     svgCreated: false,
@@ -152,8 +152,8 @@ class HeatMapView extends React.Component {
   updateHeatmap = () => {
     if (this.props.visible && this.state.svgCreated) {
       var topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Westward Expansion', 'Civil Rights',
-        'Economy', 'Immigration', 'Strategic Resources', 'Vietnam  War', 'World War II', 'Industry/Jobs', 'Legislative Issues', 'Colonialism',
-        'Agriculture', 'Education/Health', 'Presidential Cabinet', 'Military Threats', 'Currency'];
+      'Economy', 'Immigration', 'Strategic Resources', 'Vietnam  War', 'World War II', 'Industry/Jobs', 'Legislative Issues', 'Colonialism',
+      'Agriculture', 'Education/Health', 'Presidential Cabinet', 'Military Threats', 'Currency'];
       var selectedPresidents = this.props.presidents;
       var selectedTopics = this.props.topics;
       var selectedSpeechIds = [];
@@ -242,7 +242,11 @@ class HeatMapView extends React.Component {
   }
 
   mousemove = (d) => {
+    var topics = ['Election', 'Middle East', 'Civil War', 'Faith/Humanity', 'Labor/China', 'Westward Expansion', 'Civil Rights',
+      'Economy', 'Immigration', 'Strategic Resources', 'Vietnam  War', 'World War II', 'Industry/Jobs', 'Legislative Issues', 'Colonialism',
+      'Agriculture', 'Education/Health', 'Presidential Cabinet', 'Military Threats', 'Currency'];
     var currentHoverId = d.split(":")[0];
+    var currentHoverProbability = parseFloat(d.split(":")[1]) * 100;
     var currentHoverTopic = d.split(":")[2];
     var selectedSpeech = this.state.data.filter(function (d) {
       return d.id === currentHoverId;
@@ -256,6 +260,7 @@ class HeatMapView extends React.Component {
       hoverParty: selectedSpeech.party,
       hoverTopics: selectedSpeech.most_similar_topics,
       hoverWords: selectedSpeech.most_similar_words,
+      hoverProbability: topics[currentHoverTopic] + ": " + (currentHoverProbability === 0 ? "0" : currentHoverProbability.toFixed(3)) + "% frequency",
       currentHoverTopic: currentHoverTopic,
     });
   }
@@ -289,26 +294,13 @@ class HeatMapView extends React.Component {
             width={this.heatmapWidth + this.margin.left + this.margin.right}
             height={this.height + this.margin.top + this.margin.bottom}>
           </svg>
-          {this.state.hoverObj ?
-            <HeatmapTooltip
-              className={"heatmap-tooltip hidden"}
-              hoveredBox={this.state.hoverObj}
-              xScale={d3.scaleLinear()
-                .range([0, this.heatmapWidth])
-                .domain([0, this.numTopics - 1])}
-              yScale={d3.scaleBand()
-                .range([0, this.height])
-                .domain(this.selectedSpeechIds)}
-              topicIndex={this.state.currentHoverTopic}
-            /> :
-            null
-          }
         </Grid>
         <Grid item={true} xs={4} className={this.props.visible ? "heatmap-sidebar" : "hidden"}>
           <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverTitle}</Typography>
           <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverDate}</Typography>
           <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverPresident}</Typography>
           <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverParty}</Typography>
+          <Typography className={this.props.visible ? "" : "hidden"}>{this.state.hoverProbability}</Typography>
           <Typography className={this.props.visible ? "similarity-header" : "hidden"}>{this.state.hoverId === 0 ? null : "Speeches discussing similar topics"}</Typography>
           <TopicRankings />
           <Typography className={this.props.visible ? "similarity-header" : "hidden"}>{this.state.hoverId === 0 ? null : "Speeches using similar language"}</Typography>

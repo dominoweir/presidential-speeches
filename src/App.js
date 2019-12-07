@@ -55,27 +55,27 @@ class App extends React.Component {
         <h2>Language Used in Presidential Speeches</h2>
         <Grid container={true}>
           <Grid item={true} xs={12} className="compare-selector">
-            <Typography>Select a hierarchy and size attribute to display</Typography>
-            <br/>
+            <Typography>Select a hierarchy and size attribute to display.</Typography>
+            <br />
             <div className='radio'>
-    			      <label className='radio-inline'>
-                  <input type="radio" name="presidentword" value="Topic-Party-President" onChange={this.handlepartieswords} checked={this.state.partieswords === "Topic-Party-President"} /> Topic -> Party -> President Topic Usage
+              <label className='radio-inline'>
+                <input type="radio" name="presidentword" value="Topic-Party-President" onChange={this.handlepartieswords} checked={this.state.partieswords === "Topic-Party-President"} /> Topic -> Party -> President Topic Usage
     			      </label>
-                <label className='radio-inline'>
-                  <input type="radio" name="presidentword" value="Party-Topic" onChange={this.handlepartieswords} checked={this.state.partieswords === "Party-Topic"} /> Party -> Topic Frequency
+              <label className='radio-inline'>
+                <input type="radio" name="presidentword" value="Party-Topic" onChange={this.handlepartieswords} checked={this.state.partieswords === "Party-Topic"} /> Party -> Topic Frequency
     			      </label>
-                <label className='radio-inline'>
-                  <input type="radio" name="presidentword" value="President-Topic" onChange={this.handlepartieswords} checked={this.state.partieswords === "President-Topic"} /> President -> Topic Frequency
+              <label className='radio-inline'>
+                <input type="radio" name="presidentword" value="President-Topic" onChange={this.handlepartieswords} checked={this.state.partieswords === "President-Topic"} /> President -> Topic Frequency
     			      </label>
-                <br/>
-    			      <label className='radio-inline'> 
-                  <input type="radio" name="presidentword" value="frequency" onChange={this.handlepartieswords} checked={this.state.partieswords === "frequency"} /> Topic -> Frequently Used Words
+              <br />
+              <label className='radio-inline'>
+                <input type="radio" name="presidentword" value="frequency" onChange={this.handlepartieswords} checked={this.state.partieswords === "frequency"} /> Topic -> Frequently Used Words
     			      </label>
-                <label className='radio-inline'>
-                  <input type="radio" name="presidentword" value="numspeeches" onChange={this.handlepartieswords} checked={this.state.partieswords === "numspeeches"} /> Topic -> Number of Speeches Containing a Word
+              <label className='radio-inline'>
+                <input type="radio" name="presidentword" value="numspeeches" onChange={this.handlepartieswords} checked={this.state.partieswords === "numspeeches"} /> Topic -> Number of Speeches Containing a Word
     			      </label>
-                <label className='radio-inline'>
-                  <input type="radio" name="presidentword" value="sublingweight" onChange={this.handlepartieswords} checked={this.state.partieswords === "sublingweight"} /> Topic -> Word-Topic Relationship Strength
+              <label className='radio-inline'>
+                <input type="radio" name="presidentword" value="sublingweight" onChange={this.handlepartieswords} checked={this.state.partieswords === "sublingweight"} /> Topic -> Word-Topic Relationship Strength
     			      </label>
             </div>
           </Grid>
@@ -85,6 +85,9 @@ class App extends React.Component {
         </Grid>
         <h2>Topics Discussed in Presidential Speeches</h2>
         <Grid container={true}>
+          <Grid item={true} xs={12}>
+            <Typography>Select a combination of topics and presidents to learn more about the speeches they gave.</Typography>
+          </Grid>
           <Grid item={true} xs={12}>
             <TopicSelector onTopicChange={this.handleTopicSelectionChange} />
           </Grid>
