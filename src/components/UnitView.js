@@ -338,17 +338,20 @@ class UnitView extends React.Component {
 
     labels.exit().remove();
 
-    var barContainer = svg.select(".stacked-bars")
-      .selectAll(".frequency")
-      .data(stackedData, function (d) { return d.key; });
+    svg.select(".stacked-bars")
+      .selectAll("*")
+      .remove();
 
-    barContainer.exit().remove();
+    var barContainer = svg.select(".stacked-bars");
 
-    var barsEnter = barContainer.enter()
+    var groups = barContainer.selectAll(".frequency")
+      .data(stackedData, function (d) { return d.key; })
+      .enter()
       .append("g")
-      .attr("class", function (d) { return "frequency " + d.key.replace("/", ""); });
+      .attr("class", function (d) { return "frequency " + d.key.replace("/", ""); })
+      .style("fill", function (d) { return colorScale(d.key); });
 
-    barsEnter.selectAll()
+    groups.selectAll("rect")
       .data(function (d) { return d; })
       .enter()
       .append("rect")
@@ -374,31 +377,63 @@ class UnitView extends React.Component {
         tooltip.select(".topic-frequency").text(((d[1] - d[0]) * 100).toFixed(3) + "%");
       });
 
-    barContainer = barContainer.merge(barsEnter)
-      .style("fill", function (d) { return colorScale(d.key); });
+    // barContainer.exit().remove();
 
-    barContainer.selectAll("rect")
-      .attr("x", function (d) { return xScale(d.data.id); })
-      .attr("y", function (d) { return yScale(d[1]); })
-      .attr("height", function (d) { return yScale(d[0]) - yScale(d[1]); })
-      .attr("width", xScale.bandwidth())
-      .on("mouseover", function () { d3.select(".unit-container").select(".tooltip").style("display", null); })
-      .on("mouseout", function () { d3.select(".unit-container").select(".tooltip").style("display", "none"); })
-      .on("mousemove", function (d) {
-        var xPosition = d3.mouse(this)[0] + 5;
-        var yPosition = d3.mouse(this)[1] + 5;
-        var tooltip = d3.select(".unit-container").select(".tooltip");
-        var canvas = document.createElement("canvas");
-        var context = canvas.getContext("2d");
-        context.font = 'Helvetica Neue 12pt';
-        var nameWidth = context.measureText(d.data.president).width;
-        var titleWidth = context.measureText(d.data.title).width;
-        tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")")
-        tooltip.select("rect").attr("width", nameWidth > titleWidth ? nameWidth + 60 : titleWidth + 60);
-        tooltip.select(".speech-title").text(d.data.title);
-        tooltip.select(".speech-president").text(d.data.president);
-        tooltip.select(".topic-frequency").text(((d[1] - d[0]) * 100).toFixed(3) + "%");
-      });
+    // var barsEnter = barContainer.enter()
+    //   .append("g")
+    //   .attr("class", function (d) { return "frequency " + d.key.replace("/", ""); });
+
+    // barsEnter.selectAll()
+    //   .data(function (d) { return d; })
+    //   .enter()
+    //   .append("rect")
+    //   .attr("x", function (d) { return xScale(d.data.id); })
+    //   .attr("y", function (d) { return yScale(d[1]); })
+    //   .attr("height", function (d) { return yScale(d[0]) - yScale(d[1]); })
+    //   .attr("width", xScale.bandwidth())
+    //   .on("mouseover", function () { d3.select(".unit-container").select(".tooltip").style("display", null); })
+    //   .on("mouseout", function () { d3.select(".unit-container").select(".tooltip").style("display", "none"); })
+    //   .on("mousemove", function (d) {
+    //     var xPosition = d3.mouse(this)[0] + 5;
+    //     var yPosition = d3.mouse(this)[1] + 5;
+    //     var tooltip = d3.select(".unit-container").select(".tooltip");
+    //     var canvas = document.createElement("canvas");
+    //     var context = canvas.getContext("2d");
+    //     context.font = 'Helvetica Neue 12pt';
+    //     var nameWidth = context.measureText(d.data.president).width;
+    //     var titleWidth = context.measureText(d.data.title).width;
+    //     tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")")
+    //     tooltip.select("rect").attr("width", nameWidth > titleWidth ? nameWidth + 60 : titleWidth + 60);
+    //     tooltip.select(".speech-title").text(d.data.title);
+    //     tooltip.select(".speech-president").text(d.data.president);
+    //     tooltip.select(".topic-frequency").text(((d[1] - d[0]) * 100).toFixed(3) + "%");
+    //   });
+
+    // barContainer = barContainer.merge(barsEnter)
+    //   .style("fill", function (d) { return colorScale(d.key); });
+
+    // barContainer.selectAll("rect")
+    //   .attr("x", function (d) { return xScale(d.data.id); })
+    //   .attr("y", function (d) { return yScale(d[1]); })
+    //   .attr("height", function (d) { return yScale(d[0]) - yScale(d[1]); })
+    //   .attr("width", xScale.bandwidth())
+    //   .on("mouseover", function () { d3.select(".unit-container").select(".tooltip").style("display", null); })
+    //   .on("mouseout", function () { d3.select(".unit-container").select(".tooltip").style("display", "none"); })
+    //   .on("mousemove", function (d) {
+    //     var xPosition = d3.mouse(this)[0] + 5;
+    //     var yPosition = d3.mouse(this)[1] + 5;
+    //     var tooltip = d3.select(".unit-container").select(".tooltip");
+    //     var canvas = document.createElement("canvas");
+    //     var context = canvas.getContext("2d");
+    //     context.font = 'Helvetica Neue 12pt';
+    //     var nameWidth = context.measureText(d.data.president).width;
+    //     var titleWidth = context.measureText(d.data.title).width;
+    //     tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")")
+    //     tooltip.select("rect").attr("width", nameWidth > titleWidth ? nameWidth + 60 : titleWidth + 60);
+    //     tooltip.select(".speech-title").text(d.data.title);
+    //     tooltip.select(".speech-president").text(d.data.president);
+    //     tooltip.select(".topic-frequency").text(((d[1] - d[0]) * 100).toFixed(3) + "%");
+    //   });
   }
 
   render() {
