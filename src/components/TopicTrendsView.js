@@ -14,6 +14,9 @@ class TopicTrendsView extends React.Component {
     this.width = 1200;
     this.height = 600;
     this.margin = { top: 50, right: 75, bottom: 150, left: 75 };
+    this.colors = ['#e6194b', '#3cb44b', '#4363d8', '#f58231', '#911eb4', '#ffe119', '#46f0f0', '#f032e6',
+      '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1',
+      '#000075', '#808080', '#ffffff', '#f00202'];
   }
 
   state = {
@@ -70,7 +73,7 @@ class TopicTrendsView extends React.Component {
     var yAxis = d3.axisLeft(yScale)
       .tickFormat(function (d) { return ((d * 100) + "%") });;
 
-    var colorScale = d3.scaleOrdinal(d3.schemeCategory10)
+    var colorScale = d3.scaleOrdinal(this.colors)
       .domain(selectedTopics);
 
     var area = d3.area()
@@ -219,7 +222,7 @@ class TopicTrendsView extends React.Component {
     var xAxis = d3.axisBottom(xScale)
       .tickFormat(function (d) { return d.getFullYear(); });
 
-    var colorScale = d3.scaleOrdinal(d3.schemeCategory10)
+    var colorScale = d3.scaleOrdinal(this.colors)
       .domain(selectedTopics);
 
     var area = d3.area()
@@ -295,18 +298,19 @@ class TopicTrendsView extends React.Component {
 
     labels.exit().remove();
 
-    var areaContainer = svg.select(".stacked-area").selectAll(".series")
-      .data(stackedData, function (d) { return d.key; });
+    svg.select(".stacked-area")
+      .selectAll("*")
+      .remove();
 
-    var areaEnter = areaContainer.enter()
-      .append("path");
+    var areaContainer = svg.select(".stacked-area");
 
-    areaContainer.merge(areaEnter)
+    areaContainer.selectAll(".series")
+      .data(stackedData, function (d) { return d.key; })
+      .enter()
+      .append("path")
       .attr("class", function (d) { return "series " + d.key })
       .style("fill", function (d) { return colorScale(d.key); })
       .attr("d", area);
-
-    areaContainer.exit().remove();
   }
 
   onBrush = () => {

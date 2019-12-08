@@ -14,6 +14,9 @@ class UnitView extends React.Component {
     this.width = 1300;
     this.height = 600;
     this.margin = { top: 50, right: 75, bottom: 150, left: 75 };
+    this.colors = ['#e6194b', '#3cb44b', '#4363d8', '#f58231', '#911eb4', '#ffe119', '#46f0f0', '#f032e6', 
+      '#bcf60c', '#fabebe', '#008080', '#e6beff', '#9a6324', '#fffac8', '#800000', '#aaffc3', '#808000', '#ffd8b1', 
+      '#000075', '#808080', '#ffffff', '#f00202'];
   }
 
   state = {
@@ -77,7 +80,7 @@ class UnitView extends React.Component {
     var yAxis = d3.axisLeft(yScale)
       .tickFormat(function (d) { return ((d * 100) + "%") });
 
-    var colorScale = d3.scaleOrdinal(d3.schemeCategory10)
+    var colorScale = d3.scaleOrdinal(this.colors)
       .domain(selectedTopics);
 
     // add a container group for our heatmap rows
@@ -269,7 +272,7 @@ class UnitView extends React.Component {
       .tickSize(0)
       .tickFormat("");
 
-    var colorScale = d3.scaleOrdinal(d3.schemeCategory10)
+    var colorScale = d3.scaleOrdinal(this.colors)
       .domain(selectedTopics);
 
     var svg = d3.select(".unit-container");
@@ -376,64 +379,6 @@ class UnitView extends React.Component {
         tooltip.select(".speech-president").text(d.data.president);
         tooltip.select(".topic-frequency").text(((d[1] - d[0]) * 100).toFixed(3) + "%");
       });
-
-    // barContainer.exit().remove();
-
-    // var barsEnter = barContainer.enter()
-    //   .append("g")
-    //   .attr("class", function (d) { return "frequency " + d.key.replace("/", ""); });
-
-    // barsEnter.selectAll()
-    //   .data(function (d) { return d; })
-    //   .enter()
-    //   .append("rect")
-    //   .attr("x", function (d) { return xScale(d.data.id); })
-    //   .attr("y", function (d) { return yScale(d[1]); })
-    //   .attr("height", function (d) { return yScale(d[0]) - yScale(d[1]); })
-    //   .attr("width", xScale.bandwidth())
-    //   .on("mouseover", function () { d3.select(".unit-container").select(".tooltip").style("display", null); })
-    //   .on("mouseout", function () { d3.select(".unit-container").select(".tooltip").style("display", "none"); })
-    //   .on("mousemove", function (d) {
-    //     var xPosition = d3.mouse(this)[0] + 5;
-    //     var yPosition = d3.mouse(this)[1] + 5;
-    //     var tooltip = d3.select(".unit-container").select(".tooltip");
-    //     var canvas = document.createElement("canvas");
-    //     var context = canvas.getContext("2d");
-    //     context.font = 'Helvetica Neue 12pt';
-    //     var nameWidth = context.measureText(d.data.president).width;
-    //     var titleWidth = context.measureText(d.data.title).width;
-    //     tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")")
-    //     tooltip.select("rect").attr("width", nameWidth > titleWidth ? nameWidth + 60 : titleWidth + 60);
-    //     tooltip.select(".speech-title").text(d.data.title);
-    //     tooltip.select(".speech-president").text(d.data.president);
-    //     tooltip.select(".topic-frequency").text(((d[1] - d[0]) * 100).toFixed(3) + "%");
-    //   });
-
-    // barContainer = barContainer.merge(barsEnter)
-    //   .style("fill", function (d) { return colorScale(d.key); });
-
-    // barContainer.selectAll("rect")
-    //   .attr("x", function (d) { return xScale(d.data.id); })
-    //   .attr("y", function (d) { return yScale(d[1]); })
-    //   .attr("height", function (d) { return yScale(d[0]) - yScale(d[1]); })
-    //   .attr("width", xScale.bandwidth())
-    //   .on("mouseover", function () { d3.select(".unit-container").select(".tooltip").style("display", null); })
-    //   .on("mouseout", function () { d3.select(".unit-container").select(".tooltip").style("display", "none"); })
-    //   .on("mousemove", function (d) {
-    //     var xPosition = d3.mouse(this)[0] + 5;
-    //     var yPosition = d3.mouse(this)[1] + 5;
-    //     var tooltip = d3.select(".unit-container").select(".tooltip");
-    //     var canvas = document.createElement("canvas");
-    //     var context = canvas.getContext("2d");
-    //     context.font = 'Helvetica Neue 12pt';
-    //     var nameWidth = context.measureText(d.data.president).width;
-    //     var titleWidth = context.measureText(d.data.title).width;
-    //     tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")")
-    //     tooltip.select("rect").attr("width", nameWidth > titleWidth ? nameWidth + 60 : titleWidth + 60);
-    //     tooltip.select(".speech-title").text(d.data.title);
-    //     tooltip.select(".speech-president").text(d.data.president);
-    //     tooltip.select(".topic-frequency").text(((d[1] - d[0]) * 100).toFixed(3) + "%");
-    //   });
   }
 
   render() {
