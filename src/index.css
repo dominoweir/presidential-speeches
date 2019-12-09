@@ -70,6 +70,7 @@ body {
 
 .heatmap-sidebar {
   padding-right: 75px;
+  position: sticky;
 }
 
 .similarity-header {

@@ -33,14 +33,6 @@ class CompareView extends React.Component {
 		var svg = d3.select(this.refs.compareSvg);
 		var margin = 20;
 		var diameter = +svg.attr("width");
-		svg.append("text")
-			.text("")
-			.attr("fill", "black")
-			.attr("font-size", "20")
-			.attr("class", "bubble-label")
-			.attr("x", this.width / 2 + 60)
-			.attr("y", 50)
-			.attr("text-anchor", "middle");
 		var g = svg.append("g")
 			.attr("transform", "translate(" + diameter / 2 + "," + (diameter / 2 + 50) + ")")
 			.attr("class", "bubble-outer-container");
@@ -103,8 +95,6 @@ class CompareView extends React.Component {
 				if (focus !== d) {
 					zoom(d);
 					d3.event.stopPropagation();
-					svg.select(".bubble-label")
-						.text(d.data.name);
 				}
 			});
 
@@ -214,8 +204,6 @@ class CompareView extends React.Component {
 				if (focus !== d) {
 					zoom(d);
 					d3.event.stopPropagation();
-					svg.select(".bubble-label")
-						.text(d.data.name);
 				}
 			});
 
